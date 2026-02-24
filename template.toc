@@ -1,0 +1,85 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazil}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdução}}{12}{chapter.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Fundamentos Teóricos}}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Energia Solar Fotovoltaica}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Sistemas Fotovoltaicos Fixos e com \textit {Trackers}}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Sistemas Fixos}{16}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2} Sistema de Rastreamento Solar (\textit {Tracker})}{16}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}\textit {Tracker} de Eixo Único}{16}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}\textit {Trackers} de Eixo Duplo}{17}{subsubsection.2.2.2.2}%
+\contentsline {section}{\numberline {2.3}Impacto do Rastreamento Solar na Eficiência Energética}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Comparação entre Sistemas Fixos e com \textit {trackers}}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Influência da Latitude e do Clima nos Ganhos de Eficiência}{19}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Aumento de Produção Energética}{19}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Custos Associados ao Uso de \textit {trackers} em Usinas Fotovoltaicas}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Custo de Aquisição e Instalação de \textit {trackers}}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Custos Operacionais e de Manutenção}{21}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Impacto do Custo dos \textit {trackers} na Viabilidade Econômica}{22}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Métricas de Avaliação Econômica e Financeira}{23}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Valor Presente Liquido}{23}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Taxa Interna de Retorno}{24}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Payback}{24}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Conclusões parciais}{25}{section.2.6}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{26}{chapter.3}%
+\contentsline {section}{\numberline {3.1} PVSOL}{26}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Cenários propostos}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Fluxograma}{28}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Dimensionamento}{28}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Posicionamento Geográfico dos Módulos}{28}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Módulos Fotovoltaicos}{29}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Inversores}{31}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Perdas do Sistema}{32}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Aspectos financeiros de uma Usina }{33}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}CAPEX}{33}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}OPEX}{34}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Estruturação dos Cenários}{34}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Parâmetros Técnicos}{36}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Parâmetos Financeiros}{36}{subsection.3.6.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Resultados}}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Usina de $10$kW}{38}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Resultados técnicos}{38}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Resultados Financeiros}{39}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Usina de $50$kW}{39}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Resultados técnicos}{39}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Resultados Financeiros}{40}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Usina de $100$kW}{40}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Resultados técnicos}{40}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Resultados Financeiros}{41}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Usina de $300$kW}{41}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Resultados técnicos}{41}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Resultados Financeiros}{42}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Usina de $500$kW}{42}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Resultados técnicos}{42}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Resultados Financeiros}{43}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Usina de $800$kW}{43}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Resultados técnicos}{43}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Resultados Financeiros}{44}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Usina de $1$MW}{44}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Resultados técnicos}{44}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Resultados Financeiros}{45}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Resumo dos Resultados}{45}{subsection.4.7.3}%
+\contentsline {subsubsection}{\numberline {4.7.3.1}Resumo Técnico das Usinas}{45}{subsubsection.4.7.3.1}%
+\contentsline {subsubsection}{\numberline {4.7.3.2}Resumo Financeiro das Usinas}{46}{subsubsection.4.7.3.2}%
+\contentsline {section}{\numberline {4.8}Análise geral}{46}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Aspectos técnicos}{47}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Aspectos Financeiros}{49}{subsection.4.8.2}%
+\contentsline {section}{\numberline {4.9}Conclusões Parciais}{52}{section.4.9}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusão}}{54}{chapter.5}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{55}{section*.67}%
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }

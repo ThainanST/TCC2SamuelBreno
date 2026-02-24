@@ -1,0 +1,289 @@
+\documentclass[
+  % -- opções da classe memoir --
+  12pt,       % tamanho da fonte
+  openright,      % capítulos começam em pág ímpar (insere página vazia caso preciso)
+  oneside,      % para impressão em verso e anverso. Oposto a oneside
+  a4paper,      % tamanho do papel.
+  % -- opções da classe abntex2 --
+  %chapter=TITLE,   % títulos de capítulos convertidos em letras maiúsculas
+  %section=TITLE,   % títulos de seções convertidos em letras maiúsculas
+  %subsection=TITLE,  % títulos de subseções convertidos em letras maiúsculas
+  %subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+  % -- opções do pacote babel --
+  english,      % idioma adicional para hifenização
+  french,        % idioma adicional para hifenização
+  spanish,     % idioma adicional para hifenização
+  brazil        % o último idioma é o principal do documento
+  ]{abntex2-deelt-v1}
+
+% ---
+% Pacotes básicos
+% ---
+\usepackage{lmodern}      % Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}    % Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}   % Codificacao do documento (conversão automática dos acentos)
+\usepackage{lastpage}     % Usado pela Ficha catalográfica
+\usepackage{indentfirst}    % Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}        % Controle das cores
+\usepackage{graphicx}     % Inclusão de gráficos
+\usepackage{acronym} %para a gerências de siglas durante o texto
+\usepackage{mathtools}
+% ---
+\usepackage{enumerate}
+\usepackage{multirow}
+
+\usepackage{subcaption}  
+\usepackage{diagbox}
+% ---
+% Pacotes de citações
+% ---
+%\usepackage{epsfig,subfigure}
+
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibliografia
+\usepackage[alf,bibjustif]{abntex2cite}	% Citações padrão ABNT 6023
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{ %Dimensionamento e Estudo de Viabilidade Técnica e Econômica de Instalação de Sistemas Fotovoltaicos % 
+ Análise da viabilidade técnica e financeira sobre a utilização de sistemas fotovoltaicos fixos ou com rastreador solar  }
+\autor{Samuel Breno de Souza}
+\local{João Monlevade}
+%\dia{20}
+\ano{2026}
+%\ano{2021} % Indicar apenas o ano da monografia
+
+
+% ---
+% Dados da Universidade e Curso
+% ---
+\instituicao{Universidade Federal de Ouro Preto\\Instituto de Ciências Exatas e Aplicadas}
+\departamento{Departamento de Engenharia Elétrica}
+%\colegiado{Colegiado de Engenharia Elétrica}
+
+\curso{Engenharia Elétrica}
+
+\grau{Bacharel em Engenharia Elétrica}
+
+% ---
+% Dados de Orientação e Banca de Defesa
+% ---
+\orientador{Prof. Thainan Santos Theodoro}
+\orientadorTitulacao{Doutor em Engenharia Elétrica}
+\orientadorDepartamento{DEELT - UFOP}
+
+
+% Tamanho da linha de assinatura segundo o tamanho do maior nome
+% Sugestão: 8cm
+\setlength{\ABNTEXsignwidth}{10cm}
+
+% ---
+% Tipo de Trabalho
+% ---
+\tipotrabalho{Monografia (graduação)}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    %pdfcreator={LaTeX with abnTeX2},
+		%pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=black,          	% color of internal links
+    	citecolor=black,        		% color of links to bibliography
+    	filecolor=blue,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+
+\makeatother
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+% Controle do espaçamento entre um parágrafo e outro:
+%\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                               %
+%         Comandos              %
+%                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\fonteretirado}[1]{\begin{center}\makebox[\width]{Fonte: Retirado de \citeonline{#1}.}\end{center}}
+\newcommand{\fonteadaptado}[1]{\begin{center}\makebox[\width]{Fonte: Adaptado de \citeonline{#1}.}\end{center}}
+\newcommand{\fonteautor}{\begin{center}\makebox[\width]{Fonte: Elaborado pelo autor (2026).}\end{center}}
+% Como usar
+% Retirado: \fonteretirado{inserir_ref}
+% Adaptado: \fonteadaptado{inserir_ref}
+% Autor:    \fonteautor
+
+% Foo
+\usepackage{mdframed}
+\newcommand{\startfoo}{%
+    \par\medskip
+    \begin{mdframed}[linewidth=1pt]%
+    \let\figure\figurehere
+    \let\endfigure\endfigurehere
+    \ignorespaces
+}
+\newcommand{\stopfoo}{%
+    \unskip
+    \end{mdframed}%
+    \par\medskip
+}
+
+%%%%  CONTADORES
+\newcounter{contador}
+\setcounter{contador}{1} 
+\newcommand{\itemsecao}[1]{\vspace{0.2cm} \noindent \textbf{\Alph{contador}) #1} \addtocounter{contador}{1} \par \vspace{0.2cm}}
+\newcommand{\itempassos}[1]{\vspace{0.2cm} \noindent \textbf{Passo \arabic{contador}: #1} \addtocounter{contador}{1} \par \vspace{0.2cm}}
+
+
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                               %
+%         Pré textuais          %
+%                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pretextual
+
+\imprimircapa
+
+\imprimirfolhaderosto
+
+\include{./pretextuais/dedicatoria}     %% Dedicatoria.
+
+\include{./pretextuais/agradecimentos}  %% Agradecimentos.
+
+\include{./pretextuais/epigrafe}  %% epigrafe.
+
+\include{./pretextuais/resumo}  %% Resumo.
+
+\include{./pretextuais/abstract}  %% Abstract.
+
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ---
+
+%% inserir lista de abreviaturas e siglas
+\include{./pretextuais/acronimos}  %% Acronimos.
+
+%% inserir lista de tabelas
+%% ---
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+%% ---
+
+
+
+%% inserir lista de símbolos
+\include{./pretextuais/simbolos}  %% Simbolos.
+
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\thispagestyle{empty}
+%\cleardoublepage
+% ---
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                               %
+%     Corpo da TEXTO            %
+%                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textual % nao remover
+
+\include{./textuais/introducao}
+\include{./textuais/fundamentos}
+\include{./textuais/Metodologia}
+\include{./textuais/Resultados}
+\include{./textuais/conclusao}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                               %
+%         Pós textuais          %
+%                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\postextual
+
+
+% Referências bibliográficas
+%\bibliography{Referencias}
+\bibliography{./referencias}
+
+%% Apendices
+\begin{apendicesenv}
+	%\include{./postextuais/1apendice}
+	%\include{./postextuais/2apendice}
+\end{apendicesenv}
+
+%% Anexos
+\begin{anexosenv}
+	 %\include{./postextuais/1anexo}
+	 %\include{./postextuais/2anexo}
+\end{anexosenv}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                               %
+%         Comentários gerais    %
+%                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%- Números com $  FEITO
+%- Todas as figuras/tabelas devem ser chamadas no texto Feito 
+%- Não economize nos captions figuras/tabelas FEITO
+%- Referências: 
+%	- autor não faz parte da frase - parafraseando
+%	- cite         A vida é bela \cite{}.
+%	
+%	- Falando diretamente do autor, sujeito/objeto
+%	- citeonline   Segundo citeonline a vida é bela.
+%
+% Datas: 
+% - 
+% - Mandar para banca 21/10/22
+% - Apresentação      28/10/22
+% 
+% Resumo:     assistir como fazer
+% Introdução: assistir aulas (objetivo) FEITO
+% Conclusão:  assistir aulas 
+% 
+% Apresentação: assistir aulas
+% Só na introdução: estado da arte, objetivo e justificativa FEito
+% definições de equações FEito
+% Samuel, todo o capítulo 2 deve ser feito de forma genérica. 
+%o s equacionamentos devem ser coerentes em TODO o texto
+%
+%
+
+
+
+
+
+

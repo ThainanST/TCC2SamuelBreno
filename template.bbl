@@ -1,0 +1,378 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[{ABSOLAR} 2024]{absolar2024}
+\abntrefinfo{{ABSOLAR}}{{ABSOLAR}}{2024}
+{{ABSOLAR}. \emph{Infográfico ABSOLAR: Mercado Brasileiro de Energia Solar
+  Fotovoltaica}. 2024. \url{https://www.absolar.org.br/mercado/infografico/}.
+Associação Brasileira de Energia Solar Fotovoltaica (ABSOLAR). Acesso em: 23
+  fev. 2026.}
+
+\bibitem[(ABSOLAR) 2023]{absolar2023}
+\abntrefinfo{(ABSOLAR)}{(ABSOLAR)}{2023}
+{(ABSOLAR), A.~B. de E. S.~F. Infográfico do mercado fotovoltaico no brasil.
+2023.
+Dispon{\'\i}vel em: \url{https://www.absolar.org.br/mercado/infografico/}.}
+
+\bibitem[Agostinho 2023]{agostinho2023orientaccao}
+\abntrefinfo{Agostinho}{AGOSTINHO}{2023}
+{AGOSTINHO, C.~W. Orienta{\c{c}}{\~a}o autom{\'a}tica de m{\'o}dulos
+  fotovoltaicos para o acompanhamento do movimento sazonal do sol utilizando
+  controle inteligente.
+Universidade Federal do Rio Grande do Norte, 2023.}
+
+\bibitem[ANEEL]{resolucaoaneel}
+\abntrefinfo{ANEEL}{ANEEL}{}
+{ANEEL, A. \emph{IE9 for Windows Phone 7: Adobe Flash, demos and development}.
+Dispon{\'\i}vel em:
+  \url{https://www.lexml.gov.br/urn/urn:lex:br:agencia.nacional.energia.eletrica:resolucao.homologatoria:2020-11-19;2798}.}
+
+\bibitem[Ara{\'u}jo et al. 2023]{araujo2023avaliaccao}
+\abntrefinfo{Ara{\'u}jo et al.}{ARA{\'U}JO et al.}{2023}
+{ARA{\'U}JO, G. C.~d. et al. Avalia{\c{c}}{\~a}o do desempenho e da viabilidade
+  econ{\^o}mica de uma usina fotovoltaica com rastreador solar em
+  condi{\c{c}}{\~o}es de campo.
+Universidade Estadual do Oeste do Paran{\'a}, 2023.}
+
+\bibitem[Barboza 2025]{barboza2025tecnologias}
+\abntrefinfo{Barboza}{BARBOZA}{2025}
+{BARBOZA, L. E.~A. Tecnologias e classificação de rastreadores solares: uma
+  revisão técnica.
+\emph{RCMOS - Revista Científica Multidisciplinar O Saber}, 2025.
+Dispon{\'\i}vel em: \url{https://doi.org/10.51473/rcmos.v1i2.2025.1790}.}
+
+\bibitem[Blank e Tarquin 2009]{blank2009engenharia}
+\abntrefinfo{Blank e Tarquin}{BLANK; TARQUIN}{2009}
+{BLANK, L.; TARQUIN, A. \emph{Engenharia econ{\^o}mica}. [S.l.]: AMGH Editora,
+  2009.}
+
+\bibitem[Brito et al. 2011]{de2011research}
+\abntrefinfo{Brito et al.}{BRITO et al.}{2011}
+{BRITO, M.~A. D. et al. Research on photovoltaics: review, trends and
+  perspectives. In:  IEEE. \emph{XI Brazilian Power Electronics Conference}.
+  [S.l.], 2011. p. 531--537.}
+
+\bibitem[BRON 2007]{bron2007balian}
+\abntrefinfo{BRON}{BRON}{2007}
+{BRON, L.~G. Balian, jose eduardo amato.
+\emph{An{\'a}lise de Investimentos e}, 2007.}
+
+\bibitem[Budel 2017]{budel2017viabilidade}
+\abntrefinfo{Budel}{BUDEL}{2017}
+{BUDEL, D.~A. Viabilidade econ{\^o}mica de sistemas fotovoltaicos em
+  resid{\^e}ncias.
+Universidade Federal de Santa Maria, 2017.}
+
+\bibitem[Camloffski 2014]{camloffski2014analise}
+\abntrefinfo{Camloffski}{CAMLOFFSKI}{2014}
+{CAMLOFFSKI, R. \emph{An{\'a}lise de investimentos e viabilidade financeira das
+  empresas}. [S.l.]: Editora Atlas SA, 2014.}
+
+\bibitem[Casotto 2021]{casotto2021avaliaccao}
+\abntrefinfo{Casotto}{CASOTTO}{2021}
+{CASOTTO, E.~P. Avalia{\c{c}}{\~a}o t{\'e}cnico-econ{\^o}mica da aplicabilidade
+  de rastreadores solares de eixo {\'u}nico em projeto de efici{\^e}ncia
+  energ{\'e}tica para a regi{\~a}o de vit{\'o}ria/es.
+Vit{\'o}ria, 2021.}
+
+\bibitem[Castro et al. 2021]{castro2021construccion}
+\abntrefinfo{Castro et al.}{CASTRO et al.}{2021}
+{CASTRO, F. et al. La construcci{\'o}n cient{\'\i}fica del conocimiento de los
+  estudiantes a partir de las gr{\'a}ficas con tracker.
+\emph{Revista Universidad y Sociedad}, Editorial" Universo Sur", v.~13, n.~1,
+  p. 83--88, 2021.}
+
+\bibitem[{CEPEL} e {CRESESB} 2025]{cresesbe2025}
+\abntrefinfo{{CEPEL} e {CRESESB}}{{CEPEL}; {CRESESB}}{2025}
+{{CEPEL}; {CRESESB}. \emph{SunData -- Base de Dados de Radiação Solar}. 2025.
+  \url{http://www.cresesb.cepel.br/index.php?section=sundata}.
+Centro de Referência para Energia Solar e Eólica Sérgio de Salvo Brito
+  (CRESESB), Centro de Pesquisas de Energia Elétrica (CEPEL). Acesso em: 23
+  fev. 2026.}
+
+\bibitem[Chang 2009]{chang2009output}
+\abntrefinfo{Chang}{CHANG}{2009}
+{CHANG, T.~P. Output energy of a photovoltaic module mounted on a single-axis
+  tracking system.
+\emph{Applied energy}, Elsevier, v.~86, n.~10, p. 2071--2078, 2009.}
+
+\bibitem[Denholm et al. 2021]{denholm2021challenges}
+\abntrefinfo{Denholm et al.}{DENHOLM et al.}{2021}
+{DENHOLM, P. et al. The challenges of achieving a 100\% renewable electricity
+  system in the united states.
+\emph{Joule}, Elsevier, v.~5, n.~6, p. 1331--1352, 2021.}
+
+\bibitem[Dhibi et al. 2020]{dhibi2020reduced}
+\abntrefinfo{Dhibi et al.}{DHIBI et al.}{2020}
+{DHIBI, K. et al. Reduced kernel random forest technique for fault detection
+  and classification in grid-tied pv systems.
+\emph{IEEE Journal of Photovoltaics}, IEEE, v.~10, n.~6, p. 1864--1871, 2020.}
+
+\bibitem[(EPE) 2017]{epe2017overview}
+\abntrefinfo{(EPE)}{(EPE)}{2017}
+{(EPE), E. de P.~E. \emph{Overview of New Solar PV Projects in Brazil}.
+[S.l.], 2017. Dispon{\'\i}vel em:
+  \url{https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-78/NT\_EPE-DEE-NT-030\_2017-r0.pdf}.}
+
+\bibitem[(EPE) 2022]{epe2022}
+\abntrefinfo{(EPE)}{(EPE)}{2022}
+{(EPE), E. de P.~E. Plano decenal de expansão de energia 2032.
+2022.
+Dispon{\'\i}vel em: \url{https://www.epe.gov.br}.}
+
+\bibitem[Fanti et al. 2015]{fanti2015uso}
+\abntrefinfo{Fanti et al.}{FANTI et al.}{2015}
+{FANTI, L.~D. et al. O uso das t{\'e}cnicas de valor presente l{\'\i}quido,
+  taxa de interna de retorno e payback descontado: Um estudo de viabilidade de
+  investimentos no grupo breda ltda.
+\emph{Desafio Online}, v.~3, n.~2, p. 127--143, 2015.}
+
+\bibitem[FILHO e KOPITTKE 2010]{casarotto2010analise}
+\abntrefinfo{FILHO e KOPITTKE}{FILHO; KOPITTKE}{2010}
+{FILHO, N. C.; KOPITTKE, B.~H. An{\'a}lise de investimentos: Matem{\'a}tica.
+\emph{S{\~a}o Paulo: Atlas SA}, 2010.}
+
+\bibitem[Gol e Ščasný 2023]{elahi2023_ijred}
+\abntrefinfo{Gol e Ščasný}{GOL; ŠčASNý}{2023}
+{GOL, A. E.; ŠčASNý, M. Techno-economic analysis of fixed versus
+  sun-tracking solar panels.
+\emph{International Journal of Renewable Energy Development}, v.~12, n.~3, p.
+  615--626, 2023.
+Dispon{\'\i}vel em:
+  \url{https://ijred.cbiore.id/index.php/ijred/article/view/50165}.}
+
+\bibitem[Hess e Holliday 1992]{hess1992spatial}
+\abntrefinfo{Hess e Holliday}{HESS; HOLLIDAY}{1992}
+{HESS, R.~F.; HOLLIDAY, I.~E. The spatial localization deficit in amblyopia.
+\emph{Vision research}, Elsevier, v.~32, n.~7, p. 1319--1339, 1992.}
+
+\bibitem[{IPCC} 2023]{ipcc2021}
+\abntrefinfo{{IPCC}}{{IPCC}}{2023}
+{{IPCC}. \emph{Climate Change 2023: Synthesis Report. Contribution of Working
+  Groups I, II and III to the Sixth Assessment Report of the Intergovernmental
+  Panel on Climate Change}. Geneva, Switzerland: [s.n.], 2023.
+Dispon{\'\i}vel em: \url{https://www.ipcc.ch/report/ar6/syr/}.}
+
+\bibitem[(IRENA) 2024]{irena2024renewable}
+\abntrefinfo{(IRENA)}{(IRENA)}{2024}
+{(IRENA), I. R. E.~A. \emph{Renewable Power Generation Costs in 2023}.
+[S.l.], 2024. Dispon{\'\i}vel em:
+  \url{https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023}.}
+
+\bibitem[Javed et al. 2020]{javed2020comparison}
+\abntrefinfo{Javed et al.}{JAVED et al.}{2020}
+{JAVED, M.~R. et al. Comparison of the adaptive neural-fuzzy interface system
+  (anfis) based solar maximum power point tracking (mppt) with other solar mppt
+  methods. In:  IEEE. \emph{2020 IEEE 23rd international multitopic conference
+  (INMIC)}. [S.l.], 2020. p.~1--5.}
+
+\bibitem[Karpi{\'c} et al. 2019]{karpic2019comparison}
+\abntrefinfo{Karpi{\'c} et al.}{KARPI{\'C} et al.}{2019}
+{KARPI{\'C}, J. et al. Comparison of solar power measurements in alpine areas
+  using a mobile dual-axis tracking system.
+\emph{Energy informatics}, Springer, v.~2, n. Suppl 1, p.~23, 2019.}
+
+\bibitem[Koussa et al. 2011]{koussa2011measured}
+\abntrefinfo{Koussa et al.}{KOUSSA et al.}{2011}
+{KOUSSA, M. et al. Measured and modelled improvement in solar energy yield from
+  flat plate photovoltaic systems utilizing different tracking systems and
+  under a range of environmental conditions.
+\emph{Applied Energy}, Elsevier, v.~88, n.~5, p. 1756--1771, 2011.}
+
+\bibitem[Lim et al. 2020]{lim2020industrial}
+\abntrefinfo{Lim et al.}{LIM et al.}{2020}
+{LIM, B.-H. et al. Industrial design and implementation of a large-scale
+  dual-axis sun tracker with a vertical-axis-rotating-platform and
+  multiple-row-elevation structures.
+\emph{Solar Energy}, Elsevier, v.~199, p. 596--616, 2020.}
+
+\bibitem[Lima 2020]{lima2020analise}
+\abntrefinfo{Lima}{LIMA}{2020}
+{LIMA, D.~S. Análise comparativa entre um sistema solar com rastreio e um
+  fixo.
+\emph{Conexões - Ciência e Tecnologia}, v.~14, n.~4, p. 146--151, 2020.
+Dispon{\'\i}vel em: \url{https://doi.org/10.21439/conexoes.v14i4.1334}.}
+
+\bibitem[Lima 2024]{lima2024evoluccao}
+\abntrefinfo{Lima}{LIMA}{2024}
+{LIMA, R. A.~d.
+\emph{Evolu{\c{c}}{\~a}o da gera{\c{c}}{\~a}o de energia solar fotovoltaica no
+  contexto da diversifica{\c{c}}{\~a}o da Matriz Energ{\'e}tica Nacional}.
+Disserta\c{c}\~{a}o ({B.S.} thesis) --- Universidade Federal do Rio Grande do
+  Norte, 2024.}
+
+\bibitem[Lucas et al. 2024]{lucas2024influencia}
+\abntrefinfo{Lucas et al.}{LUCAS et al.}{2024}
+{LUCAS, B. et al. Influ{\^e}ncia da morfologia urbana na capacidade de
+  gera{\c{c}}{\~a}o de energia fotovoltaica por bipvs.
+\emph{ENCONTRO NACIONAL DE TECNOLOGIA DO AMBIENTE CONSTRU{\'I}DO}, v.~20, p.
+  1--12, 2024.}
+
+\bibitem[Mansouri e Kalogirou 2020]{mansouri2020}
+\abntrefinfo{Mansouri e Kalogirou}{MANSOURI; KALOGIROU}{2020}
+{MANSOURI, R.; KALOGIROU, S.~A. Tracking and fixed photovoltaic systems: A
+  comparative review.
+\emph{Solar Energy}, v.~211, p. 1234--1246, 2020.}
+
+\bibitem[Marcello et al. 2022]{de2022analise}
+\abntrefinfo{Marcello et al.}{MARCELLO et al.}{2022}
+{MARCELLO, I. de C. et al. An{\'a}lise t{\'e}cnico-econ{\^o}mica de uma usina
+  fotovoltaica utilizando sistema de trackers com algoritmo backtracking.
+Universidade Federal de Minas Gerais, 2022.}
+
+\bibitem[Mekhilef et al. 2012]{mekhilef2012solar}
+\abntrefinfo{Mekhilef et al.}{MEKHILEF et al.}{2012}
+{MEKHILEF, S. et al. Solar energy in malaysia: Current state and prospects.
+\emph{Renewable and Sustainable Energy Reviews}, Elsevier, v.~16, n.~1, p.
+  386--396, 2012.}
+
+\bibitem[{Núcleo do Conhecimento} 2021]{nucleodoconhecimento_tracker}
+\abntrefinfo{{Núcleo do Conhecimento}}{{Núcleo do Conhecimento}}{2021}
+{{Núcleo do Conhecimento}. \emph{Rastreadores solares: tipos, funcionamento e
+  aplicações}. 2021.
+Dispon{\'\i}vel em:
+  \url{https://www.nucleodoconhecimento.com.br/engenharia-eletrica/rastreadores-solares}.}
+
+\bibitem[Neto, Vale e Guerra 2020]{de2020desenvolvimento}
+\abntrefinfo{Neto, Vale e Guerra}{NETO; VALE; GUERRA}{2020}
+{NETO, L.~J. de B.; VALE, M. R. B.~G.; GUERRA, F. K. O.~V. Desenvolvimento de
+  rastreador solar did{\'a}tico de um eixo para pain{\'e}is fotovoltaicos. In:
+  \emph{Anais Congresso Brasileiro de Energia Solar-CBENS}. [S.l.: s.n.],
+  2020.}
+
+\bibitem[Newman, Lavelle e Eschenbach 2000]{newman2000engineering}
+\abntrefinfo{Newman, Lavelle e Eschenbach}{NEWMAN; LAVELLE; ESCHENBACH}{2000}
+{NEWMAN, D.; LAVELLE, J.; ESCHENBACH, T. \emph{Engineering Economic (8th eds)}.
+  [S.l.]: Engineering Press, 2000.}
+
+\bibitem[N{\'o}brega et al. 2019]{nobrega2019comparaccao}
+\abntrefinfo{N{\'o}brega et al.}{N{\'O}BREGA et al.}{2019}
+{N{\'O}BREGA, B.~S. et al. Compara{\c{c}}{\~a}o entre sistemas fotovoltaicos em
+  modo fixo e com seguidor em uma institui{\c{c}}{\~a}o p{\'u}blica de ensino
+  no nordeste do brasil.
+\emph{Revista Principia}, n.~46, p. 182--195, 2019.}
+
+\bibitem[Paliyal et al. 2024]{paliyal2024automatic}
+\abntrefinfo{Paliyal et al.}{PALIYAL et al.}{2024}
+{PALIYAL, P.~S. et al. Automatic solar tracking system: a review pertaining to
+  advancements and challenges in the current scenario.
+\emph{Clean Energy}, v.~8, n.~6, p. 237--262, 2024.}
+
+\bibitem[Pereira e Ruther 2021]{pereira2021energia}
+\abntrefinfo{Pereira e Ruther}{PEREIRA; RUTHER}{2021}
+{PEREIRA, M.; RUTHER, R. Energ{\'\i}a solar fotovoltaica.
+\emph{Revista Brasileira de Energia}, v.~27, n.~3, p. 61--84, 2021.}
+
+\bibitem[Pinto 2025]{pinto2025analise}
+\abntrefinfo{Pinto}{PINTO}{2025}
+{PINTO, G. W.~G. An{\'a}lise do impacto t{\'e}cnico e financeiro no uso de
+  trackers e m{\'o}dulos bifaciais em usinas fotovoltaicas em belo horizonte.
+2025.}
+
+\bibitem[Regia 2022]{regia2022_tcc_ufsc}
+\abntrefinfo{Regia}{REGIA}{2022}
+{REGIA, C. V.~P. \emph{Análise de desempenho energético e econômico de um
+  sistema fotovoltaico em diferentes regiões climáticas brasileiras,
+  considerando sistemas fixos e com rastreadores solares}.
+[S.l.], 2022. Dispon{\'\i}vel em:
+  \url{https://repositorio.ufsc.br/handle/123456789/243545}.}
+
+\bibitem[{Revista FT} 2025]{revistaft_seguidor_solar}
+\abntrefinfo{{Revista FT}}{{Revista FT}}{2025}
+{{Revista FT}. \emph{Estudo comparativo de viabilidade de um seguidor solar de
+  baixo custo para fins residenciais}. 2025.
+Dispon{\'\i}vel em:
+  \url{https://revistaft.com.br/estudo-comparativo-de-viabilidade-de-um-seguidor-solar-de-baixo-custo-para-fins-residenciais/}.}
+
+\bibitem[Ribeiro e Filho 2020]{de2020analise}
+\abntrefinfo{Ribeiro e Filho}{RIBEIRO; FILHO}{2020}
+{RIBEIRO, C.~A. de S.; FILHO, J.~B. de M. An{\'a}lise comparativa da tecnologia
+  fotovoltaica aplicada em microgera{\c{c}}{\~a}o fixa e sistema tracker com o
+  m{\'\i}nimo de engrenagens.
+\emph{Revista de Engenharia e Pesquisa Aplicada}, v.~5, n.~4, p. 20--25, 2020.}
+
+\bibitem[Rodrigues, Camargos et al. 2016]{camargos2016analise}
+\abntrefinfo{Rodrigues, Camargos et al.}{RODRIGUES; CAMARGOS et al.}{2016}
+{RODRIGUES, A.; CAMARGOS, M. C.~O. et al. An{\'a}lise econ{\^o}mico-financeira
+  do aproveitamento energ{\'e}tico do g{\'a}s metano proveniente de
+  instala{\c{c}}{\~a}o de suinocultura.
+\emph{Revista Univap}, v.~22, n.~40, p. 430--430, 2016.}
+
+\bibitem[Santana 2023]{santana2023analise}
+\abntrefinfo{Santana}{SANTANA}{2023}
+{SANTANA, R. An{\'a}lise da regula{\c{c}}{\~a}o da gera{\c{c}}{\~a}o
+  distribu{\'\i}da de energia el{\'e}trica no brasil: estima{\c{c}}{\~a}o da
+  distribui{\c{c}}{\~a}o do subs{\'\i}dio.
+2023.}
+
+\bibitem[Santos 2023]{santos2023crescimento}
+\abntrefinfo{Santos}{SANTOS}{2023}
+{SANTOS, V. V.~d. O crescimento da gera{\c{c}}{\~a}o de energia solar
+  fotovoltaica pela perspectiva da gera{\c{c}}{\~a}o de empregos (2017-2022).
+Universidade Federal de Uberl{\^a}ndia, 2023.}
+
+\bibitem[Silva e Farias 2015]{silva2015analise}
+\abntrefinfo{Silva e Farias}{SILVA; FARIAS}{2015}
+{SILVA, F. C. L.~d.; FARIAS, J. A.~d. An{\'a}lise econ{\^o}mica da
+  produ{\c{c}}{\~a}o de acacia mearnsii de wild e carv{\~a}o vegetal no vale do
+  ca{\'\i} e taquari, rio grande do sul.
+\emph{Ci{\^e}ncia Rural}, SciELO Brasil, v.~45, p. 927--932, 2015.}
+
+\bibitem[Silva 2024]{silva2024tcc}
+\abntrefinfo{Silva}{SILVA}{2024}
+{SILVA, P.~H. \emph{Solar Tracker e sua eficiência: análise econômica
+  comparativa}. 2024. TCC (Undergraduate Thesis), accessed via Scribd.
+Dispon{\'\i}vel em:
+  \url{https://www.scribd.com/document/958157595/TCC-Solar-Tracker-e-sua-eficiencia-Pedro-Henrique-Silva}.}
+
+\bibitem[Sisquini, Sisquini e Sisquini 2024]{Sisquini2024}
+\abntrefinfo{Sisquini, Sisquini e Sisquini}{SISQUINI; SISQUINI; SISQUINI}{2024}
+{SISQUINI, M. S.~R.; SISQUINI, C.~R.; SISQUINI, G.~R. Custo médio de uma usina
+  fotovoltaica no brasil: análise e perspectivas. In:  CONFEA/CREA.
+  \emph{Congresso Técnico-Científico da Engenharia e da Agronomia --
+  CONTECC}. Vitória, ES, 2024. Disponível em:
+  \url{https://www.confea.org.br/contecc}. Acesso em: 28 ago. 2025.}
+
+\bibitem[Statistics 2022]{statistics2022international}
+\abntrefinfo{Statistics}{STATISTICS}{2022}
+{STATISTICS, R.~C. International renewable energy agency (irena); 2022.
+2022.}
+
+\bibitem[Tonolo et al. 2019]{tonolo2019analise}
+\abntrefinfo{Tonolo et al.}{TONOLO et al.}{2019}
+{TONOLO, {\'E}.~A. et al.
+\emph{An{\'a}lise dos fatores de perdas nos sistemas fotovoltaicos da UTFPR
+  Campus Curitiba}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Tecnol{\'o}gica Federal do
+  Paran{\'a}, 2019.}
+
+\bibitem[Vilela et al. 2012]{vilela2012analise}
+\abntrefinfo{Vilela et al.}{VILELA et al.}{2012}
+{VILELA, M.~C. et al. An{\'a}lise da viabilidade econ{\^o}mico-financeira de
+  projeto de piscicultura em tanques escavados.
+2012.}
+
+\bibitem[Villalva e Gazoli 2012]{villalva2012energia}
+\abntrefinfo{Villalva e Gazoli}{VILLALVA; GAZOLI}{2012}
+{VILLALVA, M.~G.; GAZOLI, J.~R. Energia solar fotovoltaica: conceitos e
+  aplica{\c{c}}{\~o}es.
+\emph{S{\~a}o Paulo: {\'E}rica}, v.~2, 2012.}
+
+\bibitem[Wissmann et al. 2024]{wissmann2024desenvolvimento}
+\abntrefinfo{Wissmann et al.}{WISSMANN et al.}{2024}
+{WISSMANN, J.~A. et al. Desenvolvimento de sistema de rastreamento solar
+  gravitacional e pendular para painel fotovoltaico isolado.
+Universidade Estadual do Oeste do Paran{\'a}, 2024.}
+
+\bibitem[Zgraggen et al. 2022]{zgraggen2022physics}
+\abntrefinfo{Zgraggen et al.}{ZGRAGGEN et al.}{2022}
+{ZGRAGGEN, J. et al. Physics informed deep learning for tracker fault detection
+  in photovoltaic power plants. In:  PHM SOCIETY. \emph{14th Annual Conference
+  of the Prognostics and Health Management Society, Nashville, USA, 1-4
+  November 2022}. [S.l.], 2022. v.~14, n.~1.}
+
+\end{thebibliography}
