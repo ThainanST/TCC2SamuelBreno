@@ -118,11 +118,12 @@ Centro de Referência para Energia Solar e Eólica Sérgio de Salvo Brito
 [S.l.], 2017. Dispon{\'\i}vel em:
   \url{https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-78/NT\_EPE-DEE-NT-030\_2017-r0.pdf}.}
 
-\bibitem[(EPE) 2022]{epe2022}
-\abntrefinfo{(EPE)}{(EPE)}{2022}
-{(EPE), E. de P.~E. Plano decenal de expansão de energia 2032.
-2022.
-Dispon{\'\i}vel em: \url{https://www.epe.gov.br}.}
+\bibitem[EPE 2022]{epe2022}
+\abntrefinfo{EPE}{EPE}{2022}
+{EPE, E. de P.~E. \emph{Plano Decenal de Expansão de Energia 2032}. Rio de
+  Janeiro, Brasil: [s.n.], 2022.
+Dispon{\'\i}vel em:
+  \url{https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/plano-decenal-de-expansao-de-energia-2032}.}
 
 \bibitem[Fanti et al. 2015]{fanti2015uso}
 \abntrefinfo{Fanti et al.}{FANTI et al.}{2015}
@@ -136,10 +137,10 @@ Dispon{\'\i}vel em: \url{https://www.epe.gov.br}.}
 {FILHO, N. C.; KOPITTKE, B.~H. An{\'a}lise de investimentos: Matem{\'a}tica.
 \emph{S{\~a}o Paulo: Atlas SA}, 2010.}
 
-\bibitem[Gol e Ščasný 2023]{elahi2023_ijred}
-\abntrefinfo{Gol e Ščasný}{GOL; ŠčASNý}{2023}
-{GOL, A. E.; ŠčASNý, M. Techno-economic analysis of fixed versus
-  sun-tracking solar panels.
+\bibitem[Gol e Scasny 2023]{elahi2023_ijred}
+\abntrefinfo{Gol e Scasny}{GOL; SCASNY}{2023}
+{GOL, A. E.; SCASNY, M. Techno-economic analysis of fixed versus sun-tracking
+  solar panels.
 \emph{International Journal of Renewable Energy Development}, v.~12, n.~3, p.
   615--626, 2023.
 Dispon{\'\i}vel em:
@@ -157,31 +158,17 @@ Dispon{\'\i}vel em:
   Panel on Climate Change}. Geneva, Switzerland: [s.n.], 2023.
 Dispon{\'\i}vel em: \url{https://www.ipcc.ch/report/ar6/syr/}.}
 
-\bibitem[(IRENA) 2024]{irena2024renewable}
-\abntrefinfo{(IRENA)}{(IRENA)}{2024}
-{(IRENA), I. R. E.~A. \emph{Renewable Power Generation Costs in 2023}.
+\bibitem[IRENA 2024]{irena2024renewable}
+\abntrefinfo{IRENA}{IRENA}{2024}
+{IRENA, I. R. E.~A. \emph{Renewable Power Generation Costs in 2023}.
 [S.l.], 2024. Dispon{\'\i}vel em:
   \url{https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023}.}
-
-\bibitem[Javed et al. 2020]{javed2020comparison}
-\abntrefinfo{Javed et al.}{JAVED et al.}{2020}
-{JAVED, M.~R. et al. Comparison of the adaptive neural-fuzzy interface system
-  (anfis) based solar maximum power point tracking (mppt) with other solar mppt
-  methods. In:  IEEE. \emph{2020 IEEE 23rd international multitopic conference
-  (INMIC)}. [S.l.], 2020. p.~1--5.}
 
 \bibitem[Karpi{\'c} et al. 2019]{karpic2019comparison}
 \abntrefinfo{Karpi{\'c} et al.}{KARPI{\'C} et al.}{2019}
 {KARPI{\'C}, J. et al. Comparison of solar power measurements in alpine areas
   using a mobile dual-axis tracking system.
 \emph{Energy informatics}, Springer, v.~2, n. Suppl 1, p.~23, 2019.}
-
-\bibitem[Koussa et al. 2011]{koussa2011measured}
-\abntrefinfo{Koussa et al.}{KOUSSA et al.}{2011}
-{KOUSSA, M. et al. Measured and modelled improvement in solar energy yield from
-  flat plate photovoltaic systems utilizing different tracking systems and
-  under a range of environmental conditions.
-\emph{Applied Energy}, Elsevier, v.~88, n.~5, p. 1756--1771, 2011.}
 
 \bibitem[Lim et al. 2020]{lim2020industrial}
 \abntrefinfo{Lim et al.}{LIM et al.}{2020}
@@ -230,12 +217,13 @@ Universidade Federal de Minas Gerais, 2022.}
 \emph{Renewable and Sustainable Energy Reviews}, Elsevier, v.~16, n.~1, p.
   386--396, 2012.}
 
-\bibitem[{Núcleo do Conhecimento} 2021]{nucleodoconhecimento_tracker}
-\abntrefinfo{{Núcleo do Conhecimento}}{{Núcleo do Conhecimento}}{2021}
-{{Núcleo do Conhecimento}. \emph{Rastreadores solares: tipos, funcionamento e
-  aplicações}. 2021.
+\bibitem[Neto et al. 2024]{silvaneto2024seguidor}
+\abntrefinfo{Neto et al.}{NETO et al.}{2024}
+{NETO, L. d. A.~d. S. et al. Estudo comparativo de viabilidade de um seguidor
+  solar de baixo custo para fins residenciais.
+\emph{Revista FT}, v.~28, n.~139, oct 2024.
 Dispon{\'\i}vel em:
-  \url{https://www.nucleodoconhecimento.com.br/engenharia-eletrica/rastreadores-solares}.}
+  \url{https://revistaft.com.br/estudo-comparativo-de-viabilidade-de-um-seguidor-solar-de-baixo-custo-para-fins-residenciais}.}
 
 \bibitem[Neto, Vale e Guerra 2020]{de2020desenvolvimento}
 \abntrefinfo{Neto, Vale e Guerra}{NETO; VALE; GUERRA}{2020}
@@ -281,13 +269,6 @@ Dispon{\'\i}vel em:
 [S.l.], 2022. Dispon{\'\i}vel em:
   \url{https://repositorio.ufsc.br/handle/123456789/243545}.}
 
-\bibitem[{Revista FT} 2025]{revistaft_seguidor_solar}
-\abntrefinfo{{Revista FT}}{{Revista FT}}{2025}
-{{Revista FT}. \emph{Estudo comparativo de viabilidade de um seguidor solar de
-  baixo custo para fins residenciais}. 2025.
-Dispon{\'\i}vel em:
-  \url{https://revistaft.com.br/estudo-comparativo-de-viabilidade-de-um-seguidor-solar-de-baixo-custo-para-fins-residenciais/}.}
-
 \bibitem[Ribeiro e Filho 2020]{de2020analise}
 \abntrefinfo{Ribeiro e Filho}{RIBEIRO; FILHO}{2020}
 {RIBEIRO, C.~A. de S.; FILHO, J.~B. de M. An{\'a}lise comparativa da tecnologia
@@ -301,6 +282,16 @@ Dispon{\'\i}vel em:
   do aproveitamento energ{\'e}tico do g{\'a}s metano proveniente de
   instala{\c{c}}{\~a}o de suinocultura.
 \emph{Revista Univap}, v.~22, n.~40, p. 430--430, 2016.}
+
+\bibitem[Rodrigues et al. 2021]{rodrigues2021rastreadores}
+\abntrefinfo{Rodrigues et al.}{RODRIGUES et al.}{2021}
+{RODRIGUES, L.~C. et al. Comparação e viabilidade de diferentes tipos de
+  rastreadores solares para geradores fotovoltaicos.
+\emph{Revista Científica Multidisciplinar Núcleo do Conhecimento}, v.~8,
+  n.~12, p. 102--126, dec 2021.
+ISSN 2448-0959.
+Dispon{\'\i}vel em:
+  \url{https://www.nucleodoconhecimento.com.br/engenharia-eletrica/rastreadores-solares}.}
 
 \bibitem[Santana 2023]{santana2023analise}
 \abntrefinfo{Santana}{SANTANA}{2023}
@@ -367,12 +358,5 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade Tecnol{\'o}gica Federal do
 {WISSMANN, J.~A. et al. Desenvolvimento de sistema de rastreamento solar
   gravitacional e pendular para painel fotovoltaico isolado.
 Universidade Estadual do Oeste do Paran{\'a}, 2024.}
-
-\bibitem[Zgraggen et al. 2022]{zgraggen2022physics}
-\abntrefinfo{Zgraggen et al.}{ZGRAGGEN et al.}{2022}
-{ZGRAGGEN, J. et al. Physics informed deep learning for tracker fault detection
-  in photovoltaic power plants. In:  PHM SOCIETY. \emph{14th Annual Conference
-  of the Prognostics and Health Management Society, Nashville, USA, 1-4
-  November 2022}. [S.l.], 2022. v.~14, n.~1.}
 
 \end{thebibliography}

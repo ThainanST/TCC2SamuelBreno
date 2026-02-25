@@ -7,15 +7,23 @@ A energia solar fotovoltaica tem se destacado como uma das principais fontes de 
 No Brasil, a geração fotovoltaica tem expandido rapidamente devido à alta incidência solar e ao avanço da tecnologia de geração distribuída e centralizada \cite{epe2022}. No entanto, para maximizar a eficiência da geração e reduzir o \ac{LCOE}, estratégias como o uso de sistemas de rastreamento solar têm sido estudadas e implementadas.
 
 \section{Sistemas Fotovoltaicos Fixos e com \textit{Trackers}}
+Os sistemas fotovoltaicos podem ser instalados de maneira fixa ou equipados com mecanismos de rastreamento solar, conhecidos como \textit{trackers}. A \autoref{fig:angulos_solar} mostra a definição dos ângulos para orientação e posicionamento de painéis solares fotovoltaicos, com $\gamma$ sendo o ângulo azimutal de superfície entre a normal do painel e o norte geográfico e $\beta$ a inclinação (\textit{tilt}) do painel em relação ao plano horizontal. Os sistemas fixos são aqueles em que os painéis permanecem em uma inclinação ($\beta$) e orientação ($\gamma$) estáticas ao longo do dia e do ano, geralmente otimizadas para maximizar a captação de energia em uma determinada região. Por outro lado, os \textit{trackers} são dispositivos mecânicos e eletrônicos projetados para ajustar continuamente a posição dos painéis fotovoltaicos ($\beta$ e/ou $\gamma$) de forma a manter sua orientação mais alinhada à direção da radiação solar incidente, aumentando a eficiência energética do sistema \cite{dhibi2020reduced}.
+\begin{figure}[h]
+	\centering
+	\caption{Ângulos para orientação e posicionamento de painéis solares fotovoltaicos.}
+	\includegraphics[
+	width=0.9\linewidth,
+	% [trim = <esquerda> <inferior> <direita> <superior>, clip]
+	trim = 0.5cm 3.5cm 0.8cm 1.8cm, clip
+	]{./textuais/figs/angulos_solar.pdf}
+	\fonteautor
+	\label{fig:angulos_solar}
+\end{figure}
 
-Os sistemas fotovoltaicos podem ser instalados de maneira fixa ou equipados com mecanismos de rastreamento solar, conhecidos como \textit{trackers}. Os sistemas fixos são aqueles em que os painéis permanecem em uma inclinação e orientação estáticas ao longo do dia e do ano, geralmente otimizadas para maximizar a captação de energia em uma determinada região.
-
-Por outro lado, os \textit{trackers} são dispositivos mecânicos e eletrônicos projetados para ajustar continuamente a posição dos painéis fotovoltaicos em relação ao movimento aparente do sol, aumentando a eficiência energética do sistema \cite{dhibi2020reduced}. 
-
-Embora existam diferentes tipos de rastreamento solar, este trabalho concentra sua análise exclusivamente no sistema de um eixo. Essa escolha se justifica pelo fato de ser a configuração mais utilizada em projetos de médio e grande porte no Brasil, apresentando maior acessibilidade e difusão no mercado. Em contraste, os sistemas de dois eixos, apesar de oferecerem ganhos adicionais de eficiência, possuem um custo de implantação elevado e ainda são pouco aplicados na realidade nacional, o que limita sua viabilidade prática.
+Embora existam diferentes tipos de rastreamento solar, este trabalho concentra sua análise exclusivamente no sistema de um eixo. Essa escolha se justifica pelo fato de ser a configuração mais utilizada em projetos de médio e grande porte no Brasil, apresentando maior acessibilidade e difusão no mercado. Em contraste, os sistemas de dois eixos, apesar de oferecerem ganhos adicionais de eficiência, possuem um custo de implantação elevado e ainda são pouco aplicados na realidade nacional, o que limita sua viabilidade prática \cite{lima2024evoluccao}.
 
 \subsection{Sistemas Fixos}
-Os sistemas fotovoltaicos fixos constituem a forma mais tradicional de implantação de usinas solares, tanto em pequena escala (residencial e comercial) quanto em projetos de maior porte. Nesses arranjos, os módulos fotovoltaicos são instalados em estruturas estáticas, com inclinação (\textit{Tilt}) e azimute definidos de acordo com a latitude e a orientação solar do local, sem movimentação ao longo do dia. A grande vantagem dessa configuração é a simplicidade construtiva, que implica em menor custo inicial (\ac{CAPEX}) e operações de manutenção mais simples e baratas (\ac{OPEX}) em comparação a sistemas com rastreamento solar (\textit{trackers})\cite{absolar2023}.
+Os sistemas fotovoltaicos fixos constituem a forma mais tradicional de implantação de usinas solares, tanto em pequena escala (residencial e comercial) quanto em projetos de maior porte. Nesses arranjos, os módulos fotovoltaicos são instalados em estruturas estáticas, com inclinação e azimute ($\beta$ e $\gamma$ respectivamente) definidos de acordo com a latitude e a orientação solar do local, sem movimentação ao longo do dia. A grande vantagem dessa configuração é a simplicidade construtiva, que implica em menor custo inicial (\ac{CAPEX}) e operações de manutenção mais simples e baratas (\ac{OPEX}) em comparação a sistemas com rastreamento solar (\textit{trackers})\cite{absolar2023}.
 
 No Brasil, os sistemas fixos são amplamente utilizados em telhados residenciais e comerciais devido à limitação de espaço e ao fato de apresentarem boa relação custo-benefício. A \ac{ANEEL} destaca que essa tecnologia responde por grande parte da \ac{GD} conectada à rede, sendo o arranjo padrão para a maioria das unidades consumidoras com microgeração \cite{santos2023crescimento}.
 
@@ -23,48 +31,41 @@ Em termos de desempenho energético, a principal limitação dos sistemas fixos 
 
 Apesar dessa limitação, sistemas fixos ainda se destacam pela maior confiabilidade mecânica e por apresentarem \ac{LCOE} competitivos, especialmente em projetos de menor porte. Segundo a \cite{santana2023analise}, o custo por watt instalado em sistemas fotovoltaicos fixos no Brasil é, em média, inferior ao de sistemas com \textit{trackers}, variando conforme a faixa de potência instalada. Isso faz com que, para sistemas residenciais e comerciais, o arranjo fixo continue sendo a opção mais difundida e economicamente atrativa.
 
-
-
 \subsection{ Sistema de Rastreamento Solar (\textit{Tracker})}
-
 Os sistemas de rastreamento solar (\textit{trackers}) são dispositivos que ajustam a inclinação dos painéis fotovoltaicos ao longo do dia para maximizar a captação da radiação solar direta. Diferentemente dos sistemas fixos, que operam com um ângulo de inclinação fixo, os \textit{trackers} acompanham a trajetória do sol, reduzindo as perdas de geração.
 
-
-
 \subsubsection{\textit{Tracker} de Eixo Único}
+%Os \textit{trackers} de eixo único são os mais amplamente utilizados devido ao seu equilíbrio entre custo e ganho energético. Esse sistema movimenta os módulos fotovoltaicos ao longo de um único eixo (variando $\gamma$), geralmente na direção norte-sul, permitindo que os painéis sigam a trajetória solar no sentido leste-oeste ao longo do dia. Dessa forma, o ângulo de incidência dos raios solares é reduzido em relação ao sistema fixo, proporcionando um aumento de eficiência entre $15$\% e $25$\% dependendo das condições climáticas e da latitude da instalação \cite{de2020analise}.
+Os \textit{trackers} de eixo único são os mais amplamente utilizados devido ao equilíbrio favorável entre custo adicional e ganho energético. Nesse arranjo, os módulos fotovoltaicos giram em torno de um único eixo, usualmente orientado na direção norte–sul (variação de $\gamma$ na \autoref{fig:angulos_solar}), permitindo que os painéis acompanhem o movimento aparente do Sol no sentido leste–oeste ao longo do dia. Como consequência, o ângulo de incidência da radiação solar sobre o plano do módulo é reduzido em comparação aos sistemas fixos, resultando em incrementos de geração tipicamente entre $15$\% e $25$\%, a depender da latitude e das condições climáticas locais \cite{de2020analise}.
 
-Os \textit{trackers} de eixo único são os mais amplamente utilizados devido ao seu equilíbrio entre custo e ganho energético. Esse sistema movimenta os módulos fotovoltaicos ao longo de um único eixo, geralmente na direção norte-sul, permitindo que os painéis sigam a trajetória solar no sentido leste-oeste ao longo do dia. Dessa forma, o ângulo de incidência dos raios solares é reduzido em relação ao sistema fixo, proporcionando um aumento de eficiência entre $15$\% e $25$\% dependendo das condições climáticas e da latitude da instalação \cite{de2020analise}.
+%Existem dois principais subtipos de \textit{trackers} de eixo único: os horizontais e os verticais. No primeiro caso, o eixo de rotação é paralelo ao solo, sendo amplamente empregado em usinas de grande porte devido à simplicidade mecânica e ao menor consumo de energia dos atuadores. Já no segundo, o eixo é perpendicular ao solo, o que pode ser vantajoso em determinadas latitudes mais altas, onde a variação angular do Sol ao longo do dia é maior \cite{mansouri2020}.
+Os \textit{trackers} de eixo único podem ser classificados principalmente em horizontais e verticais, conforme a orientação do eixo de rotação. Nos sistemas horizontais, o eixo é aproximadamente paralelo ao solo, configuração amplamente empregada em usinas de grande porte devido à maior simplicidade mecânica e ao menor consumo energético dos atuadores. Nos sistemas verticais, o eixo é perpendicular ao solo, o que pode apresentar vantagens em latitudes mais elevadas, onde a trajetória solar diária apresenta maior variação azimutal \cite{mansouri2020}.
 
-Existem dois principais subtipos de \textit{trackers} de eixo único: os horizontais e os verticais. No primeiro caso, o eixo de rotação é paralelo ao solo, sendo amplamente empregado em usinas de grande porte devido à simplicidade mecânica e ao menor consumo de energia dos atuadores. Já no segundo, o eixo é perpendicular ao solo, o que pode ser vantajoso em determinadas latitudes mais altas, onde a variação angular do Sol ao longo do dia é maior \cite{mansouri2020}.
-
+\begin{comment}
 A \autoref{fig:img003} ilustra o princípio de funcionamento de um \textit{tracker} de eixo único horizontal, destacando como os módulos acompanham a posição solar ao longo do dia, e mostrando a diferença entre o mesmo e um sistema fixo.
-
-
-
 \begin{figure}[h]
 	\centering
-	\caption{\textit{tracker} de eixo duplo }
+	\caption{Comparação do funcionamento de sistemas solares de eixo fixo e rastreamento solar.}
 	\includegraphics[width=0.6\linewidth]{./textuais/figs/img003}
     \fonteretirado{AbSolar}
 	\label{fig:img003}
 \end{figure}
+\end{comment}
 
 Além da vantagem de aumentar a produção de energia sem um incremento expressivo nos custos, os \textit{trackers} de eixo único apresentam desafios como a necessidade de manutenção periódica dos motores e sistemas de controle, além de um consumo energético próprio que, embora pequeno, pode impactar a eficiência líquida do sistema. Estudos apontam que esse consumo varia entre $1$\% e $3$\% da produção total da usina, sendo um fator relevante na análise econômica \cite{castro2021construccion}.
 
-
 \subsubsection{\textit{Trackers} de Eixo Duplo}
+%Os \textit{trackers} de eixo duplo, por sua vez, oferecem um grau de otimização ainda maior, pois ajustam a posição dos módulos tanto no eixo horizontal (leste-oeste) quanto no eixo vertical (norte-sul). Isso permite que os painéis estejam constantemente perpendiculares aos raios solares, maximizando a captação da radiação direta. Esse sistema pode proporcionar um incremento de eficiência entre $30\% $ e $40\% $ em relação aos sistemas fixos, sendo especialmente vantajoso em regiões onde a radiação direta tem uma participação elevada no total da radiação incidente\cite{karpic2019comparison}.
+Os \textit{trackers} de eixo duplo, por sua vez, proporcionam um grau de otimização superior, pois permitem o ajuste da orientação dos módulos em dois eixos ortogonais, acompanhando simultaneamente as variações diária (leste–oeste, $\gamma$) e sazonal (norte–sul, $\beta$) da posição solar. Dessa forma, a normal do plano do módulo pode ser mantida aproximadamente alinhada à direção da radiação solar direta ao longo do dia e do ano, maximizando a captação energética. Esse tipo de sistema pode proporcionar incrementos de geração tipicamente entre $30\%$ e $40\%$ em relação a arranjos fixos, sendo particularmente vantajoso em regiões onde a componente direta predomina na radiação global incidente \cite{karpic2019comparison}.
 
-Os \textit{trackers} de eixo duplo, por sua vez, oferecem um grau de otimização ainda maior, pois ajustam a posição dos módulos tanto no eixo horizontal (leste-oeste) quanto no eixo vertical (norte-sul). Isso permite que os painéis estejam constantemente perpendiculares aos raios solares, maximizando a captação da radiação direta. Esse sistema pode proporcionar um incremento de eficiência entre $30\% $ e $40\% $ em relação aos sistemas fixos, sendo especialmente vantajoso em regiões onde a radiação direta tem uma participação elevada no total da radiação incidente\cite{karpic2019comparison}.
+%Entretanto, o maior ganho energético dos \textit{tracker} de eixo duplo vem acompanhado de desafios técnicos e financeiros, pois o acréscimo na complexidade mecânica e eletrônica resulta em custos de instalação e manutenção significativamente superiores. Além disso, esses sistemas são mais vulneráveis a falhas mecânicas, dado o número maior de componentes móveis.
+Entretanto, o maior ganho energético dos \textit{trackers} de eixo duplo é acompanhado por desafios técnicos e econômicos, uma vez que o aumento da complexidade mecânica e dos sistemas de controle eleva significativamente os custos de investimento, operação e manutenção. Adicionalmente, a presença de múltiplos graus de liberdade e maior número de componentes móveis aumenta a suscetibilidade a falhas e a necessidade de intervenções de manutenção.
 
-Entretanto, o maior ganho energético dos \textit{tracker} de eixo duplo vem acompanhado de desafios técnicos e financeiros, pois o acréscimo na complexidade mecânica e eletrônica resulta em custos de instalação e manutenção significativamente superiores. Além disso, esses sistemas são mais vulneráveis a falhas mecânicas, dado o número maior de componentes móveis.
+% Apesar de sua alta eficiência, a utilização de \textit{trackers} de eixo duplo é menos comum em grandes usinas solares, uma vez que o custo adicional nem sempre é justificado pelo ganho energético. Normalmente, essa tecnologia é mais viável em aplicações de menor escala, como sistemas \textit{off-grid} e instalações onde o espaço disponível para os painéis é limitado \cite{lim2020industrial}. 
+Apesar da elevada eficiência energética, a adoção de \textit{trackers} de eixo duplo é menos frequente em usinas fotovoltaicas de grande porte, nas quais o ganho adicional de geração nem sempre compensa o acréscimo de custo ao longo do ciclo de vida do sistema. Em geral, essa tecnologia mostra-se mais viável em aplicações de menor escala, como sistemas \textit{off-grid}, instalações com restrição de área disponível ou aplicações que demandam elevada densidade energética por unidade de superfície \cite{lim2020industrial}.
 
-
-Apesar de sua alta eficiência, a utilização de \textit{trackers} de eixo duplo é menos comum em grandes usinas solares, uma vez que o custo adicional nem sempre é justificado pelo ganho energético. Normalmente, essa tecnologia é mais viável em aplicações de menor escala, como sistemas \textit{off-grid} e instalações onde o espaço disponível para os painéis é limitado \cite{lim2020industrial}. 
-
-
-
+\begin{comment}
 \section{Impacto do Rastreamento Solar na Eficiência Energética}
-
 O uso de sistemas de rastreamento solar, conhecidos como \textit{trackers}, tem sido amplamente estudado como uma solução para maximizar a captação de energia fotovoltaica ao longo do dia. Enquanto sistemas fotovoltaicos fixos permanecem inclinados em um ângulo predeterminado, \textit{trackers} ajustam dinamicamente a posição dos módulos solares, acompanhando a trajetória aparente do sol no céu. Esse movimento permite um aumento na incidência da radiação solar direta sobre as células fotovoltaicas, reduzindo perdas por ângulos desfavoráveis e aumentando a eficiência da conversão energética \cite{javed2020comparison}.
 
 
@@ -73,82 +74,95 @@ O uso de sistemas de rastreamento solar, conhecidos como \textit{trackers}, tem 
 Sistemas fotovoltaicos fixos são amplamente utilizados devido à sua simplicidade, menor custo inicial e menor necessidade de manutenção. No entanto, esses sistemas sofrem perdas devido à variação angular da radiação solar ao longo do dia e das estações do ano. Em contrapartida, sistemas com \textit{trackers} podem aumentar a geração de energia em $20$\% a $45$\%, dependendo da tecnologia utilizada e da localização geográfica \cite{mansouri2020}. \textit{Trackers} de eixo único, que acompanham o movimento solar ao longo do eixo leste-oeste, proporcionam ganhos médios de $25$\% a $35$\% em comparação com sistemas fixos. Já os \textit{trackers} de duplo eixo, que ajustam a inclinação tanto no eixo leste-oeste quanto no norte-sul, podem alcançar ganhos superiores a $40$\% em locais de elevada irradiância solar direta \cite{zgraggen2022physics}.
 
 Embora o aumento na geração seja evidente, a decisão entre utilizar sistemas fixos ou \textit{trackers} depende de uma série de fatores, incluindo o custo do equipamento, consumo energético do rastreamento, manutenção e a disponibilidade de incentivos financeiros. Em regiões com alta proporção de radiação difusa, como áreas com clima predominantemente nublado, os benefícios do rastreamento podem ser reduzidos, uma vez que a incidência da luz não provém exclusivamente da posição direta do sol \cite{koussa2011measured}.
+\end{comment}
 
 \subsection{Influência da Latitude e do Clima nos Ganhos de Eficiência}
-
 A eficiência do rastreamento solar é diretamente influenciada pela latitude e pelas condições climáticas da região em que o sistema está instalado. Em localidades próximas ao equador, a diferença na captação de energia entre sistemas fixos e móveis tende a ser menor, pois o sol percorre uma trajetória mais próxima ao zênite durante o ano. No entanto, em regiões de latitudes médias e altas, onde a variação da altura solar ao longo das estações é mais acentuada, o uso de \textit{trackers} se torna mais vantajoso \cite{agostinho2023orientaccao}.
 
 Além da latitude, o clima local desempenha um papel essencial na viabilidade do rastreamento solar. Em áreas com alta incidência de céu claro e radiação solar direta, \textit{trackers} apresentam melhor desempenho. Por outro lado, em locais com elevada cobertura de nuvens, a fração de radiação difusa aumenta, reduzindo a eficácia do rastreamento. Estudos indicam que em regiões onde a radiação difusa representa mais de $50$\% da radiação total, a vantagem dos \textit{trackers} diminui consideravelmente \cite{mekhilef2012solar}.
 
-
 \subsection{Aumento de Produção Energética}
-
 %Diversos estudos têm analisado a eficiência dos \textit{trackers} em diferentes cenários. Em um estudo realizado por \cite{de2020desenvolvimento} no Brasil, foi observado que uma usina solar localizada no Nordeste apresentou um aumento de aproximadamente $32$\% na geração de energia ao adotar um sistema de rastreamento de eixo único, comparado a um sistema fixo. Em outra pesquisa conduzida por Hassan et al. (2018) na Espanha, foi verificado que o uso de \textit{trackers} de duplo eixo resultou em uma elevação da produção energética em até $42$\%, demonstrando a relevância dessa tecnologia em regiões com alto índice de radiação direta.
 
+%Diversos estudos têm investigado o impacto do uso de sistemas de rastreamento solar no desempenho energético de usinas fotovoltaicas, evidenciando ganhos significativos em relação aos sistemas de estrutura fixa. No contexto brasileiro, \cite{de2020desenvolvimento} analisaram uma usina fotovoltaica instalada na região Nordeste do Brasil e constataram que a adoção de um sistema de rastreamento solar de eixo único proporcionou um aumento aproximado de 32\% na geração anual de energia, quando comparado a um sistema fixo de mesma potência instalada. Os autores associam esse ganho à elevada incidência de radiação solar direta característica da região, que favorece a eficiência dos sistemas com rastreamento.
+Diversos estudos têm investigado o impacto da adoção de sistemas de rastreamento solar no desempenho energético de usinas fotovoltaicas, evidenciando ganhos expressivos em comparação a arranjos de inclinação fixa. No contexto brasileiro, \citeonline{de2020desenvolvimento} analisaram uma usina fotovoltaica instalada na região Nordeste e verificaram que a utilização de um rastreador de eixo único proporcionou um aumento aproximado de 32\% na geração anual de energia em relação a um sistema fixo de mesma potência instalada. Os autores atribuem esse ganho à elevada fração de radiação direta característica da região, condição que favorece o desempenho de sistemas com rastreamento.
 
-Diversos estudos têm investigado o impacto do uso de sistemas de rastreamento solar no desempenho energético de usinas fotovoltaicas, evidenciando ganhos significativos em relação aos sistemas de estrutura fixa. No contexto brasileiro, \cite{de2020desenvolvimento} analisaram uma usina fotovoltaica instalada na região Nordeste do Brasil e constataram que a adoção de um sistema de rastreamento solar de eixo único proporcionou um aumento aproximado de 32\% na geração anual de energia, quando comparado a um sistema fixo de mesma potência instalada. Os autores associam esse ganho à elevada incidência de radiação solar direta característica da região, que favorece a eficiência dos sistemas com rastreamento.
+%Resultados semelhantes foram observados em um estudo experimental conduzido por \cite{lima2020analise}, que comparou o desempenho de um sistema fotovoltaico equipado com rastreador solar de um eixo a um sistema fixo operando sob as mesmas condições ambientais. O estudo demonstrou que o sistema com rastreamento apresentou um ganho de geração energética de até $23$\% em relação ao sistema fixo, reforçando a relevância dessa tecnologia para maximizar a captação da radiação solar ao longo do dia, especialmente em locais com elevada disponibilidade de irradiância direta.
+Resultados consistentes foram reportados por \citeonline{lima2020analise}, em um estudo experimental que comparou o desempenho de um sistema fotovoltaico com rastreamento de eixo único a um arranjo fixo operando sob as mesmas condições ambientais. Observou-se que o sistema com rastreamento apresentou incremento de geração de até $23\%$ em relação ao sistema fixo, reforçando o potencial dessa tecnologia para maximizar a captação de energia solar ao longo do dia, especialmente em locais com elevada disponibilidade de irradiância direta.
 
-Resultados semelhantes foram observados em um estudo experimental conduzido por \cite{lima2020analise}, que comparou o desempenho de um sistema fotovoltaico equipado com rastreador solar de um eixo a um sistema fixo operando sob as mesmas condições ambientais. O estudo demonstrou que o sistema com rastreamento apresentou um ganho de geração energética de até $23$\% em relação ao sistema fixo, reforçando a relevância dessa tecnologia para maximizar a captação da radiação solar ao longo do dia, especialmente em locais com elevada disponibilidade de irradiância direta.
-
-Esses resultados indicam que, embora os ganhos energéticos proporcionados pelos \textit{trackers} variem de acordo com fatores climáticos, geográficos e tecnológicos, a utilização de sistemas de rastreamento solar pode representar uma estratégia eficaz para o aumento da produção energética em usinas fotovoltaicas, particularmente em regiões de alta insolação.
-
+% Esses resultados indicam que, embora os ganhos energéticos proporcionados pelos \textit{trackers} variem de acordo com fatores climáticos, geográficos e tecnológicos, a utilização de sistemas de rastreamento solar pode representar uma estratégia eficaz para o aumento da produção energética em usinas fotovoltaicas, particularmente em regiões de alta insolação.
+De modo geral, esses resultados indicam que, embora os ganhos energéticos associados aos \textit{trackers} dependam de fatores climáticos, geográficos e de configuração tecnológica, a adoção de sistemas de rastreamento solar constitui uma estratégia eficaz para ampliar a produção energética de usinas fotovoltaicas, particularmente em regiões de alta insolação.
 
 \section{Custos Associados ao Uso de \textit{trackers} em Usinas Fotovoltaicas}
-
-A implementação de sistemas de rastreamento solar (\textit{trackers}) em usinas fotovoltaicas traz benefícios significativos em termos de eficiência energética, mas também implica custos adicionais que devem ser analisados para determinar sua viabilidade financeira. Os principais componentes de custo envolvem a aquisição e instalação do sistema de rastreamento, os custos operacionais e de manutenção, além do consumo energético necessário para o funcionamento dos motores e mecanismos de ajuste. A análise desses fatores permite avaliar em que cenários a adoção do rastreamento se torna economicamente justificável em comparação com sistemas fixos.
+%A implementação de sistemas com \textit{trackers} em usinas fotovoltaicas traz benefícios significativos em termos de eficiência energética, mas também implica custos adicionais que devem ser analisados para determinar sua viabilidade financeira. 
+Os principais componentes de custo envolvem a aquisição e instalação do sistema de rastreamento, os custos operacionais e de manutenção, além do consumo energético necessário para o funcionamento dos motores e mecanismos de ajuste. A análise desses fatores permite avaliar em que cenários a adoção do rastreamento se torna economicamente justificável em comparação com sistemas fixos.
 
 \subsection{Custo de Aquisição e Instalação de \textit{trackers}}
-
-Os custos iniciais de um sistema fotovoltaico com rastreamento são superiores aos de um sistema fixo, devido à necessidade de estruturas mecânicas e componentes eletrônicos adicionais. De acordo com estudos recentes, a inclusão de um \textit{trackers} de eixo único pode elevar o custo do investimento inicial em $10$\% a $25$\%, enquanto um sistema de duplo eixo pode representar um aumento de $30$\% a $50$\% no custo total da instalação \cite{wissmann2024desenvolvimento}.
+Os custos iniciais de um sistema fotovoltaico com rastreamento são superiores aos de um sistema fixo, devido à necessidade de estruturas mecânicas e componentes eletrônicos adicionais. De acordo com \citeonline{wissmann2024desenvolvimento}, a inclusão de um \textit{trackers} de eixo único pode elevar o custo do investimento inicial em $10$\% a $25$\%, enquanto um sistema de duplo eixo pode representar um aumento de $30$\% a $50$\% no custo total da instalação.
 
 Os principais fatores que influenciam o custo de aquisição e instalação incluem:
-
 \begin{itemize}
-    \item Tipo de \textit{trackers}: Sistemas de eixo único são mais baratos e apresentam menor complexidade mecânica, enquanto \textit{trackers} de duplo eixo requerem mecanismos mais sofisticados para permitir ajustes em ambas as direções.
-   \item Dimensão e capacidade da usina: Grandes usinas fotovoltaicas podem obter economias de escala, reduzindo o custo unitário por megawatt instalado.
-   \item Condições do solo e infraestrutura: A instalação de \textit{trackers} requer uma base estrutural mais robusta para suportar os movimentos e garantir estabilidade, o que pode aumentar os custos em terrenos irregulares ou com baixa resistência mecânica.
-    
-   \item Mão de obra e logística: O transporte e a instalação dos \textit{trackers} envolvem um maior grau de especialização, resultando em custos adicionais em comparação aos suportes fixos tradicionais.
+	\item Tipo de \textit{trackers}: Sistemas de eixo único são mais baratos e apresentam menor complexidade mecânica, enquanto \textit{trackers} de duplo eixo requerem mecanismos mais sofisticados para permitir ajustes em ambas as direções.
+	
+	\item Dimensão e capacidade da usina: Grandes usinas fotovoltaicas podem obter economias de escala, reduzindo o custo unitário por megawatt instalado.
+
+	\item Condições do solo e infraestrutura: A instalação de \textit{trackers} requer uma base estrutural mais robusta para suportar os movimentos e garantir estabilidade, o que pode aumentar os custos em terrenos irregulares ou com baixa resistência mecânica.
+	
+	\item Mão de obra e logística: O transporte e a instalação dos \textit{trackers} envolvem um maior grau de especialização, resultando em custos adicionais em comparação aos suportes fixos tradicionais.
+\end{itemize}
+
+%Estudos de caso mostram que o custo de instalação pode variar significativamente de acordo com a localização geográfica e disponibilidade de tecnologia. Segundo um relatório da \textit{International Renewable Energy Agency}  \citeonline{statistics2022international}, o custo médio de instalação de \textit{trackers} de eixo único foi estimado entre US 150 a US 250 dólares por kW, enquanto para sistemas de duplo eixo os valores podem atingir US $300$ a US $450$ dólares por kW.
+Estudos de caso indicam que o custo de instalação de sistemas de rastreamento solar pode variar significativamente em função da localização geográfica e da disponibilidade tecnológica. Segundo relatório da \textit{International Renewable Energy Agency} \citeonline{statistics2022international}, o custo médio de instalação de \textit{trackers} de eixo único situa-se tipicamente entre US\$\,150/kW e US\$\,250/kW, enquanto sistemas de eixo duplo podem atingir valores entre US\$\,300/kW e US\$\,450/kW.
+
+\subsection{Custos Operacionais e de Manutenção}
+Os sistemas de rastreamento solar demandam custos operacionais e de manutenção mais elevados em comparação com sistemas fixos. Isso ocorre devido à presença de componentes móveis, motores e sensores que requerem inspeção e substituição periódicas. A manutenção corretiva e preventiva é essencial para evitar falhas mecânicas que possam comprometer o desempenho da usina.
+
+\begin{comment}
+Os principais custos associados à manutenção incluem:
+\begin{itemize}
+	\item Lubrificação e ajustes mecânicos: \textit{trackers} possuem peças móveis que sofrem desgaste ao longo do tempo, exigindo lubrificação e reposição de componentes para garantir um funcionamento eficiente.
+	
+	\item Em sistemas de rastreamento solar, a presença de componentes mecânicos e eletrônicos como motores elétricos, sensores de luminosidade e atuadores adiciona complexidade às operações de manutenção em comparação aos sistemas de estrutura fixa. Esses componentes móveis estão continuamente expostos a condições ambientais adversas, o que aumenta a necessidade de inspeção, manutenção preventiva e, eventualmente, substituição ao longo da vida útil do projeto. Estudos técnicos indicam que \textit{trackers} dependem fortemente de sensores e mecanismos de controle para manter o alinhamento dos módulos com o Sol, o que requer rotinas específicas de manutenção e verificação de funcionamento desses dispositivos para garantir a performance energética e reduzir falhas operacionais \cite{barboza2025tecnologias}\cite{paliyal2024automatic}.
+	
+	\item Consumo energético: Os sistemas de rastreamento necessitam de energia elétrica para operar os mecanismos de movimentação. Esse consumo representa um custo adicional, geralmente variando entre $1$\% e $5$\% da energia gerada pelo sistema \cite{chang2009output}. Em grandes usinas, essa parcela pode ter impacto significativo na viabilidade econômica.
+	
+	\item Monitoramento e controle: Sistemas modernos de rastreamento utilizam softwares de controle e monitoramento remoto, os quais demandam infraestrutura tecnológica e mão de obra qualificada para operação contínua.
 
 \end{itemize}
 
-Estudos de caso mostram que o custo de instalação pode variar significativamente de acordo com a localização geográfica e disponibilidade de tecnologia. Segundo um relatório da \textit{International Renewable Energy Agency}  \cite{statistics2022international}, o custo médio de instalação de \textit{trackers} de eixo único foi estimado entre US 150 a US 250 dólares por kW, enquanto para sistemas de duplo eixo os valores podem atingir US $300$ a US $450$ dólares por kW.
+\end{comment}
 
-
-\subsection{Custos Operacionais e de Manutenção}
-
-Os sistemas de rastreamento solar demandam custos operacionais e de manutenção mais elevados em comparação com sistemas fixos. Isso ocorre devido à presença de componentes móveis, motores e sensores que requerem inspeção e substituição periódicas. A manutenção corretiva e preventiva é essencial para evitar falhas mecânicas que possam comprometer o desempenho da usina.
-
-Os principais custos associados à manutenção incluem:
+Os principais custos associados à manutenção de sistemas com \textit{trackers} incluem:
 
 \begin{itemize}
-    \item Lubrificação e ajustes mecânicos: \textit{trackers} possuem peças móveis que sofrem desgaste ao longo do tempo, exigindo lubrificação e reposição de componentes para garantir um funcionamento eficiente.
-   \item Em sistemas de rastreamento solar, a presença de componentes mecânicos e eletrônicos como motores elétricos, sensores de luminosidade e atuadores adiciona complexidade às operações de manutenção em comparação aos sistemas de estrutura fixa. Esses componentes móveis estão continuamente expostos a condições ambientais adversas, o que aumenta a necessidade de inspeção, manutenção preventiva e, eventualmente, substituição ao longo da vida útil do projeto. Estudos técnicos indicam que \textit{trackers} dependem fortemente de sensores e mecanismos de controle para manter o alinhamento dos módulos com o Sol, o que requer rotinas específicas de manutenção e verificação de funcionamento desses dispositivos para garantir a performance energética e reduzir falhas operacionais \cite{barboza2025tecnologias}\cite{paliyal2024automatic}.
-   \item Consumo energético: Os sistemas de rastreamento necessitam de energia elétrica para operar os mecanismos de movimentação. Esse consumo representa um custo adicional, geralmente variando entre $1$\% e $5$\% da energia gerada pelo sistema \cite{chang2009output}. Em grandes usinas, essa parcela pode ter impacto significativo na viabilidade econômica.
-    
-   \item Monitoramento e controle: Sistemas modernos de rastreamento utilizam softwares de controle e monitoramento remoto, os quais demandam infraestrutura tecnológica e mão de obra qualificada para operação contínua.
-
+	\item \textbf{Lubrificação e ajustes mecânicos:} Componentes móveis sujeitos a desgaste, como mancais, engrenagens e articulações, requerem lubrificação periódica, ajustes e substituição ao longo da vida útil para garantir o correto posicionamento e a confiabilidade operacional.
+	
+	\item \textbf{Componentes eletromecânicos e de controle:} Sistemas de rastreamento incorporam motores, atuadores, sensores de posição ou irradiância e controladores eletrônicos, o que aumenta a complexidade de manutenção em relação a estruturas fixas. A exposição contínua a condições ambientais adversas eleva a necessidade de inspeções, manutenção preventiva e eventual substituição. O desempenho dos \textit{trackers} depende da integridade dos sistemas de sensoriamento e controle responsáveis pelo alinhamento dos módulos com a trajetória solar \cite{barboza2025tecnologias, paliyal2024automatic}.
+	
+	\item \textbf{Consumo energético próprio:} Os mecanismos de acionamento requerem energia elétrica para operação, representando uma perda parasítica tipicamente entre $1\%$ e $5\%$ da energia gerada \cite{chang2009output}. Em usinas de grande porte, essa parcela pode afetar a viabilidade econômica.
+	
+	\item \textbf{Monitoramento e controle operacional:} Sistemas modernos utilizam plataformas de supervisão e controle remoto que demandam infraestrutura de comunicação, software especializado e mão de obra qualificada para operação e diagnóstico contínuos.
 \end{itemize}
 
 De acordo com dados levantados pela Empresa de Pesquisa Energética \cite{epe2017overview}, os custos anuais de operação e manutenção (O\&M) de projetos fotovoltaicos no Brasil variam conforme a tecnologia adotada. No conjunto de projetos analisados no 2ª Leilão de Energia de Reserva (LER/2016), verificou-se que os custos de O\&M anuais representaram, em média, cerca de 0,8\% do investimento total em projetos com estrutura fixa, enquanto os mesmos custos em projetos com rastreadores de eixo único corresponderam a cerca de 1,2\% do investimento total. Essa diferença indica que sistemas com rastreamento solar podem implicar custos de O\&M mais elevados do que sistemas com estrutura fixa, principalmente em função da maior complexidade mecânica e dos componentes adicionais associados aos \textit{trackers}.
 
 \subsection{Impacto do Custo dos \textit{trackers} na Viabilidade Econômica}
-
 A viabilidade financeira do uso de \textit{trackers} depende do equilíbrio entre o aumento da geração de energia e os custos adicionais envolvidos. O retorno sobre o investimento (\ac{ROI}) e o período de \textit{payback} são métricas fundamentais para determinar se o sistema de rastreamento é economicamente atrativo para um determinado projeto.
 
 Para avaliar essa viabilidade, diversos estudos utilizam indicadores como:
 
 \begin{itemize}
-    \item Valor Presente Líquido (\ac{VPL}): Mede a rentabilidade do projeto ao longo do tempo, considerando a diferença entre receitas e custos descontados ao valor presente.
-   \item Taxa Interna de Retorno (\ac{TIR}): Representa a taxa de retorno do investimento e permite compará-lo com outras alternativas de aplicação de capital.
-    
-   \item Período de \textit{Payback}: Indica o tempo necessário para que o investimento inicial seja recuperado através da economia ou aumento na geração de energia.
+	\item \acf{VPL}: Mede a rentabilidade do projeto ao longo do tempo, considerando a diferença entre receitas e custos descontados ao valor presente.
+	
+	\item \acf{TIR}: Representa a taxa de retorno do investimento e permite compará-lo com outras alternativas de aplicação de capital.
+	
+	\item Período de \textit{Payback}: Indica o tempo necessário para que o investimento inicial seja recuperado através da economia ou aumento na geração de energia.
 
 \end{itemize}
 
 Estudos empíricos de desempenho econômico têm demonstrado que a adoção de sistemas de rastreamento solar pode reduzir o tempo de retorno do investimento (\textit{payback}) em comparação com arranjos fixos quando há ganhos energéticos relevantes. Em uma análise comparativa realizada por \cite{silva2024tcc}, um sistema fotovoltaico com rastreador apresentou \textit{payback} menor do que um sistema fixo, devido ao aumento de produção energética proporcionado pelo rastreamento, mesmo após considerar custos adicionais de operação e manutenção. Isso sugere que, em regiões com alta irradiância e tarifas de energia elevadas, a utilização de \textit{trackers} pode melhorar a competitividade econômica dos projetos fotovoltaicos em médio e grande porte \cite{silva2024tcc}.
 
-Além disso, relatórios internacionais sobre custos de geração renovável da \textit{International Renewable Energy Agency} \cite{irena2024renewable} indicam uma declinação contínua nos custos de energia solar fotovoltaica, refletida na redução do custo nivelado médio ponderado de eletricidade em projetos solares instalados globalmente, o que favorece a competitividade de tecnologias mais avançadas, como rastreadores solares, em comparação com sistemas convencionais fixos \cite{irena2024renewable}(IRENA, 2024).
+Além disso, relatórios internacionais sobre custos de geração renovável da \textit{International Renewable Energy Agency} \cite{irena2024renewable} indicam uma declinação contínua nos custos de energia solar fotovoltaica, refletida na redução do custo nivelado médio ponderado de eletricidade em projetos solares instalados globalmente, o que favorece a competitividade de tecnologias mais avançadas, como rastreadores solares, em comparação com sistemas convencionais fixos.% \cite{irena2024renewable}.
 
 %Estudos indicam que, em regiões com alta irradiação solar e elevados preços da eletricidade, o uso de \textit{trackers} pode reduzir o payback de uma usina solar em 2 a 4 anos em comparação com um sistema fixo, tornando-se economicamente viável, especialmente para instalações de médio e grande porte \cite{}(Hassan et al., 2018).
 
@@ -175,55 +189,47 @@ Além disso, relatórios internacionais sobre custos de geração renovável da 
 \end{itemize}
 
 \subsection{Valor Presente Liquido}
-O método do \ac{VPL} tem como finalidade determinar um valor no instante inicial a partir de um fluxo de caixa formado de uma série de receitas e despesas \cite{fanti2015uso}. Segundo \citeonline{silva2015analise}, com \ac{VPL} é possível decidir qual a melhor alternativa de investimento calculando os valores atuais equivalentes as séries correspondentes e comparando-os, no qual o resultado com o maior valor positivo é o mais rentável. O calculo do \ac{VPL}, conforme \citeonline{bron2007balian}, pode ser obtido através da equação abaixo 
-
-
-   \begin{equation}
-V_{PL} = \sum_{t=1}^{n}\frac{FC_t}{(1+i)^t} - FC_0    
+O método do \ac{VPL} tem como objetivo determinar o valor presente de um investimento a partir de um fluxo de caixa composto por receitas e despesas ao longo do tempo \cite{fanti2015uso}. Segundo \citeonline{silva2015analise}, o \ac{VPL} permite comparar alternativas de investimento por meio do cálculo de seus valores equivalentes no instante inicial, sendo a alternativa com maior valor positivo aquela economicamente mais atrativa. O \ac{VPL} pode ser expresso por \citeonline{bron2007balian}:
+\begin{equation}
+	V_{PL} = \sum_{t=1}^{n}\frac{FC_t}{(1+i)^t} - FC_0    
     \label{eq:VPL_equation}
 \end{equation}
+\noindent em que $VPL$ é o valor presente líquido do investimento, em R\$; $FC_t$ é o fluxo de caixa no período $t$, em R\$; $i$ é a taxa mínima de atratividade (\ac{TMA}) adotada pelo investidor, em \% ao período; e $n$ é o horizonte de análise do projeto.
 
-\noindent em que $V_{PL}$ é o fluxo de caixa do investimento [R\$]; $FC_t$ é a entrada ou fluxo de caixa de cara período $t$[R\$]; $i$ é a taxa mínima de atratividade (\ac{TMA}) esperada pelo investidor [\% ao período]; n é o período estimado para o projeto,
-
-Conforme \citeonline{hess1992spatial}, a \ac{TMA} apresenta um forte grau de subjetividade, uma vez que parte do investidor qual devera ser o rendimento requerido para o projeto. \citeonline{camloffski2014analise} alega que um investidor de perfil conservador ou moderado pode considerar taxas próximas à taxa básica de juros, ou seja, oferecidas por bancos em aplicações financeiras de baixo risco, satisfatórias. Porém um investidor de perfil mais agressivo não se contentará com um rendimento significativamente baico.
+Conforme \citeonline{hess1992spatial}, a \ac{TMA} apresenta caráter subjetivo, pois depende do retorno mínimo exigido pelo investidor para compensar o risco e o custo de oportunidade do capital. Segundo \citeonline{camloffski2014analise}, investidores com perfil conservador ou moderado tendem a adotar taxas próximas às oferecidas por aplicações financeiras de baixo risco, frequentemente associadas à taxa básica de juros. Já investidores com perfil mais agressivo exigem retornos superiores, compatíveis com investimentos de maior risco.
 
 \subsection{Taxa Interna de Retorno}
-A \ac{TIR}, segundo \citeonline{camloffski2014analise}, é a taxa de juros que torna o valor presente do fluxo de caixa igual a zero, ou seja, é a rentabilidade projetada do investimento estimado quanto se deseja executar um projeto de acordo com o fluxo de caixa definido. Os investimentos com o resultado \ac{TIR} maior que o valor da TMA são considerados rentáveis e são passiveis de analise \cite{casarotto2010analise}. A equação abaixo proposta por \citeonline{camargos2016analise} expressa o calculo da \ac{TIR}.
-
-
-       \begin{equation}
-0 = \sum_{t=1}^{n}\frac{FC_t}{(1+K)^t} - FC_0    
+A \ac{TIR} é definida como a taxa de desconto que torna o valor presente líquido do fluxo de caixa igual a zero, representando a rentabilidade implícita do investimento ao longo de sua vida útil \citeonline{camloffski2014analise}. Um projeto é considerado economicamente viável quando a \ac{TIR} é superior à \ac{TMA}, critério amplamente utilizado na análise de investimentos \cite{casarotto2010analise}. A \ac{TIR} é obtida pela solução da seguinte equação \citeonline{camargos2016analise}:
+\begin{equation}
+	0 = \sum_{t=1}^{n}\frac{FC_t}{(1+K)^t} - FC_0    
     \label{eq:VPL_equation_1}
 \end{equation}
 
-\noindent em que é o investimento realizado no momento zero [R\$]; $FC_t$ é a entrada ou fluxo de caixa de cara perido $t$[R\$]; $k$ é a TIR[\% ao período]; $n$  é o período estimado para o projeto.
+\noindent em que $FC_0$ é o investimento inicial, em R\$; $FC_t$ é o fluxo de caixa no período $t$, em R\$; $\text{TIR}$ é a taxa interna de retorno, em \% ao período; e $n$ é o horizonte de análise.
 
-
-A característica particular dos problemas de engenharia econômica decorre do fato de alternativas de investimento envolverem entradas e saídas de caixa diferentes, em instantes de tempo diferentes \cite{hess1992spatial}. Conforme \citeonline{newman2000engineering}, a quantia disposta no presente é equivalente ao valor disposto em uma data futura tendo esta equivalência denominada como taxa de juros equivalentes. Taxas equivalentes são taxas de juros que mesmo pertencendo e diferentes períodos de capitalização, quando incidem sobre um me capitam, resultam em rendimentos ou valores acumulados idênticos, ao fim de um mesmo período financeiro \cite{ferreira2014estimativas}. \citeonline{newman2000engineering} utilizam a equação abaixo para o calculo da taxas de juros equivalentes
-
-
-       \begin{equation}
-i_{eq} = (1 + i_n)^{-n} -1   
+Em problemas de engenharia econômica, fluxos de caixa ocorrem em diferentes instantes e com magnitudes distintas, exigindo sua equivalência temporal por meio de taxas de juros \cite{hess1992spatial}. Conforme \citeonline{newman2000engineering}, valores monetários em datas distintas podem ser comparados quando convertidos por taxas equivalentes. Taxas equivalentes são aquelas que, mesmo associadas a diferentes períodos de capitalização, produzem o mesmo valor acumulado ao final de um horizonte comum \cite{ferreira2014estimativas}. A relação entre taxas equivalentes é dada por:
+\begin{equation}
+	i_{eq} = (1 + i_n)^{-n} -1   
     \label{eq:VPL_equation_2}
 \end{equation}
 
-\noindent em que...
-Ondeie $i_{eq}$ é a taxa de jutos equivalente ao período[\% ao período]; $i_n$ é a taxa de jusos no período n [\% ao período] $n$ é o numero de períodos.
+\noindent em que $i_{eq}$ é a taxa equivalente no período de referência, em \% ao período; $i_n$ é a taxa no período base, em \% ao período; e $n$ é o número de períodos de capitalização.
 
 \subsection{Payback}
-O período de recuperação de capital ou PayBack Simples, é o periodo de tempo em que ocorre o retorno do investimento, sendo calculado no fluxo de caixa da vida útil \citeonline{de2011research}. Para \citeonline{vilela2012analise}, a aceitação de um projeto com base no \textit{Payback} Simples é válida desde que o período de recuperação do capital seja inferior ao período máximo proposto inicialmente. Vale ressaltar que \citeonline{blank2009engenharia} afirmam que o período de recuperação do capital nunca deve ser considerado como o principal indicador para definição de uma alternativa, mas sim como uma ferramenta para prover uma triagem inicial ou uma informação complementar em conjunto com uma análise realizada pelo VPL ou outro método. 
+O período de recuperação do capital, ou \textit{Payback} simples, corresponde ao tempo necessário para que o fluxo de caixa acumulado iguale o investimento inicial ao longo da vida útil do projeto \citeonline{de2011research}. Segundo \citeonline{vilela2012analise}, a aceitação de um projeto com base no \textit{Payback} simples é admissível quando o período de retorno do capital é inferior ao limite máximo previamente estabelecido pelo investidor.
 
-Embora não deixe de representar um parâmetro de análise, o \textit{Payback} Simples não pode ser considerado do ponto de vista financeiro, visto que, simplesmente não leva em conta o princípio básico das finanças, que é o valor do dinheiro no tempo \cite{camloffski2014analise}.
+Entretanto, conforme destacam \citeonline{blank2009engenharia}, o período de recuperação não deve ser utilizado como principal indicador de decisão, mas sim como uma ferramenta de triagem inicial ou como informação complementar em conjunto com métodos mais robustos, como o \ac{VPL} ou a \ac{TIR}.
 
-
+Embora constitua um parâmetro prático de avaliação, o \textit{Payback} simples apresenta limitações financeiras relevantes, pois desconsidera o valor do dinheiro no tempo e ignora os fluxos de caixa após o período de recuperação \cite{camloffski2014analise}.
 
 \section{Conclusões parciais}
 
-O capítulo contextualizou o conceito de viabilidade técnica e financeira, foram
-apontadas algumas das vantagens para uso de recursos de energia solar para geração.
+Este capítulo apresentou o conceito de viabilidade técnica e financeira, destacando as principais vantagens da utilização da energia solar para geração elétrica. Foram abordados o dimensionamento de usinas de geração distribuída do tipo \ac{SFCR}, bem como as principais variáveis de entrada necessárias e os procedimentos para sua obtenção. Também foram discutidos os principais métodos de análise de viabilidade econômica aplicáveis a sistemas fotovoltaicos, incluindo \ac{VPL}, \ac{TIR}, \ac{TMA} e \textit{Payback}. Por fim, descreveram-se as estruturas tarifárias que compõem a fatura de energia elétrica, incluindo \ac{ICMS}, \ac{PIS}, \ac{CIP} e \ac{Cofins}, bem como os acréscimos associados às bandeiras tarifárias vigentes.
 
-Apresentou-se também o dimensionamento das usinas de geração distribuída como \ac{SFCR}.Foram apresentadas as principais variáveis de entrada, e como obtê-las .
 
-Foram também abordadas as principais técnicas de analise de viabilidade econômicas de \ac{FS}, como \ac{TIR},\ac{TMA} \ac{VPL} e Payback.
 
-Por fim, apresentaram-se as estruturas tarifárias que compõe a conta de energia elétrica, como \ac{ICMS}, \ac{PIS}, \ac{CIP} e \ac{Cofins}, e o valor do acréscimo que incide com o tipo de bandeira que vigora no momento.
+
+
+
+
+

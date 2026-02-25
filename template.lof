@@ -1,19 +1,19 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Crescimento da Energia Solar.\relax }}{13}{figure.caption.16}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Níveis de radiação solar no Brasil.\relax }}{14}{figure.caption.17}%
-\contentsline {figure}{\numberline {3}{\ignorespaces \textit {tracker} de eixo duplo \relax }}{17}{figure.caption.22}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Tela Inicial.\relax }}{27}{figure.caption.30}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Fluxograma.\relax }}{29}{figure.caption.31}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Dados do projeto.\relax }}{30}{figure.caption.32}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Localização da usina.\relax }}{30}{figure.caption.33}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Seleção do painel fotovoltaico, \relax }}{31}{figure.caption.34}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Escolha dos inversores \relax }}{32}{figure.caption.36}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Perdas do sistewa.\relax }}{33}{figure.caption.37}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Capex e Opex do sistema.\relax }}{35}{figure.caption.40}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Energia anual gerada x Potencia x Rendimento \relax }}{48}{figure.caption.59}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Ganho de geração x Potencia\relax }}{49}{figure.caption.60}%
-\contentsline {figure}{\numberline {14}{\ignorespaces \ac {CAPEX} x Eficiência do Sistema \relax }}{49}{figure.caption.61}%
-\contentsline {figure}{\numberline {15}{\ignorespaces CAPEX x Custo de Geração de Energia \relax }}{50}{figure.caption.62}%
-\contentsline {figure}{\numberline {16}{\ignorespaces \textit {Payback} x \ac {TIR}\relax }}{51}{figure.caption.63}%
-\contentsline {figure}{\numberline {17}{\ignorespaces \textit {Payback} x \ac {TIR} x \ac {ROI}\relax }}{52}{figure.caption.64}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Crescimento da Energia Solar no Brasil de 2013 a 2024.\relax }}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Radiação solar no Brasil, plano inclinado - média anual.\relax }}{15}{figure.caption.18}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Ângulos para orientação e posicionamento de painéis solares fotovoltaicos.\relax }}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Tela Inicial do software PV*SOL.\relax }}{27}{figure.caption.30}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Fluxograma geral do estudo proposto.\relax }}{28}{figure.caption.31}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Entrada de dados do projeto no PV*SOL.\relax }}{29}{figure.caption.32}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Ajuste da localização da usina solar no PV*SOL.\relax }}{30}{figure.caption.33}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Seleção do painel fotovoltaico no PV*SOL.\relax }}{31}{figure.caption.34}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Escolha dos inversores no PV*SOL.\relax }}{32}{figure.caption.36}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Perdas do sistema no PV*SOL.\relax }}{33}{figure.caption.37}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Definição dos parâmetros econômicos de investimento (\ac {CAPEX}) e custos operacionais (\ac {OPEX}) no PV*SOL, utilizados como dados de entrada nas simulações econômico-financeiras dos sistemas fotovoltaicos analisados.\relax }}{36}{figure.caption.40}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Relação entre energia anual injetada e rendimento específico para sistemas fotovoltaicos com estrutura fixa e com rastreamento solar de um eixo em Belo Horizonte--MG.\relax }}{51}{figure.caption.59}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Ganho percentual de geração de energia anual de sistemas fotovoltaicos com rastreamento solar de um eixo em relação a sistemas fixos, em função da potência instalada, para as condições de Belo Horizonte--MG.\relax }}{52}{figure.caption.60}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Relação entre o investimento inicial (\ac {CAPEX}) e a eficiência global de sistemas fotovoltaicos de estrutura fixa e com rastreamento solar de um eixo, em função da potência instalada, para as condições de Belo Horizonte--MG.\relax }}{53}{figure.caption.61}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Relação entre o \ac {CAPEX} e o custo de geração de energia (R\$/kWh) de sistemas fotovoltaicos fixos e com rastreamento de um eixo em função da potência instalada, para Belo Horizonte--MG.\relax }}{54}{figure.caption.62}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Relação entre o \textit {payback} e a \ac {TIR} de sistemas fotovoltaicos fixos e com rastreamento de um eixo em função da potência instalada, para Belo Horizonte--MG.\relax }}{54}{figure.caption.63}%
+\contentsline {figure}{\numberline {17}{\ignorespaces \textit {Payback} x \ac {TIR} x \ac {ROI}.\relax }}{55}{figure.caption.64}%

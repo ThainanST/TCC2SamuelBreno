@@ -42,11 +42,21 @@
 \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibliografia
 \usepackage[alf,bibjustif]{abntex2cite}	% Citações padrão ABNT 6023
 
+% figuras
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{arrows.meta,calc}
+
+% tabelas
+\usepackage{array} % Para maior controle sobre as tabelas
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
 % ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
 % ---
-\titulo{ %Dimensionamento e Estudo de Viabilidade Técnica e Econômica de Instalação de Sistemas Fotovoltaicos % 
- Análise da viabilidade técnica e financeira sobre a utilização de sistemas fotovoltaicos fixos ou com rastreador solar  }
+\titulo{Análise da viabilidade técnica e financeira sobre a utilização de sistemas fotovoltaicos fixos ou com rastreador solar}
 \autor{Samuel Breno de Souza}
 \local{João Monlevade}
 %\dia{20}

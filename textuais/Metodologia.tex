@@ -1,45 +1,41 @@
 \chapter{Metodologia}\label{cap:capitulo_3}
+Este capítulo descreve a metodologia empregada para a coleta de dados, a definição dos cenários e a simulação dos sistemas fotovoltaicos, com o objetivo de obter resultados técnicos e econômico-financeiros comparáveis. Inicialmente, apresenta-se a ferramenta utilizada nas simulações. Em seguida, são definidos os cenários e os parâmetros adotados, bem como o procedimento aplicado para extração e análise dos resultados.
 
-Nesta seção será a exibida a ferramenta utilizada para auxiliar na coleta de dados e simulação de casos, para obtenção de resultados 
+\section{PV*SOL}
+%Para o desenvolvimento deste trabalho, foi utilizada a ferramenta PVSOL, um software especializado no dimensionamento, simulação e análise de sistemas fotovoltaicos conectados à rede e isolados. O PVSOL foi criado pela empresa alemã Valentin Software GmbH, reconhecida mundialmente pelo desenvolvimento de soluções computacionais voltadas para a modelagem de sistemas de energia renovável, especialmente solar fotovoltaica e térmica.
+Para o desenvolvimento deste trabalho, utilizou-se o software PV*SOL, ferramenta voltada ao dimensionamento, simulação e análise de sistemas fotovoltaicos conectados à rede e isolados. O PV*SOL é desenvolvido pela empresa alemã Valentin Software GmbH e é amplamente empregado em aplicações acadêmicas e profissionais, em função da capacidade de simular o desempenho energético considerando dados meteorológicos locais, orientação e inclinação dos módulos, sombreamentos, eficiência de inversores e perdas elétricas, além de incorporar recursos para avaliação econômico-financeira do investimento.
 
-\section{ PVSOL}
-
-Para o desenvolvimento deste trabalho, foi utilizada a ferramenta PVSOL, um software especializado no dimensionamento, simulação e análise de sistemas fotovoltaicos conectados à rede e isolados. O PVSOL foi criado pela empresa alemã Valentin Software GmbH, reconhecida mundialmente pelo desenvolvimento de soluções computacionais voltadas para a modelagem de sistemas de energia renovável, especialmente solar fotovoltaica e térmica.
-
-O PVSOL é amplamente empregado em estudos acadêmicos e profissionais devido à sua capacidade de realizar simulações dinâmicas que consideram fatores como radiação solar, orientação e inclinação dos módulos, sombreamentos parciais, eficiência dos inversores, perdas elétricas, além de aspectos econômicos do investimento. Essas funcionalidades permitem uma análise precisa da geração de energia ao longo do tempo, possibilitando estimativas realistas do desempenho energético e financeiro do sistema projetado.
+%O PVSOL é amplamente empregado em estudos acadêmicos e profissionais devido à sua capacidade de realizar simulações dinâmicas que consideram fatores como radiação solar, orientação e inclinação dos módulos, sombreamentos parciais, eficiência dos inversores, perdas elétricas, além de aspectos econômicos do investimento. Essas funcionalidades permitem uma análise precisa da geração de energia ao longo do tempo, possibilitando estimativas realistas do desempenho energético e financeiro do sistema projetado.
 
 Dentre suas principais funções, destacam-se:
 \begin{itemize}
-\item Modelagem detalhada do arranjo fotovoltaico: escolha do tipo de módulo, inversores, número de strings e configuração elétrica;
-
-\item Análise de sombreamento em 3D: criação de cenários com edificações, árvores e obstáculos que possam impactar a produção de energia;
-
-\item Simulação de geração horária, mensal e anual: possibilitando o cálculo da curva de geração de acordo com dados climáticos locais;
-
-\item Avaliação financeira: análise de custos de investimento, operação e manutenção, fluxo de caixa, tempo de retorno e viabilidade econômica;
-
-\item Comparação de diferentes configurações de sistemas: como sistemas fixos, trackers de um eixo e trackers de dois eixos, permitindo identificar a opção mais vantajosa tecnicamente e economicamente.
+	\item Modelagem detalhada do arranjo fotovoltaico: escolha do tipo de módulo, inversores, número de strings e configuração elétrica;
+	
+	\item Análise de sombreamento em 3D: criação de cenários com edificações, árvores e obstáculos que possam impactar a produção de energia;
+	
+	\item Simulação de geração horária, mensal e anual: possibilitando o cálculo da curva de geração de acordo com dados climáticos locais;
+	
+	\item Avaliação financeira: análise de custos de investimento, operação e manutenção, fluxo de caixa, tempo de retorno e viabilidade econômica;
+	
+	\item Comparação de diferentes configurações de sistemas: como sistemas fixos, \textit{trackers} de um eixo e dois eixos, permitindo identificar a opção mais vantajosa tecnicamente e economicamente.
 \end{itemize}
-Assim, a utilização do PVSOL neste trabalho se justifica por sua confiabilidade e precisão, sendo uma ferramenta consolidada no mercado internacional e já validada em diversas pesquisas científicas e projetos de engenharia. A aplicação do software possibilita a obtenção de resultados consistentes, fundamentais para a análise comparativa proposta neste estudo. A \autoref{fig:img004}, mostra a tela inicial a ferramenta PV*SOL utilizada neste trabalho. 
+
+Neste contexto, a utilização do PV*SOL neste trabalho se justifica por sua confiabilidade e precisão, sendo uma ferramenta consolidada no mercado internacional e já validada em diversas pesquisas científicas e projetos de engenharia. A aplicação do software possibilita a obtenção de resultados consistentes, fundamentais para a análise comparativa proposta neste estudo. A \autoref{fig:img004}, mostra a tela inicial a ferramenta PV*SOL utilizada neste trabalho. 
 
 \begin{figure}[h]
 	\centering
-	\caption{Tela Inicial.}
-	\includegraphics[width=0.6\linewidth]{./textuais/figs/pv001}
+	\caption{Tela Inicial do software PV*SOL.}
+	\includegraphics[width=0.99\linewidth]{./textuais/figs/pv001}
     \fonteautor
 	\label{fig:img004}
 \end{figure}
 
-
 \section{Cenários propostos}
+%Neste estudo, serão realizadas simulações para diferentes potências de sistemas fotovoltaicos ($10$kW, $50$kW, $100$kW, $300$kW, $500$kW e $800$kW e $1$MW ), comparando duas configurações distintas: sistema fixo, sistema com rastreamento de um eixo (\textit{single-axis tracker}). As análises incluirão a geração de energia anual (kWh/ano), os custos de implantação e manutenção, e o tempo de retorno do investimento (\textit{payback}).
+Neste estudo, foram realizadas simulações para sistemas fotovoltaicos com diferentes potências instaladas ($10$ kW, $50$ kW, $100$ kW, $300$ kW, $500$ kW, $800$ kW e $1$ MW), comparando duas configurações: (\textit{i}) estrutura fixa e (\textit{ii}) rastreamento solar de um eixo (\textit{single-axis tracker}). Para cada cenário, analisaram-se a geração anual de energia (kWh/ano), os custos de implantação e operação, e o tempo de retorno do investimento (\textit{payback}).
 
-Neste estudo, serão realizadas simulações para diferentes potências de sistemas fotovoltaicos ($10$kW, $50$kW, $100$kW, $300$kW, $500$kW e $800$kW e $1$MW ), comparando duas configurações distintas: sistema fixo, sistema com rastreamento de um eixo (\textit{single-axis tracker}). As análises incluirão a geração de energia anual (kWh/ano), os custos de implantação e manutenção, e o tempo de retorno do investimento (\textit{payback}).
-
-
+\begin{comment}
 A metodologia adotada consistirá nos seguintes passos:
-
-
-
 \begin{itemize}
     \item Definição dos parâmetros de simulação: Seleção da localização geográfica, escolha dos módulos fotovoltaicos e inversores, e configuração dos tipos de montagem dos painéis.
 
@@ -50,71 +46,80 @@ A metodologia adotada consistirá nos seguintes passos:
 \item Análise dos resultados: Avaliação da viabilidade técnica e econômica do uso de trackers em comparação com sistemas fixos, considerando geração de energia, custos e payback.
 
 \item Elaboração de gráficos e tabelas: Representação visual dos resultados para facilitar a interpretação e a comparação entre os diferentes cenários simulados.
+\end{itemize}
+\end{comment}
 
+A metodologia adotada consistiu nas seguintes etapas:
+\begin{itemize}
+	\item Definição dos parâmetros de simulação: localização geográfica, seleção de módulos e inversores e configuração do tipo de montagem;
+	\item Simulação no PV*SOL: inserção dos dados técnicos e financeiros e execução das simulações para cada cenário;
+	\item Coleta e organização dos resultados: extração dos relatórios do software e consolidação dos dados;
+	\item Análise comparativa: avaliação técnica e econômica entre sistemas fixos e com rastreamento, considerando geração, custos e \textit{payback};
+	\item Elaboração de gráficos e tabelas: apresentação visual dos resultados para facilitar a interpretação e comparação.
 \end{itemize}
 
-
-
- Com essa abordagem, buscamos garantir que os resultados apresentados sejam tecnicamente embasados e aplicáveis a estudos de viabilidade econômica de sistemas fotovoltaicos, contribuindo para a análise do impacto do uso de \textit{trackers} na eficiência e no retorno financeiro dos investimentos em energia solar.
+%Com essa abordagem, buscamos garantir que os resultados apresentados sejam tecnicamente embasados e aplicáveis a estudos de viabilidade econômica de sistemas fotovoltaicos, contribuindo para a análise do impacto do uso de \textit{trackers} na eficiência e no retorno financeiro dos investimentos em energia solar.
+Essa abordagem assegura comparabilidade entre os cenários e fornece base consistente para a análise do impacto do uso de \textit{trackers} no desempenho e no retorno financeiro de sistemas fotovoltaicos.
 
 \section{Fluxograma}
-Com o objetivo de organizar e sistematizar as etapas metodológicas adotadas neste trabalho, a \autoref{fig:img005} apresenta o fluxograma que resume o processo de desenvolvimento do estudo. O fluxograma descreve, de forma sequencial, as principais etapas realizadas, desde a definição da ferramenta de simulação e do local do projeto até a análise e comparação dos resultados obtidos.
-
-As simulações foram conduzidas utilizando o software PV*SOL, contemplando diferentes configurações de sistemas fotovoltaicos, incluindo estruturas fixas e com rastreamento solar. Dessa forma, o fluxograma permite uma visualização clara da metodologia empregada, facilitando a compreensão do encadeamento lógico das atividades e garantindo a reprodutibilidade dos resultados apresentados.
-
-    
-  \begin{figure}[h]
+%Com o objetivo de organizar e sistematizar as etapas metodológicas adotadas neste trabalho, a \autoref{fig:img005} apresenta o fluxograma que resume o processo de desenvolvimento do estudo. O fluxograma descreve, de forma sequencial, as principais etapas realizadas, desde a definição da ferramenta de simulação e do local do projeto até a análise e comparação dos resultados obtidos.
+Com o objetivo de organizar e sistematizar as etapas metodológicas adotadas, a \autoref{fig:img005} apresenta o fluxograma que resume o desenvolvimento do estudo. O diagrama descreve, de forma sequencial, desde a definição da ferramenta de simulação e dos parâmetros do local do projeto até a extração, análise e comparação dos resultados obtidos.
+\begin{figure}[h]
 	\centering
-	\caption{Fluxograma.}
+	\caption{Fluxograma geral do estudo proposto.}
 	\includegraphics[width=0.7\linewidth]{./textuais/figs/Fluxograma.drawio}
     \fonteautor
 	\label{fig:img005}
 \end{figure}
 
-\section{Dimensionamento}
-O dimensionamento de sistemas fotovoltaicos consiste em definir, de maneira técnica e criteriosa, a configuração adequada de todos os componentes do sistema, desde os módulos e inversores até os cabeamentos, arranjos físicos e eventuais transformadores necessários para a conexão à rede elétrica. Esse processo é essencial para garantir a eficiência energética, a segurança operacional e a viabilidade econômica do empreendimento. No presente trabalho, o dimensionamento foi realizado por meio do software PV*SOL, que possibilita a simulação de diferentes cenários, considerando as condições climáticas locais, a orientação dos módulos, as características elétricas dos equipamentos e as normas aplicáveis ao setor. Nas subseções a seguir, são apresentados os critérios adotados para a padronização dos módulos, a escolha dos inversores, o dimensionamento de cabos, a utilização de transformadores e a definição dos arranjos dos painéis fotovoltaicos, justificando tecnicamente cada decisão tomada no processo. A \autoref{fig:img006} mostra a tela inicial do PV*SOL, que é de onde partimos para o dimensionamento dos sistemas fotovoltaico. 
+%As simulações foram conduzidas utilizando o software PV*SOL, contemplando diferentes configurações de sistemas fotovoltaicos, incluindo estruturas fixas e com rastreamento solar. Dessa forma, o fluxograma permite uma visualização clara da metodologia empregada, facilitando a compreensão do encadeamento lógico das atividades e garantindo a reprodutibilidade dos resultados apresentados.
+As simulações foram conduzidas no PV*SOL, contemplando configurações com estrutura fixa e com rastreamento solar, permitindo a visualização clara do encadeamento lógico das atividades e favorecendo a reprodutibilidade do procedimento metodológico.
 
-  \begin{figure}[h]
+\section{Dimensionamento}
+% O dimensionamento de sistemas fotovoltaicos consiste em definir, de maneira técnica e criteriosa, a configuração adequada de todos os componentes do sistema, desde os módulos e inversores até os cabeamentos, arranjos físicos e eventuais transformadores necessários para a conexão à rede elétrica. Esse processo é essencial para garantir a eficiência energética, a segurança operacional e a viabilidade econômica do empreendimento. No presente trabalho, o dimensionamento foi realizado por meio do software PV*SOL, que possibilita a simulação de diferentes cenários, considerando as condições climáticas locais, a orientação dos módulos, as características elétricas dos equipamentos e as normas aplicáveis ao setor. Nas subseções a seguir, são apresentados os critérios adotados para a padronização dos módulos, a escolha dos inversores, o dimensionamento de cabos, a utilização de transformadores e a definição dos arranjos dos painéis fotovoltaicos, justificando tecnicamente cada decisão tomada no processo. A \autoref{fig:img006} mostra a tela inicial do PV*SOL, que é de onde partimos para o dimensionamento dos sistemas fotovoltaico. 
+O dimensionamento de sistemas fotovoltaicos consiste em definir, de forma técnica, a configuração dos componentes do sistema, incluindo módulos, inversores, cabeamentos, arranjos físicos e, quando aplicável, transformadores para conexão à rede elétrica. Esse processo é essencial para garantir eficiência energética, segurança operacional e viabilidade econômica. Neste trabalho, o dimensionamento foi realizado por meio do PV*SOL, permitindo simular diferentes cenários com base em condições climáticas locais, orientação dos módulos, características elétricas dos equipamentos e premissas de perdas.
+
+Nas subseções a seguir, apresentam-se os critérios adotados para a padronização dos módulos, seleção dos inversores e definição das perdas, justificando tecnicamente as decisões empregadas. A \autoref{fig:img006} apresenta a tela do PV*SOL utilizada como ponto de partida para o dimensionamento.
+\begin{figure}[h]
 	\centering
-	\caption{Dados do projeto.}
-	\includegraphics[width=0.7\linewidth]{./textuais/figs/pv002}
+	\caption{Entrada de dados do projeto no PV*SOL.}
+	\includegraphics[width=0.99\linewidth]{./textuais/figs/pv002}
     \fonteautor
 	\label{fig:img006}
 \end{figure}
 
-
-
-
 \subsection{Posicionamento Geográfico dos Módulos}
+% As simulações foram realizadas considerando a cidade de Belo Horizonte MG, situada na latitude $19,9$° Sul. Em localidades do hemisfério sul, a orientação mais favorável dos módulos fotovoltaicos é voltada para o norte geográfico, de modo a maximizar a captação da radiação solar ao longo do ano.
+As simulações foram realizadas para a cidade de Belo Horizonte (MG), situada na latitude $19{,}9^\circ$ S. No hemisfério sul, a orientação recomendada para maximizar a captação anual é voltada para o norte geográfico, de modo a maximizar a captação da radiação solar ao longo do ano.
 
-
-As simulações foram realizadas considerando a cidade de Belo Horizonte MG, situada na latitude $19,9$° Sul. Em localidades do hemisfério sul, a orientação mais favorável dos módulos fotovoltaicos é voltada para o norte geográfico, de modo a maximizar a captação da radiação solar ao longo do ano.
-
-De acordo com as recomendações do CRESESB (Centro de Referência para Energia Solar e Eólica Sérgio Brito), a inclinação ótima dos painéis é de aproximadamente $20$°. Essa configuração possibilita um melhor aproveitamento da irradiação solar global, garantindo o equilíbrio entre a geração de energia nos diferentes períodos sazonais. Dessa forma, a adoção da inclinação de $20$° e orientação para o norte atende ao projeto. A \autoref{fig:img007}, mostra onde é definida a localização geográfica da usina fotovoltaica na ferramenta PV*SOL. 
-
+% De acordo com as recomendações do CRESESB (Centro de Referência para Energia Solar e Eólica Sérgio Brito), a inclinação ótima dos painéis é de aproximadamente $20$°. Essa configuração possibilita um melhor aproveitamento da irradiação solar global, garantindo o equilíbrio entre a geração de energia nos diferentes períodos sazonais. Dessa forma, a adoção da inclinação de $20$° e orientação para o norte atende ao projeto. A \autoref{fig:img007}, mostra onde é definida a localização geográfica da usina fotovoltaica na ferramenta PV*SOL. 
+De acordo com recomendações do \citeonline{cresesbe2025}, a inclinação ótima para Belo Horizonte é próxima de $20^\circ$, o que favorece o aproveitamento da irradiação ao longo do ano. Assim, adotou-se orientação norte geográfico e inclinação de $20^\circ$. A \autoref{fig:img007} mostra a definição da localização no PV*SOL.
 \begin{figure}[h]
 	\centering
-	\caption{Localização da usina.}
-	\includegraphics[width=0.6\linewidth]{./textuais/figs/pv003}
+	\caption{Ajuste da localização da usina solar no PV*SOL.}
+	\includegraphics[width=0.99\linewidth]{./textuais/figs/pv003}
     \fonteautor
 	\label{fig:img007}
 \end{figure}
 
-
 \subsection{Módulos Fotovoltaicos}
-Para garantir uniformidade na análise dos diferentes sistemas simulados, adotou-se a padronização dos módulos fotovoltaicos no software PV*SOL. A utilização de um mesmo modelo de painel, com potência nominal, eficiência e características técnicas bem definidas, permite uma comparação justa entre diferentes cenários de potência instalada e configurações de rastreamento solar.
-A escolha do módulo considerou critérios como eficiência média do mercado, confiabilidade do fabricante e disponibilidade comercial no Brasil. Segundo \cite{vilela2012analise}, a seleção de módulos deve priorizar não apenas a potência unitária, mas também a eficiência de conversão e o coeficiente de temperatura, que influenciam diretamente no desempenho energético do sistema.
+%Para garantir uniformidade na análise dos diferentes sistemas simulados, adotou-se a padronização dos módulos fotovoltaicos no software PV*SOL. A utilização de um mesmo modelo de painel, com potência nominal, eficiência e características técnicas bem definidas, permite uma comparação justa entre diferentes cenários de potência instalada e configurações de rastreamento solar. A escolha do módulo considerou critérios como eficiência média do mercado, confiabilidade do fabricante e disponibilidade comercial no Brasil. Segundo \cite{vilela2012analise}, a seleção de módulos deve priorizar não apenas a potência unitária, mas também a eficiência de conversão e o coeficiente de temperatura, que influenciam diretamente no desempenho energético do sistema.
+Para assegurar uniformidade e comparabilidade entre os cenários simulados, adotou-se a padronização dos módulos fotovoltaicos no PV*SOL. A utilização de um único modelo, com potência nominal e características técnicas definidas, permite isolar o efeito da potência instalada e da configuração do sistema (estrutura fixa ou com rastreamento) sobre os resultados obtidos.
 
-Para a realização das simulações no software PV*SOL, optou-se pela utilização do módulo \textit{Canadian Solar CS3Y-500MS}, com potência nominal de $500$Wp e tecnologia de células monocristalinas. Esse modelo apresenta eficiência de conversão próxima a $21$\%, garantindo maior aproveitamento da radiação solar incidente e consequente aumento da geração elétrica por área instalada.
+A escolha do módulo considerou critérios como eficiência representativa do mercado, confiabilidade do fabricante e disponibilidade comercial no Brasil. Conforme \cite{vilela2012analise}, a seleção de módulos deve levar em conta não apenas a potência unitária, mas também a eficiência de conversão e o coeficiente de temperatura, parâmetros que influenciam diretamente o desempenho energético do sistema.
 
-Além da alta eficiência, o módulo incorpora a tecnologia \textit{half-cell}, que reduz perdas resistivas e melhora a performance em condições de sombreamento parcial, característica relevante para aplicações em usinas de médio e grande porte. A escolha desse módulo justifica-se, ainda, por sua ampla disponibilidade comercial no mercado brasileiro e pela sua representatividade em projetos fotovoltaicos de maior escala.
+% Para a realização das simulações no software PV*SOL, optou-se pela utilização do módulo \textit{Canadian Solar CS3Y-500MS}, com potência nominal de $500$Wp e tecnologia de células monocristalinas. Esse modelo apresenta eficiência de conversão próxima a $21$\%, garantindo maior aproveitamento da radiação solar incidente e consequente aumento da geração elétrica por área instalada.
+Nas simulações, utilizou-se o módulo \textit{Canadian Solar CS3Y-500MS}, de $500$ Wp, com tecnologia monocristalina e eficiência próxima de $21\%$. Esse desempenho contribui para maior aproveitamento da radiação solar incidente e, consequentemente, para maior geração elétrica por unidade de área instalada.
 
-Outro aspecto relevante é que a adoção de módulos de maior potência unitária contribui para a redução de custos indiretos, como cabeamento, estruturas de suporte e mão de obra, uma vez que se necessita de menor número de painéis para atingir a mesma potência instalada. Dessa forma, a utilização do CS3Y-500MS garante não apenas a confiabilidade e o desempenho energético do sistema, mas também a viabilidade econômica e a consistência metodológica das análises realizadas neste trabalho.A \autoref{fig:img008}, mostra onde é feita a seleção dos módulos na ferramenta PV*SOL. 
+% Além da alta eficiência, o módulo incorpora a tecnologia \textit{half-cell}, que reduz perdas resistivas e melhora a performance em condições de sombreamento parcial, característica relevante para aplicações em usinas de médio e grande porte. A escolha desse módulo justifica-se, ainda, por sua ampla disponibilidade comercial no mercado brasileiro e pela sua representatividade em projetos fotovoltaicos de maior escala.
+Além disso, o módulo emprega tecnologia \textit{half-cell}, associada à redução de perdas resistivas e à melhoria do desempenho em condições de sombreamento parcial, aspecto relevante em usinas de médio e grande porte. A adoção de módulos com maior potência unitária também tende a reduzir custos indiretos (cabeamento, estruturas e mão de obra), pois diminui a quantidade de módulos necessária para atingir a mesma potência instalada.
 
+% Outro aspecto relevante é que a adoção de módulos de maior potência unitária contribui para a redução de custos indiretos, como cabeamento, estruturas de suporte e mão de obra, uma vez que se necessita de menor número de painéis para atingir a mesma potência instalada. Dessa forma, a utilização do CS3Y-500MS garante não apenas a confiabilidade e o desempenho energético do sistema, mas também a viabilidade econômica e a consistência metodológica das análises realizadas neste trabalho.A \autoref{fig:img008}, mostra onde é feita a seleção dos módulos na ferramenta PV*SOL. 
+Dessa forma, o uso do CS3Y-500MS garante consistência metodológica às simulações e contribui para uma avaliação técnica e econômica mais representativa. A \autoref{fig:img008} apresenta a etapa de seleção dos módulos no PV*SOL.
 \begin{figure}[h]
 	\centering
-	\caption{Seleção do painel fotovoltaico, }
-	\includegraphics[width=0.6\linewidth]{./textuais/figs/pv004}
+	\caption{Seleção do painel fotovoltaico no PV*SOL.}
+	\includegraphics[width=0.99\linewidth]{./textuais/figs/pv004}
     \fonteautor
 	\label{fig:img008}
 \end{figure}
@@ -126,47 +131,55 @@ Outro aspecto relevante é que a adoção de módulos de maior potência unitár
 %Quanto ao circuito em corrente alternada, a seleção dos cabos foi realizada considerando fatores como a queda de tensão admissível e a segurança elétrica, em conformidade com os critérios estabelecidos pela norma NBR 5410. A adoção de condutores adequados é essencial para evitar perdas excessivas de energia e para garantir a integridade da instalação ao longo de sua vida útil.
 
 \subsection{Inversores}
-
-No que se refere aos inversores, sua seleção foi realizada de acordo com a potência de cada sistema simulado, observando-se a disponibilidade de modelos comerciais no Brasil e compatíveis com o banco de dados do PV*SOL. A \autoref{tab:inversores}, mostra os inversores adotados para as respectivas potências estudadas,
+%No que se refere aos inversores, sua seleção foi realizada de acordo com a potência de cada sistema simulado, observando-se a disponibilidade de modelos comerciais no Brasil e compatíveis com o banco de dados do PV*SOL. A \autoref{tab:inversores}, mostra os inversores adotados para as respectivas potências estudadas,
+A seleção dos inversores foi realizada em função da potência de cada sistema fotovoltaico simulado, considerando a disponibilidade de modelos comerciais no mercado brasileiro e sua compatibilidade com o banco de dados do PV*SOL. A \autoref{tab:inversores} apresenta os inversores adotados para cada faixa de potência instalada analisada neste estudo.
 
 \begin{table}[h!]
 \centering
-\begin{tabular}{|c|c|c|c|}
+\caption{Inversores utilizados nas simulações.}
+\begin{tabular}{C{2cm}cC{2cm}c}
 \hline
-\textbf{Porte da Usina } & \textbf{Fabricante} & \textbf{Quantidade}   & \textbf{Inversor}  \\ \hline
-    $10$kW & SOLSYSTEMS GPE  & $1$ & SOL GPE $10$kW \\ \hline
-$50$kW & SOLSYSTEMS GPE & $1$ & SOL GPE $50$kW \ \\  \hline
-$100$kW & SOLSYSTEMS GPE & $2$ & SOL GPE $50$kW  \ \\ \hline
-$300$kW & CANADIAN SOLAR INC. & $3$ & CSI-100K-T4001B-E \ \\ \hline
-$500$kW & CANADIAN SOLAR INC. & $4$ & CSI-125KTL-GI-E \ \\ \hline
-$800$kW & WEG & $4$ & SIW500H ST200 H3 \ \\ \hline
-$1$MW & WEG & $5$ & SIW500H ST200 H3 \ \\ \hline
+\textbf{Potência instalada} & \textbf{Fabricante} & \textbf{Quantidade}   & \textbf{Modelo}  \\ \hline
+$10$kW & SOLSYSTEMS GPE  & $1$ & SOL GPE $10$kW \\ 
+$50$kW & SOLSYSTEMS GPE & $1$ & SOL GPE $50$kW  \\ 
+$100$kW & SOLSYSTEMS GPE & $2$ & SOL GPE $50$kW  \\ 
+$300$kW & CANADIAN SOLAR INC. & $3$ & CSI-100K-T4001B-E \\ 
+$500$kW & CANADIAN SOLAR INC. & $4$ & CSI-125KTL-GI-E \\ 
+$800$kW & WEG & $4$ & SIW500H ST200 H3 \\ 
+$1$MW & WEG & $5$ & SIW500H ST200 H3 \\ 
+\hline
 \end{tabular}
-\caption{Inversores utilizados nas simulações}
+\fonteautor
 \label{tab:inversores}
 \end{table}
 
-
-A adoção desses equipamentos não ocorreu de forma aleatória, mas baseou-se em critérios técnicos e de mercado, considerando a confiabilidade dos fabricantes, a disponibilidade no território nacional e a compatibilidade com projetos de diferentes portes. Dessa forma, a padronização estabelecida contribui para a consistência das análises, permitindo comparações precisas entre os diferentes cenários de potência e configuração avaliados neste trabalho. A \autoref{fig:img009}, mostra onde é feita a seleção dos inversores na ferramenta PV*SOL. 
-
+%A adoção desses equipamentos não ocorreu de forma aleatória, mas baseou-se em critérios técnicos e de mercado, considerando a confiabilidade dos fabricantes, a disponibilidade no território nacional e a compatibilidade com projetos de diferentes portes. Dessa forma, a padronização estabelecida contribui para a consistência das análises, permitindo comparações precisas entre os diferentes cenários de potência e configuração avaliados neste trabalho. A \autoref{fig:img009}, mostra onde é feita a seleção dos inversores na ferramenta PV*SOL.
+A escolha desses equipamentos baseou-se em critérios técnicos e de mercado, incluindo confiabilidade dos fabricantes, disponibilidade nacional e adequação às faixas de potência estudadas. A padronização dos inversores por porte de usina contribui para a consistência metodológica das simulações e permite comparações coerentes entre os diferentes cenários avaliados. A \autoref{fig:img009} mostra a etapa de seleção dos inversores no PV*SOL.
 \begin{figure}[h]
 	\centering
-	\caption{Escolha dos inversores }
-	\includegraphics[width=0.6\linewidth]{./textuais/figs/pv005}
+	\caption{Escolha dos inversores no PV*SOL.}
+	\includegraphics[width=0.99\linewidth]{./textuais/figs/pv005}
     \fonteautor
 	\label{fig:img009}
 \end{figure}
 
-
-
 \subsection{Perdas do Sistema}
+%O software PV*SOL disponibiliza duas abordagens distintas para a definição das perdas em sistemas fotovoltaicos. A primeira delas é o modelo detalhado, no qual cada tipo de perda pode ser configurado individualmente, contemplando aspectos como perdas ôhmicas em cabos, eficiência dos inversores, perdas por \textit{mismatch}, sombreamento, sujeira, temperatura, entre outros fatores técnicos. Essa abordagem permite maior precisão no dimensionamento, sobretudo em projetos executivos, onde as condições reais da instalação já estão definidas com clareza.
+% Por outro lado, o modelo simplificado possibilita a inserção de um único percentual global de perdas, que agrega todos os efeitos mencionados de forma consolidada. Esse método é frequentemente utilizado em estudos de pré-viabilidade ou em análises comparativas, uma vez que simplifica a modelagem sem comprometer a representatividade dos resultados.
+O PV*SOL disponibiliza duas abordagens para a definição das perdas em sistemas fotovoltaicos. A primeira é o modelo detalhado, no qual cada parcela de perda pode ser configurada individualmente, incluindo perdas ôhmicas em cabos, eficiência dos inversores, \textit{mismatch}, sombreamento, sujeira e efeitos térmicos. Essa abordagem proporciona maior precisão e é mais indicada em projetos executivos, quando as condições reais da instalação estão plenamente definidas. A segunda abordagem é o modelo simplificado, que permite a adoção de um único percentual global de perdas, agregando os diferentes mecanismos em um valor consolidado. Esse procedimento é amplamente utilizado em estudos de pré-viabilidade e análises comparativas, pois reduz a complexidade da modelagem sem comprometer a representatividade dos resultados.
 
+% Neste trabalho, optou-se pela utilização do modelo simplificado, aplicando um valor global de $14$\% de perdas em todas as simulações realizadas. O valor de $14$\% fundamenta-se em referências amplamente reconhecidas. O \textit{PVGIS (Photovoltaic Geographical Information System)}, ferramenta de referência internacional para estimativas solares, adota esse percentual como padrão para estudos simplificados de desempenho de sistemas fotovoltaicos. Além disso, pesquisas acadêmicas nacionais, como o trabalho de \cite{tonolo2019analise} na Universidade Tecnológica Federal do Paraná (UTFPR), também apresentam valores típicos de perdas globais em faixas de $12$\% a $16$\%, reforçando a adequação do percentual adotado.
+Neste trabalho, adotou-se o modelo simplificado, com perdas globais fixadas em $14\%$ para todas as simulações. Esse valor está alinhado a referências reconhecidas na literatura e em ferramentas de estimativa solar. O \textit{PVGIS (Photovoltaic Geographical Information System)} utiliza $14\%$ como valor padrão em análises simplificadas de desempenho fotovoltaico. Estudos acadêmicos nacionais, como \cite{tonolo2019analise}, também reportam perdas globais típicas entre $12\%$ e $16\%$, corroborando a adequação do percentual adotado.
 
-O software PV*SOL disponibiliza duas abordagens distintas para a definição das perdas em sistemas fotovoltaicos. A primeira delas é o modelo detalhado, no qual cada tipo de perda pode ser configurado individualmente, contemplando aspectos como perdas ôhmicas em cabos, eficiência dos inversores, perdas por \textit{mismatch}, sombreamento, sujeira, temperatura, entre outros fatores técnicos. Essa abordagem permite maior precisão no dimensionamento, sobretudo em projetos executivos, onde as condições reais da instalação já estão definidas com clareza.
-
-Por outro lado, o modelo simplificado possibilita a inserção de um único percentual global de perdas, que agrega todos os efeitos mencionados de forma consolidada. Esse método é frequentemente utilizado em estudos de pré-viabilidade ou em análises comparativas, uma vez que simplifica a modelagem sem comprometer a representatividade dos resultados.
-
-Neste trabalho, optou-se pela utilização do modelo simplificado, aplicando um valor global de $14$\% de perdas em todas as simulações realizadas. O valor de $14$\% fundamenta-se em referências amplamente reconhecidas. O \textit{PVGIS (Photovoltaic Geographical Information System)}, ferramenta de referência internacional para estimativas solares, adota esse percentual como padrão para estudos simplificados de desempenho de sistemas fotovoltaicos. Além disso, pesquisas acadêmicas nacionais, como o trabalho de \cite{tonolo2019analise} na Universidade Tecnológica Federal do Paraná (UTFPR), também apresentam valores típicos de perdas globais em faixas de $12$\% a $16$\%, reforçando a adequação do percentual adotado.
+%Portanto, a utilização do modelo simplificado, com perdas fixadas em 14\%, garante a confiabilidade dos resultados, preserva a comparabilidade entre diferentes cenários e mantém o foco no objetivo central deste trabalho: analisar a viabilidade econômica  da utilização de \textit{trackers} em sistemas fotovoltaicos com distintas escalas de potência.A \autoref{fig:img010}, mostra onde é definida as perdas do sistema fotovoltaico na ferramenta PV*SOL. 
+A utilização de um valor único de perdas assegura consistência metodológica e comparabilidade entre os cenários analisados, permitindo que as diferenças observadas nos resultados decorram exclusivamente das variáveis investigadas, em especial da configuração estrutural (fixa ou com \textit{tracker}). A \autoref{fig:img010} apresenta a definição das perdas no PV*SOL.
+\begin{figure}[h]
+	\centering
+	\caption{Perdas do sistema no PV*SOL.}
+	\includegraphics[width=0.99\linewidth]{./textuais/figs/pv006}
+	\fonteautor
+	\label{fig:img010}
+\end{figure}
 
 %Neste trabalho, optou-se pela utilização do modelo de perdas simplificado no PV*SOL, aplicando um percentual global fixo de 14\% em todas as simulações. Essa decisão está alinhada ao foco principal da pesquisa, que se concentra na avaliação da viabilidade técnica e econômica dos sistemas fotovoltaicos em diferentes escalas de potência e configurações de rastreamento. Assim, evita-se que a análise seja dispersa em um detalhamento minucioso das perdas individuais, permitindo que as comparações entre os cenários tenham como base apenas as variáveis de interesse.
 
@@ -174,84 +187,92 @@ Neste trabalho, optou-se pela utilização do modelo simplificado, aplicando um 
 
 %A escolha do valor de 14\% fundamenta-se em referências amplamente reconhecidas. O PVGIS (Photovoltaic Geographical Information System), ferramenta de referência internacional para estimativas solares, adota esse percentual como padrão para estudos simplificados de desempenho de sistemas fotovoltaicos (PVGIS, 2023). No contexto brasileiro, a ANEEL reporta que perdas totais médias no setor elétrico (técnicas e não técnicas) oscilam entre 14\% e 15\%, valor próximo ao utilizado como parâmetro neste estudo (ANEEL, 2021). Além disso, pesquisas acadêmicas nacionais, como o trabalho de Tonolo (2019) na UTFPR, também apresentam valores típicos de perdas globais em faixas de 12\% a 16\%, reforçando a adequação do percentual adotado.
 
-Portanto, a utilização do modelo simplificado, com perdas fixadas em 14\%, garante a confiabilidade dos resultados, preserva a comparabilidade entre diferentes cenários e mantém o foco no objetivo central deste trabalho: analisar a viabilidade econômica  da utilização de \textit{trackers} em sistemas fotovoltaicos com distintas escalas de potência.A \autoref{fig:img010}, mostra onde é definida as perdas do sistema fotovoltaico na ferramenta PV*SOL. 
-
-\begin{figure}[h]
-	\centering
-	\caption{Perdas do sistewa.}
-	\includegraphics[width=0.6\linewidth]{./textuais/figs/pv006}
-    \fonteautor
-	\label{fig:img010}
-\end{figure}
-
-
 \section{Aspectos financeiros de uma Usina }
-
 \subsection{CAPEX}
-O \ac{CAPEX}, ou despesa de capital, corresponde ao investimento inicial necessário para a implantação de um sistema fotovoltaico, englobando todos os custos relacionados à aquisição, transporte, instalação e comissionamento do empreendimento. Em projetos de geração solar, o \ac{CAPEX} é considerado o principal fator econômico a ser avaliado, uma vez que representa a maior parcela dos desembolsos financeiros do projeto, sendo determinante para a viabilidade econômico-financeira do mesmo \cite{epe2022}.
+% O \ac{CAPEX}, ou despesa de capital, corresponde ao investimento inicial necessário para a implantação de um sistema fotovoltaico, englobando todos os custos relacionados à aquisição, transporte, instalação e comissionamento do empreendimento. Em projetos de geração solar, o \ac{CAPEX} é considerado o principal fator econômico a ser avaliado, uma vez que representa a maior parcela dos desembolsos financeiros do projeto, sendo determinante para a viabilidade econômico-financeira do mesmo \cite{epe2022}.
+O \acf{CAPEX}, ou despesa de capital, corresponde ao investimento inicial necessário para a implantação de um sistema fotovoltaico, englobando custos de aquisição de equipamentos, transporte, instalação e comissionamento do empreendimento. Em projetos de geração solar, o \ac{CAPEX} constitui o principal componente econômico a ser avaliado, pois representa a maior parcela dos desembolsos financeiros e influencia diretamente a viabilidade econômico-financeira do projeto \cite{epe2022}.
 
-Para a determinação do \ac{CAPEX} neste trabalho, adotou-se como referência os valores apresentados por \cite{Sisquini2024}, apresentados na \autoref{tab:customedio}, no estudo os autores apresentam uma análise detalhada dos custos médios de implantação de usinas fotovoltaicas no Brasil, contemplando diferentes portes de sistemas, desde aplicações residenciais até grandes usinas solares.
-
-\begin{table}[h!]
-\centering
-\begin{tabular}{|c|c|}
-\hline
-\textbf{Porte da Usina (kWp)} & \textbf{Custo Médio (RS/Wp)}  \\ \hline
-Residencial (até $10$ kWp) & $5,50$ - $7,50$  \\ \hline
-Comercial ($10$ kWp a $500$ kWp) & $4,50$ - $6,50$ \\  \hline
-Industrial (acima de $500$ kWp) & $3,80$ - $5,80$ \\ \hline
-Grandes usinas (acima de $1$ MWp) & $3,50$ -$ 5,50$  \\ \hline
-\end{tabular}
-\caption{Custo médio por watt-pico (Wp) instalado}
-\label{tab:customedio}
+% Para a determinação do \ac{CAPEX} neste trabalho, adotou-se como referência os valores apresentados por \cite{Sisquini2024}, apresentados na \autoref{tab:customedio}, no estudo os autores apresentam uma análise detalhada dos custos médios de implantação de usinas fotovoltaicas no Brasil, contemplando diferentes portes de sistemas, desde aplicações residenciais até grandes usinas solares.
+Para a estimativa do \ac{CAPEX} neste trabalho, adotaram-se como referência os valores apresentados por \cite{Sisquini2024}, sintetizados na \autoref{tab:customedio}, considerando sistemas de eixo fixo. Nesse estudo, os autores apresentam uma análise dos custos médios de implantação de usinas fotovoltaicas no Brasil, considerando diferentes faixas de potência, desde aplicações residenciais até usinas de grande porte.
+\begin{table}[htb!]
+	\centering
+	\caption{Faixas típicas de custo de implantação de sistemas fotovoltaicos de eixo fixo no Brasil, em R\$/Wp instalado.}
+	%\caption{Custo médio por watt-pico (Wp) instalado.}
+	\begin{tabular}{cc}
+	\hline
+	\textbf{Porte da Usina (kWp)} & \textbf{Custo Médio (RS/Wp)}  \\ \hline
+	Residencial (até $10$ kWp) & $5,50$ - $7,50$  \\ 
+	Comercial ($10$ kWp a $500$ kWp) & $4,50$ - $6,50$ \\ 
+	Industrial (acima de $500$ kWp) & $3,80$ - $5,80$ \\ 
+	Grandes usinas (acima de $1$ MWp) & $3,50$ -$ 5,50$  
+	\\ \hline
+	\end{tabular}
+	\fonteautor
+	\label{tab:customedio}
 \end{table}
 
-Já os sistemas com \textit{trackers} exigem componentes mecânicos adicionais e maior complexidade de instalação, o que impacta diretamente no seu custo inicial. Os \textit{trackers} podem elevar o \ac{CAPEX} não apenas pela estrutura móvel em si, mas também por requererem manutenção mais frequente, ocuparem mais área e demandarem cabeamentos e proteções especiais, fatores que não são necessários em sistemas fixos.
+% Já os sistemas com \textit{trackers} exigem componentes mecânicos adicionais e maior complexidade de instalação, o que impacta diretamente no seu custo inicial. Os \textit{trackers} podem elevar o \ac{CAPEX} não apenas pela estrutura móvel em si, mas também por requererem manutenção mais frequente, ocuparem mais área e demandarem cabeamentos e proteções especiais, fatores que não são necessários em sistemas fixos.
+Sistemas fotovoltaicos com rastreamento solar (\textit{trackers}) requerem estruturas mecânicas móveis e maior complexidade de instalação, o que eleva o investimento inicial em relação a sistemas fixos. Esse acréscimo decorre não apenas da estrutura de rastreamento, mas também de maior ocupação de área, necessidade de cabeamentos adicionais e requisitos de proteção específicos.
 
 Com o objetivo de embasar a diferença de custos de investimento entre sistemas fotovoltaicos de estrutura fixa e sistemas com rastreamento solar, foi realizada uma revisão de trabalhos acadêmicos nacionais e internacionais que abordam comparações econômicas entre essas configurações para diferentes faixas de potência instalada. A \autoref{tab:capextracker} apresenta a relação de custo entre sistemas com \textit{tracker} e sistemas fixos, obtida a partir de artigos científicos, trabalhos de conclusão de curso, dissertações e publicações em periódicos técnicos. Observa-se que a razão de custo \textit{tracker}/fixo varia conforme a potência do sistema, o escopo do estudo e as premissas adotadas por cada autor, apresentando valores típicos entre aproximadamente $1,15$ e $1,80$. Dessa forma, os dados consolidados permitem estimar um acréscimo percentual no \ac{CAPEX} associado à utilização de rastreadores solares, servindo como base técnica e bibliográfica para a definição dos custos de investimento utilizados nas simulações e análises financeiras desenvolvidas neste trabalho.
-
 \begin{table}[h!]
 \centering
-\begin{tabular}{|
->{\centering\arraybackslash}p{2.2cm}|
->{\centering\arraybackslash}p{2.2cm}|
->{\centering\arraybackslash}p{3.0cm}|
->{\centering\arraybackslash}p{1.4cm}|
->{\centering\arraybackslash}p{3.5cm}|
-}
-\hline
-\textbf{Potência do sistema (kW)} &
-\textbf{Potência do estudo (kW)} &
-\textbf{Custo relativo tracker/fixo} &
-\textbf{Média} &
-\textbf{Fonte} \\ \hline
-
-$10$ & $8,76$ & $1,19$ & $1,195$ & \cite{nucleodoconhecimento_tracker} \\ \hline
-$10$ & $3$ & $1,20$ &$ 1,195$ & \cite{revistaft_seguidor_solar} \\ \hline
-$50$ & $75$ & $1,50$ & $1,345$ & \cite{nobrega2019comparaccao} \\ \hline
-$50$ & $75$ & $1,19$ & $1,345$ & \cite{pinto2025analise} \\ \hline
-$100$ & $100$ & $1,50$ & $1,345$ & \cite{nobrega2019comparaccao} \\ \hline
-$100$ & $75$ & $1,19$ & $1,345$ & \cite{pinto2025analise} \\ \hline
-$300$ & $300$ & $1,80$ & $1,485$ & \cite{araujo2023avaliaccao} \\ \hline
-$300$ & $300$ & $1,17$ & $1,485$ & \cite{casotto2021avaliaccao} \\ \hline
-$500$ & $500$ & $1,36$ & $1,36$ & \cite{pinto2025analise} \\ \hline
-$800$ & $781$ & $1,18$ & $1,19$ & \cite{elahi2023_ijred} \\ \hline
-$800$ & $800$ & $1,20$ & $1,19$ & \cite{regia2022_tcc_ufsc} \\ \hline
-$1000$ & $1000$ & $1,18$ & $1,165$ & \cite{pinto2025analise} \\ \hline
-$1000$ & $2000$ & $1,15$ &  $1,165$ & \cite{de2022analise} \\ \hline
-
+\caption{Relação de custo de investimento entre sistemas de eixo fixo/\textit{tracker} por faixa de potência do sistema, compilada a partir de estudos da literatura.}
+\begin{tabular}{C{2.2cm}C{2.2cm}C{2.5cm}C{1.5cm}c} \hline
+\textbf{Potência do sistema (kW)} & \textbf{Potência do estudo (kW)} & \textbf{Custo relativo tracker/fixo} & \textbf{Média} & \textbf{Fonte} \\ \hline
+\multirow{2}{*}{10} & $8,76$ & $1,19$ & $1,195$ & \citeonline{rodrigues2021rastreadores} \\ \cline{2-5}
+                    & $3$ & $1,20$ &$ 1,195$ & \citeonline{silvaneto2024seguidor} \\ \hline
+\multirow{2}{*}{50} & $75$ & $1,50$ & $1,345$ & \citeonline{nobrega2019comparaccao} \\ \cline{2-5}
+					& $75$ & $1,19$ & $1,345$ & \citeonline{pinto2025analise} \\ \hline
+\multirow{2}{*}{100}& $100$ & $1,50$ & $1,345$ & \citeonline{nobrega2019comparaccao} \\  \cline{2-5}
+					& $75$ & $1,19$ & $1,345$ & \citeonline{pinto2025analise} \\ \hline
+\multirow{2}{*}{300}& $300$ & $1,80$ & $1,485$ & \citeonline{araujo2023avaliaccao} \\  \cline{2-5}
+					& $300$ & $1,17$ & $1,485$ & \citeonline{casotto2021avaliaccao} \\ \hline
+$500$ & $500$ & $1,36$ & $1,36$ & \citeonline{pinto2025analise} \\ \hline
+\multirow{2}{*}{800}& $781$ & $1,18$ & $1,19$ & \citeonline{elahi2023_ijred} \\  \cline{2-5}
+					& $800$ & $1,20$ & $1,19$ & \citeonline{regia2022_tcc_ufsc} \\ \hline
+\multirow{2}{*}{1000}& $1000$ & $1,18$ & $1,165$ & \citeonline{pinto2025analise} \\  \cline{2-5}
+					 & $2000$ & $1,15$ &  $1,165$ & \citeonline{de2022analise} \\ \hline
 \end{tabular}
-\caption{Relação de custo Fixo/\textit{Tracker}}
+\normalsize
+\fonteautor
 \label{tab:capextracker}
 \end{table}
 
-\subsection{OPEX}
-O \ac{OPEX} (Operational Expenditure) refere-se aos custos operacionais recorrentes, incluindo manutenção, monitoramento, limpeza, seguros e eventuais falhas técnicas. Em sistemas fotovoltaicos com rastreadores solares (\textit{trackers}), os custos de manutenção apresentam um incremento relevante em relação às estruturas fixas, devido à presença de componentes móveis como motores, sensores e sistemas de controle que requerem inspeções periódicas, lubrificação e eventuais reparos. Assim como no Caderno de Preços da Geração (2022/2023)\cite{epe2022} neste trabalho sera utilizado \ac{OPEX} de 1,5\% para sistemas fixos e 2\% para sistemas com (\textit{trackers}). A \autoref{fig:img011}, mostra onde é definido \ac{CAPEX} E \ac{OPEX} do sistema fotovoltaico na ferramenta PV*SOL. 
+\begin{comment}
+\begin{table}[h!]
+	\centering
+	\caption{Relação de custo de investimento entre sistemas fotovoltaicos com rastreamento solar e sistemas de eixo fixo (tracker/fixo) por faixa de potência instalada, compilada a partir de estudos da literatura.}
+	\scriptsize
+	\begin{tabular}{C{1.5cm}C{1.5cm}C{1.5cm}C{1.5cm}c}
+		\hline
+		& \multicolumn{2}{c}{\textbf{Custo relativo tracker/fixo}} & & \\
+		\textbf{Potência (kW)} & \textbf{Estudo 1} & \textbf{Estudo 2} & \textbf{Média} & \textbf{Fonte} \\ \hline
+		10   & 1,19 & 1,20 & 1,195 & \cite{rodrigues2021rastreadores}; \cite{silvaneto2024seguidor} \\
+		50   & 1,50 & 1,19 & 1,345 & \cite{nobrega2019comparaccao}; \cite{pinto2025analise} \\
+		100  & 1,50 & 1,19 & 1,345 & \cite{nobrega2019comparaccao}; \cite{pinto2025analise} \\
+		300  & 1,80 & 1,17 & 1,485 & \cite{araujo2023avaliaccao}; \cite{casotto2021avaliaccao} \\
+		500  & 1,36 & --   & 1,36  & \cite{pinto2025analise} \\
+		800  & 1,18 & 1,20 & 1,19  & \cite{elahi2023_ijred}; \cite{regia2022_tcc_ufsc} \\
+		1000 & 1,18 & 1,15 & 1,165 & \cite{pinto2025analise}; \cite{de2022analise} \\ \hline
+	\end{tabular}
+	\normalsize
+	\fonteautor
+	\label{tab:capextracker}
+\end{table}
+\end{comment}
 
+\subsection{OPEX}
+O \acf{OPEX} corresponde aos custos operacionais recorrentes associados à operação e manutenção de sistemas fotovoltaicos ao longo de sua vida útil, incluindo atividades de manutenção preventiva e corretiva, monitoramento, limpeza, seguros e eventuais substituições de componentes. Em sistemas fotovoltaicos com rastreamento solar, o \ac{OPEX} tende a ser superior ao de estruturas fixas, devido à presença de componentes eletromecânicos adicionais, como motores, sensores e sistemas de controle, que demandam inspeções periódicas, lubrificação e maior frequência de intervenções de manutenção.
+
+Com base no \textit{Caderno de Preços da Geração} (2022/2023) da \citeonline{epe2022}, adotaram-se neste trabalho valores de \ac{OPEX} equivalentes a $1{,}5\%$ do \ac{CAPEX} para sistemas fixos e $2{,}0\%$ do \ac{CAPEX} para sistemas com rastreadores solares. Esses percentuais foram aplicados uniformemente em todos os cenários simulados, garantindo consistência metodológica na comparação econômico-financeira entre as configurações analisadas.
+
+A \autoref{fig:img011} apresenta a etapa de definição dos parâmetros de \ac{CAPEX} e \ac{OPEX} no ambiente de simulação do PV*SOL.
+% O \ac{OPEX} (Operational Expenditure) refere-se aos custos operacionais recorrentes, incluindo manutenção, monitoramento, limpeza, seguros e eventuais falhas técnicas. Em sistemas fotovoltaicos com rastreadores solares (\textit{trackers}), os custos de manutenção apresentam um incremento relevante em relação às estruturas fixas, devido à presença de componentes móveis como motores, sensores e sistemas de controle que requerem inspeções periódicas, lubrificação e eventuais reparos. Assim como no Caderno de Preços da Geração (2022/2023)\cite{epe2022} neste trabalho sera utilizado \ac{OPEX} de 1,5\% para sistemas fixos e 2\% para sistemas com (\textit{trackers}). A \autoref{fig:img011}, mostra onde é definido \ac{CAPEX} E \ac{OPEX} do sistema fotovoltaico na ferramenta PV*SOL. 
 \begin{figure}[h]
 	\centering
-	\caption{Capex e Opex do sistema.}
-	\includegraphics[width=0.6\linewidth]{./textuais/figs/pv007}
+	\caption{Definição dos parâmetros econômicos de investimento (\ac{CAPEX}) e custos operacionais (\ac{OPEX}) no PV*SOL, utilizados como dados de entrada nas simulações econômico-financeiras dos sistemas fotovoltaicos analisados.}
+	\includegraphics[width=0.99\linewidth]{./textuais/figs/pv007}
     \fonteautor
 	\label{fig:img011}
 \end{figure}
@@ -261,332 +282,99 @@ O \ac{OPEX} (Operational Expenditure) refere-se aos custos operacionais recorren
 
 Nesta etapa, são apresentados os diferentes cenários de simulação desenvolvidos no software PV*SOL, contemplando variadas potências de sistemas fotovoltaicos e distintas configurações de instalação. Foram considerados arranjos com estrutura fixa, bem como sistemas equipados com rastreadores solares de um eixo, de modo a possibilitar uma análise comparativa tanto em termos de desempenho energético quanto de viabilidade econômica. Essa estruturação permite avaliar de forma consistente o impacto da escala de potência e da tecnologia empregada sobre os indicadores técnicos e financeiros do projeto.
 
-%\subsection{Usina de 10kW}
-%Para a realização das simulações no software PV*SOL, é imprescindível a parametrização adequada de todos os aspectos técnicos do sistema, assegurando que os resultados obtidos representem com fidelidade as condições reais de operação. Esse processo compreende a definição dos módulos fotovoltaicos, o correto dimensionamento das strings, a seleção dos inversores compatíveis com a potência instalada e a consideração das condições estruturais adotadas em cada cenário. 
-
-%Além disso, incluem-se na modelagem as perdas globais do sistema, e a definição dos custos de implantação (CAPEX) e operação (OPEX), permitindo integrar a análise técnica à avaliação econômico-financeira. Dessa forma, garante-se consistência metodológica tanto nos cálculos de desempenho energético quanto na mensuração da viabilidade dos projetos simulados.
 \subsection{Parâmetros Técnicos}
 Para a realização das simulações no software PV*SOL, foi necessário definir os parâmetros técnicos que caracterizam o sistema fotovoltaico em cada cenário analisado. Esses aspectos incluem a localização geográfica, o modelo de módulo utilizado, a inclinação e orientação dos painéis, a configuração dos rastreadores solares quando aplicáveis, os inversores selecionados e a representação gráfica do arranjo do sistema, garantindo consistência metodológica em todas as análises realizadas.
 
-%Os aspectos técnicos considerados para a execução das simulações no software PV*SOL foram definidos de forma a representar fielmente as condições de instalação e operação do sistema fotovoltaico. A seguir, estão descritos os principais parâmetros adotados:
-\begin{itemize}
-    
-
+\begin{itemize}  
     \item Localização da Usina: As simulações foram realizadas para a cidade de Belo Horizonte – MG, situada na latitude $19,9$°S, longitude $43,9$°O. A escolha da localidade foi feita considerando sua alta incidência solar e relevância para estudos de viabilidade fotovoltaica.
 
     \item Módulo Fotovoltaico: Foi utilizado o módulo \textit{Canadian Solar Inc.} – CS3Y-500MS, de $500$ Wp. Esse modelo foi escolhido por sua ampla disponibilidade no mercado brasileiro e eficiência em torno de $21$\%.
 
-    \item Inclinação e Orientação: Para os sistemas fixos, os módulos foram orientados para o norte geográfico ($0$°) e com inclinação de $20$°, conforme recomendações do CRESESB para Belo Horizonte.
+    \item Inclinação e Orientação: Para os sistemas fixos, os módulos foram orientados para o norte geográfico ($0$°) e com inclinação de $20$°, conforme recomendações do \citeonline{cresesbe2025} para Belo Horizonte.
 
     \item Sistemas com Rastreadores (\textit{trackers}): Nos cenários em que foram utilizados \textit{trackers}, a angulação de movimento considerada foi de -$60$° a +$60$°, contemplando o rastreamento solar ao longo do dia.
-
-    %\item Inversores: Para o sistema de 10 kW, foi utilizado o inversor SOL GPE 10kW da empresa fabricante SOLSYSTEMS GPE.
-
-    \item Adotou-se o modelo simplificado de perdas com percentual global fixo de $14$\% aplicado a todos os cenários, assegurando padronização metodológica.
-
-   % \item Representação Gráfica: Para complementar a descrição técnica, cada cenário contou com a elaboração de um diagrama do sistema no PV*SOL, possibilitando a visualização da configuração adotada em termos de módulos, inversores e conexões principais.
     
-
+    \item Adotou-se o modelo simplificado de perdas com percentual global fixo de $14$\% aplicado a todos os cenários, assegurando padronização metodológica.
 \end{itemize}
 
-\subsection{Parâmetos Financeiros}
+\subsection{Parâmetros Financeiros}
+%Para garantir a consistência e a comparabilidade entre os cenários analisados, adotou-se como premissa que o custo operacional e de manutenção \ac{OPEX}, o custo da energia elétrica e a vida útil dos sistemas serão mantidos iguais para todas as configurações, variando apenas em função das respectivas potências instaladas. Dessa forma, as diferenças observadas nos resultados financeiros refletem exclusivamente o impacto da adoção de estruturas fixas ou com rastreador solar.
+Para garantir consistência e comparabilidade entre os cenários analisados, adotou-se como premissa que o \ac{OPEX}, a tarifa de energia elétrica e a vida útil dos sistemas permanecem constantes para todas as configurações, diferenciando-se apenas conforme o tipo de estrutura (fixa ou com rastreador solar). Dessa forma, as variações observadas nos indicadores econômico-financeiros refletem exclusivamente o impacto da configuração estrutural adotada.
 
-    Para garantir a consistência e a comparabilidade entre os cenários analisados, adotou-se como premissa que o custo operacional e de manutenção \ac{OPEX}, o custo da energia elétrica e a vida útil dos sistemas serão mantidos iguais para todas as configurações, variando apenas em função das respectivas potências instaladas. Dessa forma, as diferenças observadas nos resultados financeiros refletem exclusivamente o impacto da adoção de estruturas fixas ou com rastreador solar.
-    
-    A \autoref{tab:parametrosfinanceiros} apresenta um resumo dos parâmetros financeiros empregados como dados de entrada nas simulações realizadas durante os testes.
+%A \autoref{tab:parametrosfinanceiros} apresenta um resumo dos parâmetros financeiros empregados como dados de entrada nas simulações realizadas durante os testes.
+A \autoref{tab:parametrosfinanceiros} apresenta os parâmetros financeiros utilizados como dados de entrada nas simulações econômico-financeiras.
 
 \begin{table}[h!]
 \centering
-\begin{tabular}{|c|c|c|c|c|}
+\caption{Parâmetros financeiros das simulações.}
+\begin{tabular}{ccC{2cm}c}
 \hline
 \textbf{Tipo de Sistema} &  \textbf{\ac{OPEX}}& \textbf{Custo de Energia}& \textbf{Vida Útil}  \\ \hline
-Fixo &  $1,5$\% & $0,54$ & $25$ anos \\ \hline
-Tracker  & $2,0$\%  & $0,54$ & $25$ anos \\  \hline
-
+Fixo &  $1,5$\% & $0,54$ & $25$ anos \\ 
+Tracker  & $2,0$\%  & $0,54$ & $25$ anos \\  
+\hline
 \end{tabular}
-\caption{Parâmetros Financeiros}
+\fonteautor
 \label{tab:parametrosfinanceiros}
 \end{table}
 
-Na sequência,  a \autoref{tab:capex} apresentam os custos de investimento inicial \ac{CAPEX} referentes a cada sistema fotovoltaico analisado, contemplando as configurações de estrutura fixa e com rastreador solar. Esses custos englobam os principais componentes do sistema, como módulos fotovoltaicos, inversores, estruturas de suporte, equipamentos elétricos, instalação e demais despesas associadas à implantação. A apresentação do \ac{CAPEX} por configuração e por potência instalada permite uma comparação direta entre os sistemas, evidenciando o impacto econômico da adoção de estruturas fixas ou com rastreamento solar no investimento inicial do empreendimento.
+% Na sequência,  a \autoref{tab:capex} apresentam os custos de investimento inicial \ac{CAPEX} referentes a cada sistema fotovoltaico analisado, contemplando as configurações de estrutura fixa e com rastreador solar. Esses custos englobam os principais componentes do sistema, como módulos fotovoltaicos, inversores, estruturas de suporte, equipamentos elétricos, instalação e demais despesas associadas à implantação. A apresentação do \ac{CAPEX} por configuração e por potência instalada permite uma comparação direta entre os sistemas, evidenciando o impacto econômico da adoção de estruturas fixas ou com rastreamento solar no investimento inicial do empreendimento.
+Na sequência, a \autoref{tab:capex} apresenta os custos de investimento inicial (\ac{CAPEX}) estimados para cada potência instalada e configuração estrutural analisada (fixa e com rastreador). Esses valores incluem os principais componentes do sistema fotovoltaico, como módulos, inversores, estruturas de suporte, equipamentos elétricos e custos de instalação. A apresentação do \ac{CAPEX} por potência e por tipo de estrutura permite avaliar diretamente o impacto econômico da adoção de rastreadores solares no investimento inicial do empreendimento.
 
+\begin{comment}
 \begin{table}[h!]
 \centering
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-\textbf{Potência do Sistema (kW)} &  
-\textbf{Tipo de Sistema} & \textbf{CAPEX (R\$)}  \\ \hline
-$10$ & Fixo &  $55.000,00$ \\ \hline
-$10$ & Tracker  & $66.000,00$   \\  \hline
-$50$ & Fixo &   $255.000,00$ \\ \hline
-$50$ & Tracker  &  $318.750,00$   \\  \hline
-$100$ & Fixo &    4$80.000,00$ \\ \hline
-$100$ & Tracker  &   $600.000,00$   \\  \hline
-$300$ & Fixo &   $1.350.000,00$ \\ \hline
-$300$ & Tracker  & $1.687.000,00$   \\  \hline
-$500$ & Fixo & $ 2.100.000,00$ \\ \hline
-$500$ & Tracker  & $2.520.000,00$   \\  \hline
-$800$ & Fixo &   $3.120.000,00$ \\ \hline
-$800$ & Tracker  &  $3.740.000,00$   \\  \hline
-$1000$ & Fixo &  $3.500.000,00$ \\ \hline
-$1000$ & Tracker  & $4.200.000,00$   \\  \hline
+\caption{Custo de investimento inicial (\ac{CAPEX}) estimado para sistemas fotovoltaicos de diferentes potências instaladas e configurações estruturais (fixa e com rastreador solar), utilizado como entrada nas simulações econômico-financeiras.}
+\begin{tabular}{C{3cm}cccc} \hline
+\textbf{Potência do Sistema (kW)} &  \textbf{Tipo de Sistema} & \textbf{CAPEX (R\$)}  \\ \hline
+\multirow{2}{*}{10}   & Fixo    & 55.000  \\
+& Tracker & 66.000  \\ \hline
+\multirow{2}{*}{50}   & Fixo    & 255.000 \\
+& Tracker & 318.750 \\ \hline
+\multirow{2}{*}{100}  & Fixo    & 480.000 \\
+& Tracker & 600.000 \\ \hline
+\multirow{2}{*}{300}  & Fixo    & 1.350.000 \\
+& Tracker & 1.687.000 \\ \hline
+\multirow{2}{*}{500}  & Fixo    & 2.100.000 \\
+& Tracker & 2.520.000 \\ \hline
+\multirow{2}{*}{800}  & Fixo    & 3.120.000 \\
+& Tracker & 3.740.000 \\ \hline
+\multirow{2}{*}{1000} & Fixo    & 3.500.000 \\
+& Tracker & 4.200.000 \\ \hline
 \end{tabular}
-\caption{\ac{CAPEX} das Usinas }
+\fonteautor
 \label{tab:capex}
 \end{table}
-
-
-%\subsection{Usina de 50kW}
-%\subsubsection{Parâmetros Técnicos}
-%Para a realização das simulações no software PV*SOL, foi necessário definir os parâmetros técnicos que caracterizam o sistema fotovoltaico em cada cenário analisado. Esses aspectos incluem a localização geográfica, o modelo de módulo utilizado, a inclinação e orientação dos painéis, a configuração dos rastreadores solares quando aplicáveis, os inversores selecionados e a representação gráfica do arranjo do sistema, garantindo consistência metodológica em todas as análises realizadas.
-%\begin{itemize}
-    
-
-   % \item Localização da Usina: As simulações foram realizadas para a cidade de Belo Horizonte – MG, situada na latitude 19,9°S, longitude 43,9°O. A escolha da localidade foi feita considerando sua alta incidência solar e relevância para estudos de viabilidade fotovoltaica.
-
-   % \item Módulo Fotovoltaico: Foi utilizado o módulo Canadian Solar Inc. – CS3Y-500MS, de 500 Wp. Esse modelo foi escolhido por sua ampla disponibilidade no mercado brasileiro e eficiência em torno de 21\%.
-
-  %  \item Inclinação e Orientação: Para os sistemas fixos, os módulos foram orientados para o norte geográfico (0°) e com inclinação de 20°, conforme recomendações do CRESESB para Belo Horizonte.
-
-   % \item Sistemas com Rastreadores (Trackers): Nos cenários em que foram utilizados trackers, a angulação de movimento considerada foi de -60° a +60°, contemplando o rastreamento solar ao longo do dia.
-
-  % \item Inversores: Para o sistema de 50 kW, foi utilizado o inversor SOL GPE 50kW da empresa fabricante SOLSYSTEMS GPE.
-
-  %  \item adotou-se o modelo simplificado de perdas com percentual global fixo de 14\% aplicado a todos os cenários, assegurando padronização metodológica.
-
-   % \item Representação Gráfica: Para complementar a descrição técnica, cada cenário contou com a elaboração de um diagrama do sistema no PV*SOL, possibilitando a visualização da configuração adotada em termos de módulos, inversores e conexões principais.
-    
-
-%\end{itemize}
-
-%\subsubsection{Parâmetos Financeiros}
-
-    %A Tabela  apresenta um resumo de todos os parâmetros financeiros empregados como dados de entrada nas simulações realizadas durante os testes.
-
-%\begin{table}[h!]
-%\centering
-%\begin{tabular}{|c|c|c|c|c|}
-%\hline
-%\textbf{Tipo de Sistema} & \textbf{CAPEX} & \textbf{OPEX}& \textbf{Custo de Energia}& \textbf{Vida Útil}  \\ \hline
-%Fixo & R\$ 255.000,00 & 1,5\% & 0,54 & 25 anos \\ \hline
-%Tracker & R\$ 318.750,00 & 2,0\%  & 0,54 & 25 anos \\  \hline
-
-%\end{tabular}
-%\caption{Parametros Financeitos das Usinas de 50kW}
-%\label{tab:exemplo}
-%\end{table}
-
-
-
-%\subsection{Usina de 100kW}
-%\subsubsection{Parâmetros Técnicos}
-%Para a realização das simulações no software PV*SOL, foi necessário definir os parâmetros técnicos que caracterizam o sistema fotovoltaico em cada cenário analisado. Esses aspectos incluem a localização geográfica, o modelo de módulo utilizado, a inclinação e orientação dos painéis, a configuração dos rastreadores solares quando aplicáveis, os inversores selecionados e a representação gráfica do arranjo do sistema, garantindo consistência metodológica em todas as análises realizadas.
-%\begin{itemize}
-    
-
-   % \item Localização da Usina: As simulações foram realizadas para a cidade de Belo Horizonte – MG, situada na latitude 19,9°S, longitude 43,9°O. A escolha da localidade foi feita considerando sua alta incidência solar e relevância para estudos de viabilidade fotovoltaica.
-
-  %  \item Módulo Fotovoltaico: Foi utilizado o módulo Canadian Solar Inc. – CS3Y-500MS, de 500 Wp. Esse modelo foi escolhido por sua ampla disponibilidade no mercado brasileiro e eficiência em torno de 21\%.
-
-  %  \item Inclinação e Orientação: Para os sistemas fixos, os módulos foram orientados para o norte geográfico (0°) e com inclinação de 20°, conforme recomendações do CRESESB para Belo Horizonte.
-
-   %\item Sistemas com Rastreadores (Trackers): Nos cenários em que foram utilizados trackers, a angulação de movimento considerada foi de -60° a +60°, contemplando o rastreamento solar ao longo do dia.
-
- %   \item Inversores: Para o sistema de 100 kW, foram utilizados dois inversores SOL GPE 50kW da empresa fabricante SOLSYSTEMS GPE..
-
- %   \item adotou-se o modelo simplificado de perdas com percentual global fixo de 14\% aplicado a todos os cenários, assegurando padronização metodológica.
-
- %  % \item Representação Gráfica: Para complementar a descrição técnica, cada cenário contou com a elaboração de um diagrama do sistema no PV*SOL, possibilitando a visualização da configuração adotada em termos de módulos, inversores e conexões principais.
-    
-
-%\end{itemize}
-
-%\subsubsection{Parâmetos Financeiros}
-
-   % A Tabela  apresenta um resumo de todos os parâmetros financeiros empregados como dados de entrada nas simulações realizadas durante os testes.
-
-%\begin{table}[h!]
-%\centering
-%\begin{tabular}{|c|c|c|c|c|}
-%\hline
-%\textbf{Tipo de Sistema} & %\textbf{CAPEX} & \textbf{OPEX}& \textbf{Custo de Energia}& \textbf{Vida Útil}  \\ \hline
-%Fixo & R\$ 480.000,00 & 1,5\% & 0,54 & 25 anos \\ \hline
-%Tracker & R\$ 600.000,00 & 2,0\%  & 0,54 & 25 anos \\  \hline
-
-%\end{tabular}
-%\caption{Parametros Financeitos das Usinas de 100kW}
-%\label{tab:exemplo}
-%\end{table}
-
-
-
-%\subsection{Usina de 300kW}
-%\subsubsection{Parâmetros Técnicos}
-%Para a realização das simulações no software PV*SOL, foi necessário definir os parâmetros técnicos que caracterizam o sistema fotovoltaico em cada cenário analisado. Esses aspectos incluem a localização geográfica, o modelo de módulo utilizado, a inclinação e orientação dos painéis, a configuração dos rastreadores solares quando aplicáveis, os inversores selecionados e a representação gráfica do arranjo do sistema, garantindo consistência metodológica em todas as análises realizadas.
-%\begin{itemize}
-    
-
-%    \item Localização da Usina: As simulações foram realizadas para a cidade de Belo Horizonte – MG, situada na latitude 19,9°S, longitude 43,9°O. A escolha da localidade foi feita considerando sua alta incidência solar e relevância para estudos de viabilidade fotovoltaica.
-
- %   \item Módulo Fotovoltaico: Foi utilizado o módulo Canadian Solar Inc. – CS3Y-500MS, de 500 Wp. Esse modelo foi escolhido por sua ampla disponibilidade no mercado brasileiro e eficiência em torno de 21\%.
-
-%    \item Inclinação e Orientação: Para os sistemas fixos, os módulos foram orientados para o norte geográfico (0°) e com inclinação de 20°, conforme recomendações do CRESESB para Belo Horizonte.
-
-  %  \item Sistemas com Rastreadores (Trackers): Nos cenários em que foram utilizados trackers, a angulação de movimento considerada foi de -60° a +60°, contemplando o rastreamento solar ao longo do dia.
-
- %   \item Inversores: Para o sistema de 300 kW, foram utilizados três inversores CSI-100K-T4001B-E da empresa fabricante CANADIAN SOLAR INC..
-
-  %  \item adotou-se o modelo simplificado de perdas com percentual global fixo de 14\% aplicado a todos os cenários, assegurando padronização metodológica.
-
-   % \item Representação Gráfica: Para complementar a descrição técnica, cada cenário contou com a elaboração de um diagrama do sistema no PV*SOL, possibilitando a visualização da configuração adotada em termos de módulos, inversores e conexões principais.
-    
-
-%\end{itemize}
-
-%\subsubsection{Parâmetos Financeiros}
-
-   % A Tabela  apresenta um resumo de todos os parâmetros financeiros empregados como dados de entrada nas simulações realizadas durante os testes.
-
-%\begin{table}[h!]
-%\centering
-%\begin{tabular}{|c|c|c|c|c|}
-%\hline
-%\textbf{Tipo de Sistema} & \textbf{CAPEX} & \textbf{OPEX}& \textbf{Custo de Energia}& \textbf{Vida Útil}  \\ \hline
-%Fixo & R\$ 1.350.000,00 & 1,5\% & 0,54 & 25 anos \\ \hline
-%Tracker & R\$ 1.687.000,00 & 2,0\%  & 0,54 & 25 anos \\  \hline
-
-%\end{tabular}
-%\caption{Parametros Financeitos das Usinas de 300kW}
-%\label{tab:exemplo}
-%\end{table}
-
-
-
-%\subsection{Usina de 500kW}
-%\subsubsection{Parâmetros Técnicos}
-%Para a realização das simulações no software PV*SOL, foi necessário definir os parâmetros técnicos que caracterizam o sistema fotovoltaico em cada cenário analisado. Esses aspectos incluem a localização geográfica, o modelo de módulo utilizado, a inclinação e orientação dos painéis, a configuração dos rastreadores solares quando aplicáveis, os inversores selecionados e a representação gráfica do arranjo do sistema, garantindo consistência metodológica em todas as análises realizadas.
-%\begin{itemize}
-    
-
-    %\item Localização da Usina: As simulações foram realizadas para a cidade de Belo Horizonte – MG, situada na latitude 19,9°S, longitude 43,9°O. A escolha da localidade foi feita considerando sua alta incidência solar e relevância para estudos de viabilidade fotovoltaica.
-
-  %  \item Módulo Fotovoltaico: Foi utilizado o módulo Canadian Solar Inc. – CS3Y-500MS, de 500 Wp. Esse modelo foi escolhido por sua ampla disponibilidade no mercado brasileiro e eficiência em torno de 21\%.
-
-   % \item Inclinação e Orientação: Para os sistemas fixos, os módulos foram orientados para o norte geográfico (0°) e com inclinação de 20°, conforme recomendações do CRESESB para Belo Horizonte.
-
-  %  \item Sistemas com Rastreadores (Trackers): Nos cenários em que foram utilizados trackers, a angulação de movimento considerada foi de -60° a +60°, contemplando o rastreamento solar ao longo do dia.
-
-  %  \item Inversores: Para o sistema de 500 kW, foram utilizados quatro inversores CSI-125KTL-GI-E da empresa fabricante CANADIAN SOLAR INC..
-
-  %  \item adotou-se o modelo simplificado de perdas com percentual global fixo de 14\% aplicado a todos os cenários, assegurando padronização metodológica.
-
-   % \item Representação Gráfica: Para complementar a descrição técnica, cada cenário contou com a elaboração de um diagrama do sistema no PV*SOL, possibilitando a visualização da configuração adotada em termos de módulos, inversores e conexões principais.
-    
-
-%\end{itemize}
-
-%\subsubsection{Parâmetos Financeiros}
-
-   % A Tabela  apresenta um resumo de todos os parâmetros financeiros empregados como dados de entrada nas simulações realizadas durante os testes.
-
-%\begin{table}[h!]
-%\centering
-%\begin{tabular}{|c|c|c|c|c|}
-%\hline
-%\textbf{Tipo de Sistema} & \textbf{CAPEX} & \textbf{OPEX}& \textbf{Custo de Energia}& \textbf{Vida Útil}  \\ \hline
-%Fixo & R\$ 2.100.000,00 & 1,5\% & 0,54 & 25 anos \\ \hline
-%Tracker & R\$ 2.520.000,00 & 2,0\%  & 0,54 & 25 anos \\  \hline
-
-%\end{tabular}
-%\caption{Parametros Financeitos das Usinas de 500kW}
-%\label{tab:exemplo}
-%\end{table}
-
-
-%\subsection{Usina de 800kW}
-%\subsubsection{Parâmetros Técnicos}
-%Para a realização das simulações no software PV*SOL, foi necessário definir os parâmetros técnicos que caracterizam o sistema fotovoltaico em cada cenário analisado. Esses aspectos incluem a localização geográfica, o modelo de módulo utilizado, a inclinação e orientação dos painéis, a configuração dos rastreadores solares quando aplicáveis, os inversores selecionados e a representação gráfica do arranjo do sistema, garantindo consistência metodológica em todas as análises realizadas.
-%\begin{itemize}
-    
-
-   % \item Localização da Usina: As simulações foram realizadas para a cidade de Belo Horizonte – MG, situada na latitude 19,9°S, longitude 43,9°O. A escolha da localidade foi feita considerando sua alta incidência solar e relevância para estudos de viabilidade fotovoltaica.
-
-  %  \item Módulo Fotovoltaico: Foi utilizado o módulo Canadian Solar Inc. – CS3Y-500MS, de 500 Wp. Esse modelo foi escolhido por sua ampla disponibilidade no mercado brasileiro e eficiência em torno de 21\%.
-
-   %\item Inclinação e Orientação: Para os sistemas fixos, os módulos foram orientados para o norte geográfico (0°) e com inclinação de 20°, conforme recomendações do CRESESB para Belo Horizonte.
-
-   % \item Sistemas com Rastreadores (Trackers): Nos cenários em que foram utilizados trackers, a angulação de movimento considerada foi de -60° a +60°, contemplando o rastreamento solar ao longo do dia.
-
-   % \item Inversores: Para o sistema de 800 kW, foram utilizados quatro inversores SIW500H ST200 H3 da empresa fabricante WEG..
-
-   % \item adotou-se o modelo simplificado de perdas com percentual global fixo de 14\% aplicado a todos os cenários, assegurando padronização metodológica.
-
-   % \item Representação Gráfica: Para complementar a descrição técnica, cada cenário contou com a elaboração de um diagrama do sistema no PV*SOL, possibilitando a visualização da configuração adotada em termos de módulos, inversores e conexões principais.
-    
-
-%\end{itemize}
-
-%\subsubsection{Parâmetos Financeiros}
-
-  %  A Tabela  apresenta um resumo de todos os parâmetros financeiros empregados como dados de entrada nas simulações realizadas durante os testes.
-
-%\begin{table}[h!]
-%\centering
-%\begin{tabular}{|c|c|c|c|c|}
-%\hline
-%\textbf{Tipo de Sistema} & \textbf{CAPEX} & \textbf{OPEX}& \textbf{Custo de Energia}& \textbf{Vida Útil}  \\ \hline
-%Fixo & R\$ 3.120.000,00 & 1,5\% & 0,54 & 25 anos \\ \hline
-%Tracker & R\$ 3.744.000,00 & 2,0\%  & 0,54 & 25 anos \\  \hline
-
-%\end{tabular}
-%\caption{Parametros Financeitos das Usinas de 800kW}
-%\label{tab:exemplo}
-%\end{table}
-
-
-%\subsection{Usina de 1MW}
-%\subsubsection{Parâmetros Técnicos}
-%Para a realização das simulações no software PV*SOL, foi necessário definir os parâmetros técnicos que caracterizam o sistema fotovoltaico em cada cenário analisado. Esses aspectos incluem a localização geográfica, o modelo de módulo utilizado, a inclinação e orientação dos painéis, a configuração dos rastreadores solares quando aplicáveis, os inversores selecionados e a representação gráfica do arranjo do sistema, garantindo consistência metodológica em todas as análises realizadas.
-%\begin{itemize}
-    
-
- %  \item Localização da Usina: As simulações foram realizadas para a cidade de Belo Horizonte – MG, situada na latitude 19,9°S, longitude 43,9°O. A escolha da localidade foi feita considerando sua alta incidência solar e relevância para estudos de viabilidade fotovoltaica.
-
-   % \item Módulo Fotovoltaico: Foi utilizado o módulo Canadian Solar Inc. – CS3Y-500MS, de 500 Wp. Esse modelo foi escolhido por sua ampla disponibilidade no mercado brasileiro e eficiência em torno de 21\%.
-
-  %  \item Inclinação e Orientação: Para os sistemas fixos, os módulos foram orientados para o norte geográfico (0°) e com inclinação de 20°, conforme recomendações do CRESESB para Belo Horizonte.
-
-  %  \item Sistemas com Rastreadores (Trackers): Nos cenários em que foram utilizados trackers, a angulação de movimento considerada foi de -60° a +60°, contemplando o rastreamento solar ao longo do dia.
-
-  %  \item Inversores: Para o sistema de 1MW, foram utilizados cinco inversores SIW500H ST200 H3 da empresa fabricante WEG..
-
-  %  \item adotou-se o modelo simplificado de perdas com percentual global fixo de 14\% aplicado a todos os cenários, assegurando padronização metodológica.
-
-   % \item Representação Gráfica: Para complementar a descrição técnica, cada cenário contou com a elaboração de um diagrama do sistema no PV*SOL, possibilitando a visualização da configuração adotada em termos de módulos, inversores e conexões principais.
-    
-
-%\end{itemize}
-
-%\subsubsection{Parâmetos Financeiros}
-
- %   A Tabela  apresenta um resumo de todos os parâmetros financeiros empregados como dados de entrada nas simulações realizadas durante os testes.
-
-%\begin{table}[h!]
-%\centering
-%\begin{tabular}{|c|c|c|c|c|}
-%\hline
-%\textbf{Tipo de Sistema} & \textbf{CAPEX} & \textbf{OPEX}& \textbf{Custo de Energia}& \textbf{Vida Útil}  \\ \hline
-%Fixo & R\$ 3.500.000,00 & 1,5\% & 0,54 & 25 anos \\ \hline
-%Tracker & R\$ 4.200.000,00 & 2,0\%  & 0,54 & 25 anos \\  \hline
-
-%\end{tabular}
-%\caption{Parâmetros Financeiros das Usinas de 1MW}
-%\label{tab:exemplo}
-%\end{table}
-
-
-
-%\section{Conclusões parciais}
-
+\end{comment}
+
+\begin{table}[h!]
+	\centering
+	\caption{Custo de investimento inicial (\ac{CAPEX}) estimado para sistemas fotovoltaicos de diferentes potências instaladas e configurações estruturais. A relação Tracker/Fixo indica o acréscimo relativo de investimento associado ao uso de rastreadores solares.}
+	\begin{tabular}{cccc}
+		\hline
+		& \multicolumn{2}{c}{\textbf{CAPEX (R\$)}} & \\
+		\textbf{Potência (kW)} & \textbf{Fixo} & \textbf{Tracker} & \textbf{Tracker/Fixo} \\ \hline
+		10   & 55.000   & 66.000   & 1,20 \\
+		50   & 255.000  & 318.750  & 1,25 \\
+		100  & 480.000  & 600.000  & 1,25 \\
+		300  & 1.350.000 & 1.687.000 & 1,25 \\
+		500  & 2.100.000 & 2.520.000 & 1,20 \\
+		800  & 3.120.000 & 3.740.000 & 1,20 \\
+		1000 & 3.500.000 & 4.200.000 & 1,20 \\ \hline
+	\end{tabular}
+\fonteautor
+	\label{tab:capex}
+\end{table}
+
+Observa-se que o acréscimo de \ac{CAPEX} associado ao uso de rastreadores situa-se aproximadamente entre 20\% e 25\% em todas as faixas de potência analisadas, em concordância com os valores reportados na literatura.
+
+\section{Conclusões parciais}
+Neste capítulo foram apresentados os procedimentos metodológicos adotados para a modelagem, simulação e avaliação técnico-econômica de sistemas fotovoltaicos com diferentes potências instaladas e configurações estruturais. A utilização do software PV*SOL permitiu a padronização dos parâmetros técnicos e financeiros, assegurando consistência e reprodutibilidade das simulações realizadas.
+
+No dimensionamento dos sistemas, foram definidos critérios uniformes quanto à localização geográfica, orientação e inclinação dos módulos, seleção de equipamentos e modelagem de perdas, de modo a garantir que as diferenças de desempenho observadas entre os cenários resultem exclusivamente das variáveis de interesse, em especial do uso de estruturas fixas ou com rastreamento solar. A adoção de perdas globais fixas e de um mesmo modelo de módulo fotovoltaico e inversores compatíveis contribuiu para a comparabilidade técnica entre as configurações analisadas.
+
+Do ponto de vista econômico, foram estabelecidos parâmetros financeiros consistentes para todos os cenários, incluindo vida útil do sistema, tarifa de energia e custos operacionais. O \ac{CAPEX} foi estimado a partir de referências nacionais de custos de implantação de sistemas fotovoltaicos, ajustado conforme a potência instalada e acrescido do diferencial associado ao uso de rastreadores solares, conforme valores consolidados na literatura. O \ac{OPEX} foi definido como percentual do investimento inicial, com valores distintos para sistemas fixos e com rastreamento, refletindo a maior complexidade operacional destes últimos.
+
+A estruturação dos cenários contemplou potências representativas de aplicações fotovoltaicas no contexto brasileiro, permitindo analisar de forma abrangente o impacto da escala do sistema e da configuração estrutural nos indicadores técnico-econômicos. Dessa forma, a metodologia adotada estabelece uma base consistente para a análise comparativa de desempenho energético e viabilidade econômica dos sistemas fotovoltaicos estudados, cujos resultados são apresentados e discutidos no capítulo seguinte.
 
 

@@ -42,15 +42,12 @@ Database file #1: abntex2-options.bib
 Database file #2: ./referencias.bib
 Warning--entry type for "ipcc2021" isn't style-file defined
 --line 8 of file ./referencias.bib
-Warning--entry type for "nucleodoconhecimento_tracker" isn't style-file defined
---line 403 of file ./referencias.bib
-Warning--entry type for "revistaft_seguidor_solar" isn't style-file defined
---line 411 of file ./referencias.bib
-Repeated entry---line 473 of file ./referencias.bib
+Warning--entry type for "epe2022" isn't style-file defined
+--line 286 of file ./referencias.bib
+Repeated entry---line 486 of file ./referencias.bib
  : @article{de2022analise
  :                       ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "AbSolar"
 Warning--I didn't find a database entry for "ferreira2014estimativas"
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
@@ -62,45 +59,45 @@ Warning--campo year vazio ou faltando em resolucaoaneel
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 58 entries,
+You've used 55 entries,
             6714 wiz_defined-function locations,
-            1514 strings with 22427 characters,
-and the built_in function-call counts, 61861 in all, are:
-= -- 6038
-> -- 1648
-< -- 1021
-+ -- 1592
-- -- 500
-* -- 4158
-:= -- 7993
-add.period$ -- 201
-call.type$ -- 58
-change.case$ -- 590
-chr.to.int$ -- 121
-cite$ -- 58
-duplicate$ -- 4905
-empty$ -- 3256
-format.name$ -- 2405
-if$ -- 13154
+            1504 strings with 22025 characters,
+and the built_in function-call counts, 61127 in all, are:
+= -- 6112
+> -- 1577
+< -- 1102
++ -- 1648
+- -- 478
+* -- 4093
+:= -- 7846
+add.period$ -- 187
+call.type$ -- 55
+change.case$ -- 561
+chr.to.int$ -- 118
+cite$ -- 55
+duplicate$ -- 5044
+empty$ -- 3039
+format.name$ -- 2298
+if$ -- 12834
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 989
-newline$ -- 292
-num.names$ -- 285
-pop$ -- 1289
+missing$ -- 939
+newline$ -- 281
+num.names$ -- 270
+pop$ -- 1216
 preamble$ -- 1
-purify$ -- 226
+purify$ -- 215
 quote$ -- 0
-skip$ -- 5138
+skip$ -- 5260
 stack$ -- 1
-substring$ -- 2665
-swap$ -- 1882
-text.length$ -- 73
+substring$ -- 2648
+swap$ -- 1922
+text.length$ -- 72
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 1
-while$ -- 420
+while$ -- 397
 width$ -- 0
-write$ -- 893
+write$ -- 849
 (There was 1 error message)

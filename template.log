@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.12.1)  23 FEB 2026 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.12.1)  24 FEB 2026 22:29
 entering extended mode
 **./template.tex
 (template.tex
@@ -891,9 +891,298 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks37
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 100.
+(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks38
+\pgfutil@tempdima=\dimen299
+\pgfutil@tempdimb=\dimen300
 
-(C:\Program Files\MiKTeX\tex/latex/mdframed\mdframed.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box62
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks41
+))
+\pgf@x=\dimen301
+\pgf@y=\dimen302
+\pgf@xa=\dimen303
+\pgf@ya=\dimen304
+\pgf@xb=\dimen305
+\pgf@yb=\dimen306
+\pgf@xc=\dimen307
+\pgf@yc=\dimen308
+\pgf@xd=\dimen309
+\pgf@yd=\dimen310
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count364
+\c@pgf@countb=\count365
+\c@pgf@countc=\count366
+\c@pgf@countd=\count367
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
+\pgf@sys@id@count=\count368
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count369
+\pgfsyssoftpath@bigbuffer@items=\count370
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen311
+\pgfmath@count=\count371
+\pgfmath@box=\box63
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.co
+de.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.
+tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
+cs.code.tex)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count372
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen312
+\pgf@picmaxx=\dimen313
+\pgf@picminy=\dimen314
+\pgf@picmaxy=\dimen315
+\pgf@pathminx=\dimen316
+\pgf@pathmaxx=\dimen317
+\pgf@pathminy=\dimen318
+\pgf@pathmaxy=\dimen319
+\pgf@xx=\dimen320
+\pgf@xy=\dimen321
+\pgf@yx=\dimen322
+\pgf@yy=\dimen323
+\pgf@zx=\dimen324
+\pgf@zy=\dimen325
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
+ex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen326
+\pgf@path@lasty=\dimen327
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen328
+\pgf@shorten@start@additional=\dimen329
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count373
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
+x
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen330
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
+.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen331
+\pgf@pt@y=\dimen332
+\pgf@pt@temp=\dimen333
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.
+tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen334
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen335
+\pgf@sys@shading@range@num=\count374
+\pgf@shadingcount=\count375
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box67
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.te
+x
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box68
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen336
+\pgf@nodesepend=\dimen337
+)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
+\pgffor@iter=\dimen338
+\pgffor@skip=\dimen339
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
+tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count376
+\pgfplotmarksize=\dimen340
+)
+\tikz@lastx=\dimen341
+\tikz@lasty=\dimen342
+\tikz@lastxsaved=\dimen343
+\tikz@lastysaved=\dimen344
+\tikz@lastmovetox=\dimen345
+\tikz@lastmovetoy=\dimen346
+\tikzleveldistance=\dimen347
+\tikzsiblingdistance=\dimen348
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count377
+\tikznumberofchildren=\count378
+\tikznumberofcurrentchild=\count379
+\tikz@fig@count=\count380
+ (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count381
+\pgfmatrixcurrentcolumn=\count382
+\pgf@matrix@numberofcolumns=\count383
+)
+\tikz@expandcount=\count384
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Program Files\MiKTeX\tex/latex/tikz-3dplot\tikz-3dplot.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ry3d.code.tex
+File: tikzlibrary3d.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen349
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.t
+ex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen350
+\pgfarrowlength=\dimen351
+\pgfarrowwidth=\dimen352
+\pgfarrowlinewidth=\dimen353
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 110.
+ (C:\Program Files\MiKTeX\tex/latex/mdframed\mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
 
 (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
@@ -902,14 +1191,14 @@ Package: expl3 2021-08-27 L3 programming layer (loader)
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count364
-\l__pdf_internal_box=\box62
+\l__color_backend_stack_int=\count385
+\l__pdf_internal_box=\box73
 ))
 Package: xparse 2021-08-27 L3 Experimental document command parser
 )
 (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count365
+\etb@tempcnta=\count386
 )
 (C:\Program Files\MiKTeX\tex/latex/zref\zref-abspage.sty
 Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
@@ -920,11 +1209,11 @@ Package zref Info: New property list: main on input line 764.
 Package zref Info: New property: default on input line 765.
 Package zref Info: New property: page on input line 766.
 )
-\c@abspage=\count366
+\c@abspage=\count387
 Package zref Info: New property: abspage on input line 66.
 )
 \mdf@templength=\skip267
-\c@mdf@globalstyle@cnt=\count367
+\c@mdf@globalstyle@cnt=\count388
 \mdf@skipabove@length=\skip268
 \mdf@skipbelow@length=\skip269
 \mdf@leftmargin@length=\skip270
@@ -968,11 +1257,11 @@ Package zref Info: New property: abspage on input line 66.
 (C:\Program Files\MiKTeX\tex/latex/mdframed\md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box63
-\mdf@footnotebox=\box64
-\mdf@splitbox@one=\box65
-\mdf@splitbox@two=\box66
-\mdf@splitbox@save=\box67
+\mdf@frametitlebox=\box74
+\mdf@footnotebox=\box75
+\mdf@splitbox@one=\box76
+\mdf@splitbox@two=\box77
+\mdf@splitbox@save=\box78
 \mdfsplitboxwidth=\skip307
 \mdfsplitboxtotalwidth=\skip308
 \mdfsplitboxheight=\skip309
@@ -1000,19 +1289,19 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip331
 \mdfsubtitleheight=\skip332
 \mdfsubsubtitleheight=\skip333
-\c@mdfcountframes=\count368
+\c@mdfcountframes=\count389
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count369
-\c@mdf@env@i=\count370
-\c@mdf@env@ii=\count371
-\c@mdf@zref@counter=\count372
+\mdf@envdepth=\count390
+\c@mdf@env@i=\count391
+\c@mdf@env@ii=\count392
+\c@mdf@zref@counter=\count393
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-\c@contador=\count373
+\c@contador=\count394
  (template.aux
 (pretextuais/dedicatoria.aux) (pretextuais/agradecimentos.aux)
 (pretextuais/epigrafe.aux) (pretextuais/resumo.aux) (pretextuais/abstract.aux)
@@ -1021,25 +1310,25 @@ Package zref Info: New property: mdf@pagevalue on input line 895.
 (textuais/Resultados.aux) (textuais/conclusao.aux))
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 151.
-LaTeX Font Info:    ... okay on input line 151.
-Package hyperref Info: Link coloring ON on input line 151.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+Package hyperref Info: Link coloring ON on input line 161.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1050,34 +1339,34 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count374
+\c@section@level=\count395
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 151.
-LaTeX Info: Redefining \ref on input line 151.
-LaTeX Info: Redefining \pageref on input line 151.
-LaTeX Info: Redefining \nameref on input line 151.
-LaTeX Info: Redefining \degres on input line 151.
-LaTeX Info: Redefining \up on input line 151.
-\myptabbox=\box68
+LaTeX Info: Redefining \nameref on input line 161.
+LaTeX Info: Redefining \ref on input line 161.
+LaTeX Info: Redefining \pageref on input line 161.
+LaTeX Info: Redefining \nameref on input line 161.
+LaTeX Info: Redefining \degres on input line 161.
+LaTeX Info: Redefining \up on input line 161.
+\myptabbox=\box79
 \myptabboxwidth=\skip334
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 151.
+(lastpage)             ! on input line 161.
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count375
-\scratchdimen=\dimen299
-\scratchbox=\box69
-\nofMPsegments=\count376
-\nofMParguments=\count377
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count378
-\MPscratchDim=\dimen300
-\MPnumerator=\count379
-\makeMPintoPDFobject=\count380
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count396
+\scratchdimen=\dimen354
+\scratchbox=\box80
+\nofMPsegments=\count397
+\nofMParguments=\count398
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count399
+\MPscratchDim=\dimen355
+\MPnumerator=\count400
+\makeMPintoPDFobject=\count401
+\everyMPtoPDFconversion=\toks51
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1088,54 +1377,54 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<figsTemplate/UFOP.png, id=3, 179.2296pt x 487.5816pt>
+<figsTemplate/UFOP.png, id=6, 179.2296pt x 487.5816pt>
 File: figsTemplate/UFOP.png Graphic file (type png)
 <use figsTemplate/UFOP.png>
-Package pdftex.def Info: figsTemplate/UFOP.png  used on input line 167.
+Package pdftex.def Info: figsTemplate/UFOP.png  used on input line 177.
 (pdftex.def)             Requested size: 26.88327pt x 73.13408pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-67.
+77.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-67.
+77.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-167.
+177.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-167.
+177.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 167.
+(Font)              <12> on input line 177.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 167.
+(Font)              <8> on input line 177.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 167.
+(Font)              <6> on input line 177.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-67.
+77.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<figsTemplate/ICEA.png, id=5, 64.74188pt x 48.93282pt>
+<figsTemplate/ICEA.png, id=8, 64.74188pt x 48.93282pt>
 File: figsTemplate/ICEA.png Graphic file (type png)
 <use figsTemplate/ICEA.png>
-Package pdftex.def Info: figsTemplate/ICEA.png  used on input line 167.
+Package pdftex.def Info: figsTemplate/ICEA.png  used on input line 177.
 (pdftex.def)             Requested size: 77.68985pt x 58.71906pt.
 
-Overfull \hbox (32.18707pt too wide) in paragraph at lines 167--167
+Overfull \hbox (32.18707pt too wide) in paragraph at lines 177--177
 [][] 
  []
 
@@ -1146,7 +1435,7 @@ UFOP.png> <./figsTemplate/ICEA.png>]pdfTeX warning (ext4): destination with the
  same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.170 
+l.180 
        [1
 
 
@@ -1200,7 +1489,10 @@ although it is yet undefined on input line 31.
 ]) (template.lof
 Package acronym Info: Label `acro:CAPEX' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 16.
+although it is yet undefined on input line 13.
+Package acronym Info: Label `acro:OPEX' newly defined as it shall be overridden
+
+although it is yet undefined on input line 13.
 ) [7
 
 
@@ -1210,41 +1502,41 @@ although it is yet undefined on input line 16.
 
  (pretextuais/acronimos.tex
 
-LaTeX Warning: Hyper reference `acro:CC' on page 8 undefined on input line 27.
+LaTeX Warning: Hyper reference `acro:CA' on page 8 undefined on input line 15.
 
 
-LaTeX Warning: Hyper reference `acro:CC' on page 8 undefined on input line 27.
+LaTeX Warning: Hyper reference `acro:CA' on page 8 undefined on input line 15.
 
 
-LaTeX Warning: Hyper reference `acro:CA' on page 8 undefined on input line 28.
+LaTeX Warning: Hyper reference `acro:CC' on page 8 undefined on input line 17.
 
 
-LaTeX Warning: Hyper reference `acro:CA' on page 8 undefined on input line 28.
-
-
-LaTeX Warning: Hyper reference `acro:CRESESB' on page 8 undefined on input line
- 29.
+LaTeX Warning: Hyper reference `acro:CC' on page 8 undefined on input line 17.
 
 
 LaTeX Warning: Hyper reference `acro:CRESESB' on page 8 undefined on input line
- 29.
+ 20.
 
 
-LaTeX Warning: Hyper reference `acro:EPÃ‰' on page 8 undefined on input line 37
-.
+LaTeX Warning: Hyper reference `acro:CRESESB' on page 8 undefined on input line
+ 20.
 
 
-LaTeX Warning: Hyper reference `acro:EPÃ‰' on page 8 undefined on input line 37
-.
+LaTeX Warning: Hyper reference `acro:EPE' on page 8 undefined on input line 21.
+
+
+
+LaTeX Warning: Hyper reference `acro:EPE' on page 8 undefined on input line 21.
+
 
 [8
 
 
 
-]) (template.lot) [9
+]) (template.lot [9
 
 
-]
+]) [10]
 \openout2 = `./pretextuais/simbolos.aux'.
 
  (pretextuais/simbolos.tex) (template.toc
@@ -1254,19 +1546,19 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 16.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 17.
- [10
+ [11
 
 
 
 
-]) [11]
+])
+[12]
 \openout2 = `./textuais/introducao.aux'.
 
-
-(textuais/introducao.tex
+ (textuais/introducao.tex
 Package acronym Info: Label `acro:FS' newly defined as it shall be overridden
 although it is yet undefined on input line 3.
-<./textuais/figs/img001.png, id=368, 394.47375pt x 375.20175pt>
+<./textuais/figs/img001.png, id=468, 394.47375pt x 375.20175pt>
 File: ./textuais/figs/img001.png Graphic file (type png)
 <use ./textuais/figs/img001.png>
 Package pdftex.def Info: ./textuais/figs/img001.png  used on input line 14.
@@ -1283,7 +1575,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 Package hyperref Warning: Suppressing empty link on input line 19.
 
-<./textuais/figs/img002.png, id=375, 342.5297pt x 365.11406pt>
+<./textuais/figs/img002.png, id=475, 342.5297pt x 365.11406pt>
 File: ./textuais/figs/img002.png Graphic file (type png)
 <use ./textuais/figs/img002.png>
 Package pdftex.def Info: ./textuais/figs/img002.png  used on input line 24.
@@ -1291,10 +1583,10 @@ Package pdftex.def Info: ./textuais/figs/img002.png  used on input line 24.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12
+[13
 
 
-]) [13 <./textuais/figs/img001.png>] [14 <./textuais/figs/img002.png>]
+]) [14 <./textuais/figs/img001.png>] [15 <./textuais/figs/img002.png>]
 \openout2 = `./textuais/fundamentos.aux'.
 
 
@@ -1304,10 +1596,20 @@ Package acronym Info: Label `acro:LCOE' newly defined as it shall be overridden
 although it is yet undefined on input line 7.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 9.
-Package acronym Info: Label `acro:OPEX' newly defined as it shall be overridden
 
-although it is yet undefined on input line 18.
- [15
+
+pdfTeX warning: pdflatex.exe (file ./textuais/figs/angulos_solar.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<./textuais/figs/angulos_solar.pdf, id=516, 610.19968pt x 425.67029pt>
+File: ./textuais/figs/angulos_solar.pdf Graphic file (type pdf)
+<use ./textuais/figs/angulos_solar.pdf>
+Package pdftex.def Info: ./textuais/figs/angulos_solar.pdf  used on input line 
+18.
+(pdftex.def)             Requested size: 409.49722pt x 196.37163pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16
 
 
 
@@ -1315,88 +1617,51 @@ although it is yet undefined on input line 18.
 ]
 Package acronym Info: Label `acro:ANEEL' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 20.
+although it is yet undefined on input line 28.
 Package acronym Info: Label `acro:GD' newly defined as it shall be overridden
-although it is yet undefined on input line 20.
+although it is yet undefined on input line 28.
+ [17 <./textuais/figs/angulos_solar.pdf>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 28.
- [16]
-<./textuais/figs/img003.png, id=448, 504.6855pt x 389.0535pt>
-File: ./textuais/figs/img003.png Graphic file (type png)
-<use ./textuais/figs/img003.png>
-Package pdftex.def Info: ./textuais/figs/img003.png  used on input line 47.
-(pdftex.def)             Requested size: 273.00278pt x 210.45975pt.
-
-
-LaTeX Warning: Citation `AbSolar' on page 17 undefined on input line 48.
-
-[17 <./textuais/figs/img003.png>] [18] [19] [20]
-Overfull \hbox (10.95479pt too wide) in paragraph at lines 127--128
-\T1/lmr/m/n/12 adi-ci-o-nal, ge-ral-mente va-ri-ando en-tre $\OT1/lmr/m/n/12 1$
-\T1/lmr/m/n/12 % e $\OT1/lmr/m/n/12 5$\T1/lmr/m/n/12 % da ener-gia ge-rada pelo
- sis-tema ([][]CHANG[][],
- []
-
-[21]
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 34.
+ [18] [19] [20] [21]
 Package acronym Info: Label `acro:VPL' newly defined as it shall be overridden
-although it is yet undefined on input line 142.
- [22]
+although it is yet undefined on input line 155.
+ [22] [23]
 Package acronym Info: Label `acro:TMA' newly defined as it shall be overridden
-although it is yet undefined on input line 186.
- [23]
+although it is yet undefined on input line 197.
+
 
 LaTeX Warning: Citation `ferreira2014estimativas' on page 24 undefined on input
- line 202.
+ line 210.
 
 [24]
 Package acronym Info: Label `acro:SFCR' newly defined as it shall be overridden
 
-although it is yet undefined on input line 225.
+although it is yet undefined on input line 227.
 Package acronym Info: Label `acro:ICMS' newly defined as it shall be overridden
 
-although it is yet undefined on input line 229.
-
-
-Package acronym Warning: Acronym `ICMS' is not defined on input line 229.
-
-
-Package acronym Warning: Acronym `ICMS' is not defined on input line 229.
-
+although it is yet undefined on input line 227.
 Package acronym Info: Label `acro:PIS' newly defined as it shall be overridden
-although it is yet undefined on input line 229.
-
-Package acronym Warning: Acronym `PIS' is not defined on input line 229.
-
-
-Package acronym Warning: Acronym `PIS' is not defined on input line 229.
-
+although it is yet undefined on input line 227.
 Package acronym Info: Label `acro:CIP' newly defined as it shall be overridden
-although it is yet undefined on input line 229.
-
-Package acronym Warning: Acronym `CIP' is not defined on input line 229.
-
-
-Package acronym Warning: Acronym `CIP' is not defined on input line 229.
-
+although it is yet undefined on input line 227.
 Package acronym Info: Label `acro:Cofins' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 229.
-
-Package acronym Warning: Acronym `Cofins' is not defined on input line 229.
-
-
-Package acronym Warning: Acronym `Cofins' is not defined on input line 229.
-
+although it is yet undefined on input line 227.
 ) [25]
 \openout2 = `./textuais/Metodologia.aux'.
 
  (textuais/Metodologia.tex
-<./textuais/figs/pv001.png, id=631, 597.9138pt x 316.5426pt>
+<./textuais/figs/pv001.png, id=736, 597.9138pt x 316.5426pt>
 File: ./textuais/figs/pv001.png Graphic file (type png)
 <use ./textuais/figs/pv001.png>
 Package pdftex.def Info: ./textuais/figs/pv001.png  used on input line 28.
-(pdftex.def)             Requested size: 273.00278pt x 144.52943pt.
- [26
+(pdftex.def)             Requested size: 450.4525pt x 238.4738pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26
 
 
 
@@ -1405,247 +1670,276 @@ Package pdftex.def Info: ./textuais/figs/pv001.png  used on input line 28.
 
 pdfTeX warning: pdflatex.exe (file ./textuais/figs/Fluxograma.drawio.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<./textuais/figs/Fluxograma.drawio.pdf, id=642, 341.35529pt x 355.3275pt>
+<./textuais/figs/Fluxograma.drawio.pdf, id=747, 341.35529pt x 355.3275pt>
 File: ./textuais/figs/Fluxograma.drawio.pdf Graphic file (type pdf)
 <use ./textuais/figs/Fluxograma.drawio.pdf>
 Package pdftex.def Info: ./textuais/figs/Fluxograma.drawio.pdf  used on input l
-ine 69.
+ine 70.
 (pdftex.def)             Requested size: 318.49861pt x 331.54094pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./textuais/figs/pv002.png, id=644, 1156.32pt x 614.295pt>
+[28 <./textuais/figs/Fluxograma.drawio.pdf>]
+<./textuais/figs/pv002.png, id=762, 1156.32pt x 614.295pt>
 File: ./textuais/figs/pv002.png Graphic file (type png)
 <use ./textuais/figs/pv002.png>
-Package pdftex.def Info: ./textuais/figs/pv002.png  used on input line 80.
-(pdftex.def)             Requested size: 318.49861pt x 169.19878pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[28]
-<./textuais/figs/pv003.png, id=650, 597.9138pt x 317.5062pt>
+Package pdftex.def Info: ./textuais/figs/pv002.png  used on input line 86.
+(pdftex.def)             Requested size: 450.4525pt x 239.30225pt.
+<./textuais/figs/pv003.png, id=766, 597.9138pt x 317.5062pt>
 File: ./textuais/figs/pv003.png Graphic file (type png)
 <use ./textuais/figs/pv003.png>
-Package pdftex.def Info: ./textuais/figs/pv003.png  used on input line 98.
-(pdftex.def)             Requested size: 273.00278pt x 144.96939pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[29 <./textuais/figs/Fluxograma.drawio.pdf>] [30 <./textuais/figs/pv002.png (PN
-G copy)> <./textuais/figs/pv003.png>]
-<./textuais/figs/pv004.png, id=674, 1156.32pt x 614.295pt>
-File: ./textuais/figs/pv004.png Graphic file (type png)
-<use ./textuais/figs/pv004.png>
-Package pdftex.def Info: ./textuais/figs/pv004.png  used on input line 117.
-(pdftex.def)             Requested size: 273.00278pt x 145.02484pt.
-
-Overfull \hbox (5.72137pt too wide) in paragraph at lines 134--145
- [][] 
+Package pdftex.def Info: ./textuais/figs/pv003.png  used on input line 100.
+(pdftex.def)             Requested size: 450.4525pt x 239.19974pt.
+ [29 <./textuais/figs/pv002.png (PNG copy)>]
+Overfull \hbox (4.23817pt too wide) in paragraph at lines 107--108
+[]\T1/lmr/m/n/12 Para as-se-gu-rar uni-for-mi-dade e com-pa-ra-bi-li-dade en-tr
+e os ce-ná-rios si-mu-la-dos, adotou-
  []
 
-[31 <./textuais/figs/pv004.png (PNG copy)>]
-<./textuais/figs/pv005.png, id=681, 1156.32pt x 614.295pt>
+[30 <./textuais/figs/pv003.png>]
+<./textuais/figs/pv004.png, id=781, 1156.32pt x 614.295pt>
+File: ./textuais/figs/pv004.png Graphic file (type png)
+<use ./textuais/figs/pv004.png>
+Package pdftex.def Info: ./textuais/figs/pv004.png  used on input line 122.
+(pdftex.def)             Requested size: 450.4525pt x 239.30225pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./textuais/figs/pv005.png, id=784, 1156.32pt x 614.295pt>
 File: ./textuais/figs/pv005.png Graphic file (type png)
 <use ./textuais/figs/pv005.png>
-Package pdftex.def Info: ./textuais/figs/pv005.png  used on input line 155.
-(pdftex.def)             Requested size: 273.00278pt x 145.02484pt.
- [32 <./textuais/figs/pv005.png (PNG copy)>]
-<./textuais/figs/pv006.png, id=690, 1156.32pt x 614.295pt>
-File: ./textuais/figs/pv006.png Graphic file (type png)
-<use ./textuais/figs/pv006.png>
-Package pdftex.def Info: ./textuais/figs/pv006.png  used on input line 182.
-(pdftex.def)             Requested size: 273.00278pt x 145.02484pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33 <./textuais/figs/pv006.png (PNG copy)>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./textuais/figs/pv007.png, id=741, 597.9138pt x 316.5426pt>
-File: ./textuais/figs/pv007.png Graphic file (type png)
-<use ./textuais/figs/pv007.png>
-Package pdftex.def Info: ./textuais/figs/pv007.png  used on input line 254.
-(pdftex.def)             Requested size: 273.00278pt x 144.52943pt.
+Package pdftex.def Info: ./textuais/figs/pv005.png  used on input line 161.
+(pdftex.def)             Requested size: 450.4525pt x 239.30225pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34] [35 <./textuais/figs/pv007.png>]
+[31 <./textuais/figs/pv004.png (PNG copy)>] [32 <./textuais/figs/pv005.png (PNG
+ copy)>]
+<./textuais/figs/pv006.png, id=796, 1156.32pt x 614.295pt>
+File: ./textuais/figs/pv006.png Graphic file (type png)
+<use ./textuais/figs/pv006.png>
+Package pdftex.def Info: ./textuais/figs/pv006.png  used on input line 179.
+(pdftex.def)             Requested size: 450.4525pt x 239.30225pt.
+ [33 <./textuais/figs/pv006.png (PNG copy)>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36]) [37]
+[34]
+Overfull \hbox (2.25992pt too wide) in paragraph at lines 268--269
+[]\T1/lmr/m/n/12 Com base no \T1/lmr/m/it/12 Ca-derno de Pre-ços da Ge-ra-ção \
+T1/lmr/m/n/12 (2022/2023) da [][]EPE[][] ([][]2022[][][]), adotaram-
+ []
+
+<./textuais/figs/pv007.png, id=857, 597.9138pt x 316.5426pt>
+File: ./textuais/figs/pv007.png Graphic file (type png)
+<use ./textuais/figs/pv007.png>
+Package pdftex.def Info: ./textuais/figs/pv007.png  used on input line 275.
+(pdftex.def)             Requested size: 450.4525pt x 238.4738pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35] [36 <./textuais/figs/pv007.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37] [38]) [39]
 \openout2 = `./textuais/Resultados.aux'.
 
  (textuais/Resultados.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 6.
+(Font)              <17.28> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 6.
+(Font)              <10> on input line 5.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 6.
+(hyperref)                removing `math shift' on input line 5.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 6.
+(hyperref)                removing `math shift' on input line 5.
 
-[38
+[40
 
 
 
 
 ]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 48.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 48.
-
-[39]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 90.
+Overfull \hbox (3.33855pt too wide) in paragraph at lines 30--35
+ [][] 
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 90.
-
-[40]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 131.
+(hyperref)                removing `math shift' on input line 43.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 131.
+(hyperref)                removing `math shift' on input line 43.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [41]
+Overfull \hbox (3.33855pt too wide) in paragraph at lines 66--71
+ [][] 
+ []
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 173.
+(hyperref)                removing `math shift' on input line 79.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 173.
+(hyperref)                removing `math shift' on input line 79.
 
 [42]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 215.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 215.
+Overfull \hbox (3.33855pt too wide) in paragraph at lines 101--106
+ [][] 
+ []
 
 [43]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 258.
+(hyperref)                removing `math shift' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 258.
+(hyperref)                removing `math shift' on input line 114.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[44] [45]
-Overfull \hbox (39.44553pt too wide) in paragraph at lines 309--329
- [][] 
- []
-
-
-Overfull \hbox (54.91347pt too wide) in paragraph at lines 339--363
+Overfull \hbox (3.33855pt too wide) in paragraph at lines 137--142
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 150.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 150.
+
+
+Overfull \hbox (3.33855pt too wide) in paragraph at lines 172--177
+ [][] 
+ []
+
+[45]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 185.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 185.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (3.33855pt too wide) in paragraph at lines 207--212
+ [][] 
+ []
 
 [46]
-<./textuais/figs/graficoenergiaanualxpotenciaxrendimento.png, id=884, 469.755pt
- x 173.9298pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 220.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 220.
+
+[47]
+Overfull \hbox (3.33855pt too wide) in paragraph at lines 243--248
+ [][] 
+ []
+
+[48]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (1.60849pt too wide) in paragraph at lines 292--292
+ \T1/lmr/bx/n/12 [R$/kWh]| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49]
+
+LaTeX Warning: Text page 50 contains only floats.
+
+[50]
+<./textuais/figs/graficoenergiaanualxpotenciaxrendimento.png, id=1044, 469.755p
+t x 173.9298pt>
 File: ./textuais/figs/graficoenergiaanualxpotenciaxrendimento.png Graphic file 
 (type png)
 <use ./textuais/figs/graficoenergiaanualxpotenciaxrendimento.png>
 Package pdftex.def Info: ./textuais/figs/graficoenergiaanualxpotenciaxrendiment
-o.png  used on input line 399.
+o.png  used on input line 327.
 (pdftex.def)             Requested size: 364.00139pt x 134.77296pt.
+ [51 <./textuais/figs/graficoenergiaanualxpotenciaxrendimento.png>]
+<./textuais/figs/ganhodegeracaoxpotencia.png, id=1051, 382.0674pt x 210.5466pt>
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[47]
-<./textuais/figs/ganhodegeracaoxpotencia.png, id=890, 382.0674pt x 210.5466pt>
 File: ./textuais/figs/ganhodegeracaoxpotencia.png Graphic file (type png)
 <use ./textuais/figs/ganhodegeracaoxpotencia.png>
 Package pdftex.def Info: ./textuais/figs/ganhodegeracaoxpotencia.png  used on i
-nput line 421.
-(pdftex.def)             Requested size: 364.00139pt x 200.58998pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./textuais/figs/capexeficiencia.png, id=896, 580.0872pt x 214.8828pt>
+nput line 343.
+(pdftex.def)             Requested size: 295.74722pt x 162.97916pt.
+<./textuais/figs/capexeficiencia.png, id=1057, 580.0872pt x 214.8828pt>
 File: ./textuais/figs/capexeficiencia.png Graphic file (type png)
 <use ./textuais/figs/capexeficiencia.png>
 Package pdftex.def Info: ./textuais/figs/capexeficiencia.png  used on input lin
-e 433.
+e 352.
 (pdftex.def)             Requested size: 364.00139pt x 134.84242pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[48 <./textuais/figs/graficoenergiaanualxpotenciaxrendimento.png>]
-<./textuais/figs/capexxcusto.png, id=903, 421.575pt x 226.446pt>
+[52 <./textuais/figs/ganhodegeracaoxpotencia.png>]
+<./textuais/figs/capexxcusto.png, id=1065, 421.575pt x 226.446pt>
 File: ./textuais/figs/capexxcusto.png Graphic file (type png)
 <use ./textuais/figs/capexxcusto.png>
-Package pdftex.def Info: ./textuais/figs/capexxcusto.png  used on input line 44
-8.
+Package pdftex.def Info: ./textuais/figs/capexxcusto.png  used on input line 36
+2.
 (pdftex.def)             Requested size: 364.00139pt x 195.5241pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49 <./textuais/figs/ganhodegeracaoxpotencia.png> <./textuais/figs/capexeficien
-cia.png>]
-<./textuais/figs/paybackxtirxpotencia.png, id=918, 528.5346pt x 193.2018pt>
+[53 <./textuais/figs/capexeficiencia.png>]
+<./textuais/figs/paybackxtirxpotencia.png, id=1079, 528.5346pt x 193.2018pt>
 File: ./textuais/figs/paybackxtirxpotencia.png Graphic file (type png)
 <use ./textuais/figs/paybackxtirxpotencia.png>
 Package pdftex.def Info: ./textuais/figs/paybackxtirxpotencia.png  used on inpu
-t line 470.
+t line 377.
 (pdftex.def)             Requested size: 364.00139pt x 133.05583pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[50 <./textuais/figs/capexxcusto.png>]
-<./textuais/figs/bolhas.png, id=934, 539.1342pt x 211.0284pt>
+ [54 <./textuais/figs/capexxcusto.png> <./textuais/figs/paybackxtirxpotencia.pn
+g>]
+<./textuais/figs/bolhas.png, id=1097, 539.1342pt x 211.0284pt>
 File: ./textuais/figs/bolhas.png Graphic file (type png)
 <use ./textuais/figs/bolhas.png>
-Package pdftex.def Info: ./textuais/figs/bolhas.png  used on input line 490.
+Package pdftex.def Info: ./textuais/figs/bolhas.png  used on input line 392.
 (pdftex.def)             Requested size: 364.00139pt x 142.47665pt.
+ [55 <./textuais/figs/bolhas.png>] [56] [57] [58]
+Overfull \hbox (8.43816pt too wide) in paragraph at lines 474--479
+\T1/lmr/m/n/12 Incoerência: van-ta-gem muda de cri-té-rio sem aviso (custo de
+ ge-ra-ção ver-sus TIR/ROI
+ []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[51 <./textuais/figs/paybackxtirxpotencia.png>] [52 <./textuais/figs/bolhas.png
->]) [53]
+[59] [60]) [61]
 \openout2 = `./textuais/conclusao.aux'.
 
- (textuais/conclusao.tex) [54
+ (textuais/conclusao.tex) [62
 
 
 
 
 ] (template.bbl (template.brf)
-\tf@brf=\write4
-\openout4 = `template.brf'.
+\tf@brf=\write5
+\openout5 = `template.brf'.
 
 
 bibitemlist
@@ -1655,57 +1949,57 @@ Underfull \hbox (badness 1442) in paragraph at lines 14--14
 nfograco / >[]$[][]. As-so-ci-a-ção Bra-si-leira de
  []
 
-[55
+[63
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]\T1/lmr/m/n/12 (IRENA), I. R. E. A. \T1/lmr/m/it/12 Re-newa-ble Power Ge-ne-r
-a-tion Costs in 2023\T1/lmr/m/n/12 .
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+[]\T1/lmr/m/n/12 IRENA, I. R. E. A. \T1/lmr/m/it/12 Re-newa-ble Power Ge-ne-ra-
+tion Costs in 2023\T1/lmr/m/n/12 . [S.l.],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
-\T1/lmr/m/n/12 [S.l.], 2024. Dis-po-ní-vel em: [][]$<[]https : / / www . irena 
-. org / Publications / 2024 / Sep /
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
+\T1/lmr/m/n/12 2024. Dis-po-ní-vel em: [][]$<[]https : / / www . irena . org / 
+Publications / 2024 / Sep /
  []
 
-[56]
-Underfull \hbox (badness 1320) in paragraph at lines 239--239
-[]\T1/lmr/m/n/12 Núcleo do Co-nhe-ci-mento. \T1/lmr/m/it/12 Ras-tre-a-do-res so
--la-res: ti-pos, fun-ci-o-na-mento e apli-ca-ções\T1/lmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 290--290
-[]\T1/lmr/m/n/12 Revista FT. \T1/lmr/m/it/12 Es-tudo com-pa-ra-tivo de vi-a-bi-
-li-dade de um se-gui-dor so-lar de baixo
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[]\T1/lmr/m/n/12 NETO, L. d. A. d. S. et al. Es-tudo com-pa-ra-tivo de vi-a-bi-
+li-dade de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
-\T1/lmr/m/it/12 custo para fins re-si-den-ci-ais\T1/lmr/m/n/12 . 2025. Dis-po-n
-í-vel em: [][]$<[]https : / / revistaft . com . br /
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+\T1/lmr/m/n/12 um se-gui-dor so-lar de baixo custo para fins re-si-den-ci-ais. 
+\T1/lmr/m/it/12 Re-vista FT\T1/lmr/m/n/12 ,
  []
 
 
-Overfull \hbox (32.40346pt too wide) in paragraph at lines 290--290
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+\T1/lmr/m/n/12 v. 28, n. 139, oct 2024. Dis-po-ní-vel em: [][]$<[]https : / / r
+evistaft . com . br /
+ []
+
+
+Overfull \hbox (39.43147pt too wide) in paragraph at lines 227--227
 \T1/lmr/m/n/12 estudo-[]comparativo-[]de-[]viabilidade-[]de-[]um-[]seguidor-[]s
-olar-[]de-[]baixo-[]custo-[]para-[]ns-[]residenciais /
+olar-[]de-[]baixo-[]custo-[]para-[]ns-[]residenciais>[]$[][].
  []
 
-[57]) 
+[65]) 
 AED: lastpage setting LastPage
-[58]
-\tf@lof=\write5
-\openout5 = `template.lof'.
+[66]
+\tf@lof=\write6
+\openout6 = `template.lof'.
 
-\tf@lot=\write6
-\openout6 = `template.lot'.
+\tf@lot=\write7
+\openout7 = `template.lot'.
 
-\tf@toc=\write7
-\openout7 = `template.toc'.
+\tf@toc=\write8
+\openout8 = `template.toc'.
 
  (template.aux (pretextuais/dedicatoria.aux)
 (pretextuais/agradecimentos.aux) (pretextuais/epigrafe.aux)
@@ -1716,16 +2010,16 @@ AED: lastpage setting LastPage
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `template.brf' has not changed.
-(rerunfilecheck)             Checksum: 7E16E9801ECBC0469B673D31E61DFDD4;5083.
+(rerunfilecheck)             Checksum: F80612625C985E3EB3D444D8FD05FB7E;4408.
  ) 
 Here is how much of TeX's memory you used:
- 21149 strings out of 478927
- 333842 string characters out of 2862392
- 742063 words of memory out of 3000000
- 38295 multiletter control sequences out of 15000+600000
- 486476 words of font info for 67 fonts, out of 8000000 for 9000
+ 32550 strings out of 478927
+ 580859 string characters out of 2862392
+ 999960 words of memory out of 3000000
+ 49448 multiletter control sequences out of 15000+600000
+ 492456 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,13n,94p,2744b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 89i,13n,94p,2744b,646s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTe
 X/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-m
 athsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program
@@ -1746,9 +2040,9 @@ b><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files/
 MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Program Files/MiKTeX/fonts/type1/p
 ublic/lm/lmsso17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on template.pdf (59 pages, 3343181 bytes).
+Output written on template.pdf (67 pages, 3190732 bytes).
 PDF statistics:
- 1465 PDF objects out of 1728 (max. 8388607)
- 276 named destinations out of 1000 (max. 500000)
- 704 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1643 PDF objects out of 1728 (max. 8388607)
+ 288 named destinations out of 1000 (max. 500000)
+ 714 words of extra memory for PDF output out of 10000 (max. 10000000)
 
