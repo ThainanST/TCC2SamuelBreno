@@ -408,7 +408,11 @@ A \autoref{fig:img017} apresenta, em um gráfico de bolhas, a relação integrad
 \begin{figure}[h]
 	\centering
 	\caption{Relação integrada entre \textit{payback}, \ac{TIR} e \ac{ROI} de sistemas fotovoltaicos fixos e com rastreamento solar de um eixo em função da potência instalada, para as condições de Belo Horizonte–MG.}
-	\includegraphics[width=0.99\linewidth]{./textuais/figs/bolhas}
+	\includegraphics[
+	width=0.99\linewidth,
+	% [trim = <esquerda> <inferior> <direita> <superior>, clip]
+	trim = 0.0cm 0.4cm 0.0cm 0.9cm, clip
+	]{./textuais/figs/bolhas}
     \fonteautor
 	\label{fig:img017}
 \end{figure}
