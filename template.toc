@@ -52,33 +52,33 @@
 \contentsline {section}{\numberline {4.2}Usina de $50$kW}{41}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Resultados técnicos}{41}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Resultados Financeiros}{42}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Usina de $100$kW}{43}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Resultados técnicos}{43}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.3}Usina de $100$kW}{42}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Resultados técnicos}{42}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Resultados Financeiros}{43}{subsection.4.3.2}%
 \contentsline {section}{\numberline {4.4}Usina de $300$kW}{44}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Resultados técnicos}{44}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Resultados Financeiros}{44}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}Usina de $500$kW}{45}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Resultados técnicos}{45}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Resultados Financeiros}{46}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.2}Resultados Financeiros}{45}{subsection.4.5.2}%
 \contentsline {section}{\numberline {4.6}Usina de $800$kW}{46}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Resultados técnicos}{46}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Resultados Financeiros}{47}{subsection.4.6.2}%
-\contentsline {section}{\numberline {4.7}Usina de $1$MW}{48}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Resultados técnicos}{48}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Resultados Financeiros}{48}{subsection.4.7.2}%
-\contentsline {section}{\numberline {4.8}Resumo dos Resultados}{49}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Resumo Técnico das Usinas}{49}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Resumo Financeiro das Usinas}{49}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.6.2}Resultados Financeiros}{46}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Usina de $1$MW}{47}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Resultados técnicos}{47}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Resultados Financeiros}{47}{subsection.4.7.2}%
+\contentsline {section}{\numberline {4.8}Resumo dos Resultados}{48}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Resumo Técnico das Usinas}{48}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Resumo Financeiro das Usinas}{48}{subsection.4.8.2}%
 \contentsline {section}{\numberline {4.9}Análise geral}{49}{section.4.9}%
-\contentsline {subsection}{\numberline {4.9.1}Aspectos técnicos}{51}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.1}Aspectos técnicos}{49}{subsection.4.9.1}%
 \contentsline {subsection}{\numberline {4.9.2}Aspectos Financeiros}{53}{subsection.4.9.2}%
 \contentsline {section}{\numberline {4.10}Conclusões Parciais}{56}{section.4.10}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusão}}{62}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclusão}}{58}{chapter.5}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{63}{section*.71}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{60}{section*.67}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }

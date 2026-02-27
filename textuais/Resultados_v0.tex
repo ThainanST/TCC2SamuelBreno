@@ -1,14 +1,10 @@
 \chapter{Resultados}\label{cap:capitulo_4}
 Este capítulo apresenta e discute os resultados obtidos a partir das simulações descritas no capítulo anterior, considerando sistemas fotovoltaicos de diferentes portes e duas configurações de instalação: estrutura fixa e rastreamento solar de um eixo (\textit{single-axis tracker}). As análises contemplam potências de $10$ kW, $50$ kW, $100$ kW, $300$ kW, $500$ kW, $800$ kW e $1$ MW, permitindo avaliar o desempenho técnico e econômico em diferentes escalas. Para cada cenário, foram avaliados a geração anual de energia, o investimento inicial (\ac{CAPEX}), os custos operacionais (\ac{OPEX}), a \ac{TIR} e o tempo de retorno do investimento (\textit{payback}). Em seguida, são apresentadas análises comparativas visando identificar em quais faixas de potência a adoção do rastreamento solar se torna economicamente mais atrativa, fornecendo subsídios técnicos e financeiros para a tomada de decisão em projetos fotovoltaicos.
-
-A fim de evitar repetições e tornar a apresentação dos resultados mais objetiva, as subseções seguintes são organizadas por faixa de potência e apresentam diretamente
-os principais resultados técnicos e econômicos de cada cenário, sem a repetição de introduções padronizadas. A discussão é conduzida de forma comparativa sempre que pertinente, com foco na interpretação dos indicadores e nas diferenças entre as configurações analisadas.
-
 %Neste capítulo são apresentados e discutidos os resultados obtidos a partir das simulações realizadas no capitulo anterior, considerando sistemas fotovoltaicos de diferentes portes e suas configurações distintas: sistemas fixos e sistemas com rastreamento solar de um eixo. As análises contemplam potências de $10$ kW, $50$ kW, $100$ kW, $300$ kW, $500$ kW, $800$ kW e $1$MW, permitindo avaliar o desempenho técnico e econômico em diferentes escalas de projeto. Para cada cenário, foram observados parâmetros como a geração anual de energia, o investimento inicial \ac{CAPEX}, os custos operacionais \ac{OPEX}, o \ac{TIR}, o Tempo de Retorno do Investimento \textit{(Payback)} . Após a apresentação dos resultados, são realizadas análises comparativas com o objetivo de identificar em quais faixas de potência a adoção do rastreamento solar se torna mais vantajosa em relação ao sistema fixo, fornecendo subsídios técnicos e financeiros para a tomada de decisão em projetos de usinas fotovoltaicas.
 
 \section{Usina de $10$kW}
 \subsection{Resultados técnicos}
-%Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $10$kW de eixo fixo e móvel. A \autoref{tab:rt10} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $10$kW de eixo fixo e móvel. A \autoref{tab:rt10} mostra os resultados da simulação:
 
 \begin{table}[h!]
 	\centering
@@ -23,10 +19,10 @@ os principais resultados técnicos e econômicos de cada cenário, sem a repeti�
 	\label{tab:rt10}
 \end{table}
 
-Nas usinas de $10$ kW, observa-se que a utilização de \textit{tracker} proporciona um aumento significativo na produção de energia anual, passando de $14.523$ kWh no sistema fixo para $17.746$ kWh no sistema rastreador. Esse incremento representa aproximadamente $22$\% a mais de geração. O rendimento específico também acompanha essa evolução, variando de $1.376$ kWh/kWp no fixo para $1.698$ kWh/kWp no \textit{tracker}. Em termos de eficiência global do sistema, a diferença é modesta, mas perceptível: o fixo apresenta $67,60$\%, enquanto o \textit{tracker} alcança $69,73$\%.
+Nas usinas de $10$ kW, observa-se que a utilização de \textit{tracker} proporciona um aumento significativo na produção de energia anual, passando de $14.523$ kWh no sistema fixo para $17.746$ kWh no sistema rastreador. Esse incremento representa aproximadamente $22$\% a mais de geração. O rendimento específico também acompanha essa evolução, variando de $1.376$ kWh/kWp no fixo para $1.698$ kWh/kWp no \textit{tracker}. Em termos de eficiência global do sistema, a diferença é modesta, mas perceptível: o fixo apresenta $67,6$\%, enquanto o \textit{tracker} alcança $69,7$\%.
 
 \subsection{Resultados Financeiros}
-%Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $10$kW de eixo fixo e móvel. A \autoref{tab:rf10} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $10$kW de eixo fixo e móvel. A \autoref{tab:rf10} mostra os resultados da simulação:
 
 \begin{table}[h!]
 	\centering
@@ -34,7 +30,7 @@ Nas usinas de $10$ kW, observa-se que a utilização de \textit{tracker} proporc
 	\begin{tabular}{C{3cm}C{3cm}C{3cm}C{2.5cm}C{2.5cm}} \hline
 	\textbf{Sistema} & \textbf{Custo de geração [R\$/kWh]} & \textbf{\textit{PayBack} [anos]} & \textbf{\ac{TIR} [\%]} & \textbf{\ac{ROI} [\%]} \\ \hline
 	Fixo & $0,2198$ & $7$ anos, $10$ meses & $11,91$ & $14,26$ \\
-	\textit{Tracker} & $0,2321$ & $8$ anos  & $11,71$ & $14,52$ \\ \hline
+	\textit{Tracker} & $0,2331$ & $8$ anos  & $11,94$ & $14,52$ \\ \hline
 	\end{tabular}
 	\fonteautor
 	\label{tab:rf10}
@@ -42,11 +38,11 @@ Nas usinas de $10$ kW, observa-se que a utilização de \textit{tracker} proporc
 
 Nas usinas de $10$ kW, o sistema de estrutura fixa apresenta um menor \textit{payback}, de aproximadamente $7$ anos e $10$ meses, enquanto o sistema com \textit{tracker} atinge o retorno em cerca de $8$ anos, indicando uma recuperação do investimento mais rápida para a configuração fixa. Em termos de custo de geração de energia, o sistema fixo também se mostra mais vantajoso, com valor médio de R\$ $0,2198$/kWh, frente a R\$$ 0,2331$/kWh no sistema com \textit{tracker}.
 
-Por outro lado, os indicadores de rentabilidade apresentam valores próximos entre as duas configurações. O sistema fixo registra uma \ac{TIR} de $11,91$\% e \ac{ROI} de $14,26$\%, enquanto o sistema com \textit{tracker} apresenta \ac{TIR}  de $11,71$\%, e \ac{ROI} de $14,52$\%. Apesar de o sistema com apresentar um \ac{ROI} ligeiramente superior, a menor \ac{TIR} e o \textit{payback} mais elevado reforçam que, para a escala de $10$kW, o sistema de estrutura fixa permanece como a alternativa economicamente mais atrativa. 
+Por outro lado, os indicadores de rentabilidade apresentam valores próximos entre as duas configurações. O sistema fixo registra uma \ac{TIR} de $11,91$\% e \ac{ROI} de $14,26$\%, enquanto o sistema com \textit{tracker} alcança uma \ac{TIR} ligeiramente superior, de $11,94$\%, e \ac{ROI} de $14,52$\%. Apesar dessa pequena vantagem do \textit{tracker} nos indicadores de retorno percentual, o maior custo de geração e o \textit{payback} mais longo fazem com que, para a escala de $10$ kW, o sistema fixo permaneça como a alternativa economicamente mais atrativa.
 
 \section{Usina de $50$kW}
 \subsection{Resultados técnicos}
-%Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $50$kW de eixo fixo e móvel. A \autoref{tab:rt50} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $50$kW de eixo fixo e móvel. A \autoref{tab:rt50} mostra os resultados da simulação:
 
 \begin{table}[h!]
 	\centering
@@ -63,10 +59,10 @@ Por outro lado, os indicadores de rentabilidade apresentam valores próximos ent
 Nos \ac{SFCR} de $50$ kW, a diferença técnica mantém-se proporcional. O sistema fixo injeta cerca de $72.251$ kWh/ano, ao passo que o \textit{tracker} atinge $88.295$ kWh/ano, representando também um ganho de aproximadamente $22$\%. O rendimento específico sobe de $1.430$ kWh/kWp para $1.751$ kWh/kWp, evidenciando melhor aproveitamento do recurso solar. Já a eficiência, embora próxima, é ligeiramente superior no \textit{tracker} ($71,9$\%) em comparação ao fixo (70,3\%).
 
 \subsection{Resultados Financeiros}
-%Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $50$kW de eixo fixo e móvel. A \autoref{tab:rf50} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $50$kW de eixo fixo e móvel. A \autoref{tab:rf50} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
-	\caption{Indicadores econômico-financeiros estimados no PV*SOL para a usina de $50$ kW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo: custo de geração, \textit{payback}, \ac{TIR} e \ac{ROI}.}
+	\caption{Indicadores econômico-financeiros estimados no PV*SOL para a usina de $10$ kW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo: custo de geração, \textit{payback}, \ac{TIR} e \ac{ROI}.}
 	\begin{tabular}{C{3cm}C{3cm}C{3cm}C{2.5cm}C{2.5cm}} \hline
 		\textbf{Sistema} & \textbf{Custo de geração [R\$/kWh]} & \textbf{\textit{PayBack} [anos]} & \textbf{\ac{TIR} [\%]} & \textbf{\ac{ROI} [\%]} \\ \hline
 	Fixo & $0,1961$ & $7$ anos, $3$ meses & $13,07$ & $15,30$ \\ 
@@ -82,13 +78,13 @@ No que se refere aos indicadores de rentabilidade, o sistema fixo apresenta \ac{
 
 \section{Usina de $100$kW}
 \subsection{Resultados técnicos}
-%Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $100$kW de eixo fixo e móvel. A \autoref{tab:rt100} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $100$kW de eixo fixo e móvel. A \autoref{tab:rt100} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
 	\caption{Resultados técnicos obtidos no PV*SOL para a usina de $100$ kW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo, com energia anual gerada, rendimento específico e eficiência global do sistema.}
 	\begin{tabular}{C{3cm}C{3cm}C{3cm}C{3cm}} \hline
 		\textbf{Sistema} & \textbf{Energia anual [kWh]} & \textbf{Rendimento [kWh/kWp]} & \textbf{Eficiência [\%]} \\ \hline
-Fixo & $144.501$ & $1.430,18$ & $70,25$ \\ 
+Fixo & $144.501$ & $1.430,18$ & $70,30$ \\ 
 \textit{Tracker} & $176.590$ & $1.751,08$  & $71,89$  \\ \hline
 	\end{tabular}
 	\fonteautor
@@ -98,7 +94,7 @@ Fixo & $144.501$ & $1.430,18$ & $70,25$ \\
 Para as usinas $100$ kW, o cenário se repete: o sistema fixo gera 144.501 kWh/ano, enquanto o \textit{tracker} alcança $176.590$ kWh/ano, mantendo a tendência de 22\% de ganho. O rendimento específico passa de $1.430$ para $1.751$ kWh/kWp, e a eficiência do sistema se mantém superior no rastreador ($71,89$\% contra $70,3$\%).
 
 \subsection{Resultados Financeiros}
-%Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $100$kW de eixo fixo e móvel. A \autoref{tab:rf100} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $100$kW de eixo fixo e móvel. A \autoref{tab:rf100} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
 	\caption{Indicadores econômico-financeiros estimados no PV*SOL para a usina de $100$ kW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo: custo de geração, \textit{payback}, \ac{TIR} e \ac{ROI}.}
@@ -118,7 +114,7 @@ Em relação aos indicadores de rentabilidade, o sistema fixo apresenta \ac{TIR}
 \section{Usina de $300$kW}
 
 \subsection{Resultados técnicos}
-%Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $300$kW de eixo fixo e móvel. A \autoref{tab:rt300} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $300$kW de eixo fixo e móvel. A \autoref{tab:rt300} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
 	\caption{Resultados técnicos obtidos no PV*SOL para a usina de $300$ kW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo, com energia anual gerada, rendimento específico e eficiência global do sistema.}
@@ -134,13 +130,13 @@ Fixo & $457.813$ & $1.525,68$ & $74,90$ \\
 Nas usinas de $300$ kW, a produção sobe de 457.813 kWh/ano no fixo para $557.047$ kWh/ano no \textit{tracker}. O ganho percentual em relação à geração é de aproximadamente $22$\%, mas aqui a melhoria no rendimento específico é ainda mais destacada: $1.525$ kWh/kWp no fixo contra $1.856$ kWh/kWp no \textit{tracker}. Além disso, a eficiência do sistema aumenta, passando de $74,9$\% para $76,2$\%.
 
 \subsection{Resultados Financeiros}
-%Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $300$kW de eixo fixo e móvel. A \autoref{tab:rf300} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $300$kW de eixo fixo e móvel. A \autoref{tab:rf300} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
 	\caption{Indicadores econômico-financeiros estimados no PV*SOL para a usina de $300$ kW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo: custo de geração, \textit{payback}, \ac{TIR} e \ac{ROI}.}
 	\begin{tabular}{C{3cm}C{3cm}C{3cm}C{2.5cm}C{2.5cm}} \hline
 		\textbf{Sistema} & \textbf{Custo de geração [R\$/kWh]} & \textbf{\textit{PayBack} [anos]} & \textbf{\ac{TIR} [\%]} & \textbf{\ac{ROI} [\%]} \\ \hline
-Fixo & $0,1622$ & $5$ anos, $11$ meses & $16,34$ & $18,31$ \\
+Fixo & $0,1622$ & $5$ anos, $11$ meses & $18,31$ & $18,31$ \\
 \textit{Tracker} & $0,2133$ & $7$ anos, $8$ meses & $12,24$ & $15,06$ \\ \hline
 	\end{tabular}
 	\fonteautor
@@ -149,27 +145,27 @@ Fixo & $0,1622$ & $5$ anos, $11$ meses & $16,34$ & $18,31$ \\
 
 Nas usinas de $300$ kW, o sistema de estrutura fixa apresenta vantagem econômica significativa em relação ao sistema com \textit{tracker}. O \textit{payback} do sistema fixo é de aproximadamente $5$ anos e $11$ meses, enquanto o sistema com \textit{tracker} apresenta um retorno mais prolongado, de cerca de $7$ anos e $8$ meses. O custo de geração de energia também se mostra inferior no sistema fixo, com valor médio de R\$ $0,1622$/kWh, frente a R\$ $0,2133$/kWh no sistema com \textit{tracker}.
 
-Quanto aos indicadores de rentabilidade, o sistema fixo registra \ac{TIR} de $16,34$\% e \ac{ROI} de $18,31$\%, ambos substancialmente superiores aos obtidos pelo sistema com \textit{tracker}, que apresenta \ac{TIR} de $12,24$\% e \ac{ROI} de $15,06$\%. Assim, para a escala de $300$ kW, os resultados indicam de forma clara que o sistema de estrutura fixa é economicamente mais atrativo, apresentando menor custo de geração, retorno do investimento mais rápido e melhores indicadores financeiros globais.
+Quanto aos indicadores de rentabilidade, o sistema fixo registra \ac{TIR} de $18,31$\% e \ac{ROI} de $18,31$\%, ambos substancialmente superiores aos obtidos pelo sistema com \textit{tracker}, que apresenta \ac{TIR} de $12,24$\% e \ac{ROI} de $15,06$\%. Assim, para a escala de $300$ kW, os resultados indicam de forma clara que o sistema de estrutura fixa é economicamente mais atrativo, apresentando menor custo de geração, retorno do investimento mais rápido e melhores indicadores financeiros globais.
 
 \section{Usina de $500$kW}
 \subsection{Resultados técnicos}
-%Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $500$kW de eixo fixo e móvel. A \autoref{tab:rt500} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $500$kW de eixo fixo e móvel. A \autoref{tab:rt500} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
 	\caption{Resultados técnicos obtidos no PV*SOL para a usina de $500$ kW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo, com energia anual gerada, rendimento específico e eficiência global do sistema.}
 	\begin{tabular}{C{3cm}C{3cm}C{3cm}C{3cm}} \hline
 		\textbf{Sistema} & \textbf{Energia anual [kWh]} & \textbf{Rendimento [kWh/kWp]} & \textbf{Eficiência [\%]} \\ \hline
-Fixo & $769.662$ & $1.539,20$ & $75,61$ \\ 
-\textit{Tracker} & $935.237$ & $1.870,36$  & $76,80$  \\ \hline
+Fixo & $769.662$ & $1.539,20$ & $75,60$ \\ 
+\textit{Tracker} & 935.237 & $1.870,36$  & $76,80$  \\ \hline
 	\end{tabular}
 	\fonteautor
 	\label{tab:rt500}
 \end{table}
 
-Nas usinas de $500$ kW, observa-se que o sistema fixo atinge $769.662$ kWh/ano, enquanto o \textit{tracker} chega a $935.237$ kWh/ano, consolidando um incremento de $22$\%. O rendimento também cresce de $1.539$ kWh/kWp para $1.870$ kWh/kWp, com melhoria na eficiência, que passa de $75,61$\% para $76,80$\%.
+Nas usinas de $500$ kW, observa-se que o sistema fixo atinge $769.662$ kWh/ano, enquanto o \textit{tracker} chega a $935.237$ kWh/ano, consolidando um incremento de $22$\%. O rendimento também cresce de $1.539$ kWh/kWp para $1.870$ kWh/kWp, com melhoria na eficiência, que passa de $75,6$\% para $76,8$\%.
 
 \subsection{Resultados Financeiros}
-%Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $500k$W de eixo fixo e móvel. A \autoref{tab:rf500} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $500k$W de eixo fixo e móvel. A \autoref{tab:rf500} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
 	\caption{Indicadores econômico-financeiros estimados no PV*SOL para a usina de $500$ kW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo: custo de geração, \textit{payback}, \ac{TIR} e \ac{ROI}.}
@@ -188,7 +184,7 @@ No que se refere aos indicadores de rentabilidade, o sistema fixo apresenta \ac{
 
 \section{Usina de $800$kW}
 \subsection{Resultados técnicos}
-%Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $800$kW de eixo fixo e móvel. A \autoref{tab:rt800} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $800$kW de eixo fixo e móvel. A \autoref{tab:rt800} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
 	\caption{Resultados técnicos obtidos no PV*SOL para a usina de $800$ kW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo, com energia anual gerada, rendimento específico e eficiência global do sistema.}
@@ -204,7 +200,7 @@ Fixo & $1.202.618$ & $1.538,66$ & $73,84$ \\
 Nas usinas de $800$ kW, a diferença é ainda mais expressiva: o sistema fixo gera $1.202.618$ kWh/ano, enquanto o \textit{tracker}) atinge $1.498.156$ kWh/ano, o que corresponde a cerca de $25$\% de aumento na produção. O rendimento específico cresce de $1.538$ kWh/kWp para $1.872$ kWh/kWp, acompanhado de uma elevação na eficiência global ($73,84$\% no fixo contra $76,88$\% no \textit{tracker}).
 
 \subsection{Resultados Financeiros}
-%Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $800$kW de eixo fixo e móvel. A \autoref{tab:rf800} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $800$kW de eixo fixo e móvel. A \autoref{tab:rf800} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
 	\caption{Indicadores econômico-financeiros estimados no PV*SOL para a usina de $800$ kW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo: custo de geração, \textit{payback}, \ac{TIR} e \ac{ROI}.}
@@ -217,30 +213,30 @@ Fixo & $0,1427$ & $5$ anos, $2$ meses & $18,97$ & $20,81$ \\
 	\label{tab:rf800}
 \end{table}
 
-Nas usinas de $800$ kW, observa-se uma maior proximidade entre os resultados econômicos das duas configurações analisadas. O \textit{payback} do sistema de estrutura fixa é de aproximadamente $5$ anos e $2$ meses, enquanto o sistema com \textit{tracker} apresenta um retorno ligeiramente mais rápido, de cerca de $5$ anos e $1$ mês. Em relação ao custo de geração de energia, o sistema fixo leva vantagem, com valor médio de R\$ $0,1427$/kWh, frente a R\$ $0,1487$/kWh no sistema com \textit{tracker}.
+Nas usinas de $800$ kW, observa-se uma maior proximidade entre os resultados econômicos das duas configurações analisadas. O \textit{payback} do sistema de estrutura fixa é de aproximadamente $5$ anos e $2$ meses, enquanto o sistema com \textit{tracker} apresenta um retorno ligeiramente mais rápido, de cerca de $5$ anos e $1$ mês. Em relação ao custo de geração de energia, o sistema fixo ainda apresenta vantagem, com valor médio de R\$ $0,1427$/kWh, frente a R\$ $0,1487$/kWh no sistema com \textit{tracker}.
 
-No entanto, ao analisar os indicadores de rentabilidade, o sistema com \textit{tracker} passa a apresentar resultados superiores, registrando \ac{TIR} de $19,47$\% e \ac{ROI} de $21,79$\%, enquanto o sistema fixo apresenta \ac{TIR} de $18,97$\% e \ac{ROI} de $20,81$\%. Dessa forma, para a escala de 800 kW, os resultados indicam um cenário de equilíbrio econômico entre as configurações, no qual o sistema fixo mantém menor custo de geração, enquanto o uso de \textit{tracker} proporciona maior rentabilidade percentual. Assim, a escolha da configuração mais adequada depende do critério econômico priorizado pelo investidor, caracterizando um cenário de equilíbrio econômico entre as alternativas.
+No entanto, ao analisar os indicadores de rentabilidade, o sistema com \textit{tracker} passa a apresentar resultados superiores, registrando \ac{TIR} de $19,47$\% e \ac{ROI} de $21,79$\%, enquanto o sistema fixo apresenta \ac{TIR} de $18,97$\% e \ac{ROI} de $20,81$\%. Dessa forma, para a escala de 800 kW, os resultados indicam um cenário de equilíbrio econômico entre as configurações, no qual o sistema fixo mantém menor custo de geração, enquanto o uso de \textit{tracker} proporciona maior rentabilidade percentual, sinalizando uma transição na viabilidade econômica do rastreamento solar em potências mais elevadas.
 
 \section{Usina de $1$MW}
 \subsection{Resultados técnicos}
-%Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $1$MW de eixo fixo e móvel.
+Nesta seção será feita um resumo com os principais resultados técnicos obtidos através da simulação das usinas de $1$MW de eixo fixo e móvel.
 A \autoref{tab:rt1} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
 	\caption{Resultados técnicos obtidos no PV*SOL para a usina de $1$ MW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo, com energia anual gerada, rendimento específico e eficiência global do sistema.}
 	\begin{tabular}{C{3cm}C{3cm}C{3cm}C{3cm}} \hline
 		\textbf{Sistema} & \textbf{Energia anual [kWh]} & \textbf{Rendimento [kWh/kWp]} & \textbf{Eficiência [\%]} \\ \hline
-Fixo & $1.538.740$ & $1.538,66$ & $75,58$ \\ 
+Fixo & $1.538.740$ & $1.538,66$ & $75,60$ \\ 
 \textit{Tracker} & $1.872.695$ & $1.872,61$  & $76,90$  \\ \hline
 	\end{tabular}
 	\fonteautor
 	\label{tab:rt1}
 \end{table}
 
-Nas usinas de $1$MW, a produção do sistema fixo alcança $1.538.740$ kWh/ano, enquanto o \textit{tracker} chega a $1.872.695$ kWh/ano, representando novamente um ganho de $22$\%. O rendimento específico cresce de $1.538$ para $1.872$ kWh/kWp, com a eficiência global também sendo superior no rastreador ($76,90$\% contra $75,58$\% no fixo).
+Nas usinas de $1$MW, a produção do sistema fixo alcança $1.538.740$ kWh/ano, enquanto o \textit{tracker} chega a $1.872.695$ kWh/ano, representando novamente um ganho de $22$\%. O rendimento específico cresce de $1.538$ para $1.872$ kWh/kWp, com a eficiência global também sendo superior no rastreador ($76,9$\% contra $75,6$\% no fixo).
 
 \subsection{Resultados Financeiros}
-%Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $1$MW de eixo fixo e móvel. A \autoref{tab:rf1} mostra os resultados da simulação:
+Nesta seção será feita um resumo com os principais resultados financeiros obtidos através da simulação das usinas de $1$MW de eixo fixo e móvel. A \autoref{tab:rf1} mostra os resultados da simulação:
 \begin{table}[h!]
 	\centering
 	\caption{Indicadores econômico-financeiros estimados no PV*SOL para a usina de $1$ MW em Belo Horizonte--MG, comparando estrutura fixa e rastreamento solar de um eixo: custo de geração, \textit{payback}, \ac{TIR} e \ac{ROI}.}
@@ -268,7 +264,7 @@ Com o intuito de facilitar a visualização e a consulta dos principais resultad
 \begin{tabular}{C{2cm}C{2cm}C{3cm}C{3cm}C{2cm}} \hline
 \textbf{Potência} &\textbf{Sistema} & \textbf{Energia anual [kWh]} & \textbf{Rendimento [kWh/kWp]} & \textbf{Eficiência [\%]} \\ \hline
 \multirow{2}{*}{$10$ kW} & Fixo & 14.523 & 1.376,15 & 67,60 \\ 
-& \textit{Tracker} & 17.746 & 1.698,48 & 69,73 \\ \hline
+& \textit{Tracker} & 17.746 & 1.698,48 & 69,70 \\ \hline
 \multirow{2}{*}{$50$ kW} & Fixo & 72.251 & 1.430,18 & 70,25 \\ 
 & \textit{Tracker} & 88.295 & 1.751,08 & 71,89 \\ \hline
 \multirow{2}{*}{$100$ kW} & Fixo & 144.501 & 1.430,18 & 70,25 \\ 
@@ -294,8 +290,8 @@ De maneira complementar, a Tabela 21 consolida os principais indicadores finance
 \caption{Resumo dos resultados econômico-financeiros estimados no PV*SOL para usinas fotovoltaicas de diferentes potências em Belo Horizonte--MG, comparando sistemas de estrutura fixa e com rastreamento solar de um eixo.}
 \begin{tabular}{C{2cm}C{2cm}C{2cm}C{3cm}C{2cm}C{2cm}} \hline
 \textbf{Potência} & \textbf{Sistema} & \textbf{Custo de geração [R\$/kWh]} & \textbf{\textit{PayBack} [anos]]} & \textbf{\ac{TIR} [\%]} & \textbf{\ac{ROI} [\%]} \\ \hline
-\multirow{2}{*}{$10$ kW} & Fixo & $0,2198$ & $7$ anos, $10$ meses & 11,91 & 14,26 \\
-& \textit{Tracker} & 0,2321 & $8$ anos & 11,71 & 14,52 \\ \hline
+\multirow{2}{*}{$10$ kW} & Fixo & 0,2198 & $7$ anos, $10$ meses & 11,91 & 14,26 \\
+& \textit{Tracker} & 0,2331 & $8$ anos & 11,64 & 14,52 \\ \hline
 \multirow{2}{*}{$50$ kW} & Fixo & 0,1961 & $7$ anos, $3$ meses & 13,07 & 15,30 \\
 & \textit{Tracker} & 0,2340 & $8$ anos, $4$ meses & 11,00 & 13,95 \\ \hline
 \multirow{2}{*}{$100$ kW} & Fixo & 0,1846 & $6$ anos, $9$ meses & 14,13 & 16,26 \\
@@ -307,7 +303,7 @@ De maneira complementar, a Tabela 21 consolida os principais indicadores finance
 \multirow{2}{*}{$800$ kW} & Fixo & 0,1427 & $5$ anos, $2$ meses & 18,97 & 20,81 \\
 & \textit{Tracker} & 0,1487 & $5$ anos, $1$ mês & 19,47 & 21,79 \\ \hline
 \multirow{2}{*}{$1$ MW} & Fixo & 0,1251 & $4$ anos, $6$ meses & 21,99 & 23,74 \\
-& \textit{Tracker} & 0,1300 & $4$ anos, $4$ meses & 22,67 & 24,91 \\ \hline
+& \textit{Tracker} & 0,1300 & $4$ anos, $4$ meses & 24,91 & 24,08 \\ \hline
 \end{tabular}
 \fonteautor
 \label{tab:resumof}
@@ -318,12 +314,9 @@ De maneira complementar, a Tabela 21 consolida os principais indicadores finance
 Nesta seção realiza-se a síntese integrada dos resultados obtidos, articulando os desempenhos energético e econômico dos sistemas fotovoltaicos avaliados. A análise considera, de forma conjunta, a variação dos indicadores de geração e eficiência com a escala de potência e com a tecnologia empregada, bem como seus desdobramentos nos custos e na rentabilidade dos projetos. Essa abordagem permite estabelecer a relação entre o ganho energético proporcionado pelo rastreamento solar e o investimento adicional requerido, evidenciando como esse equilíbrio evolui ao longo das diferentes faixas de potência. Desse modo, busca-se identificar as condições em que o aumento de produção se traduz efetivamente em vantagem econômica, caracterizando o ponto a partir do qual o uso de \textit{trackers} passa a apresentar maior atratividade no contexto analisado.
 
 \subsection{Aspectos técnicos}
-A \autoref{fig:img012} apresenta a relação entre a energia anual injetada e o rendimento específico para sistemas fotovoltaicos com estrutura fixa e com rastreamento solar de um eixo em Belo Horizonte–MG. A análise técnica evidencia que os sistemas com rastreamento apresentam desempenho energético superior em todas as potências analisadas, tanto em
-termos de energia anual gerada quanto de rendimento específico (kWh/kWp).
+A \autoref{fig:img012} mostra relação entre energia anual injetada  e o rendimento específico para sistemas fotovoltaicos com estrutura fixa e com rastreamento solar de um eixo em Belo Horizonte--MG. A avaliação técnica evidencia que os sistemas com rastreamento de um eixo (vermelho) apresentam desempenho energético superior aos sistemas de estrutura fixa (azul) em todas as potências analisadas. Esse comportamento decorre da maior captação de radiação ao longo do dia, proporcionada pelo acompanhamento do movimento aparente do sol, o que amplia o período de operação em condições próximas ao ângulo ótimo de incidência.
 
-Esse comportamento está associado ao melhor alinhamento angular dos módulos em
-relação à trajetória aparente do sol ao longo do dia, proporcionado pelo mecanismo de rastreamento. Como consequência, ocorre um maior aproveitamento da irradiação
-incidente e uma redução das perdas associadas ao desalinhamento angular, resultando em maior utilização efetiva da potência instalada. Nos sistemas de estrutura fixa, o ângulo constante de inclinação limita esse aproveitamento, sobretudo nos períodos matutino e vespertino, refletindo-se em menores valores de geração e rendimento específico.
+A mesma tendência é observada no rendimento específico (kWh/kWp), indicando maior aproveitamento da potência instalada nos sistemas com \textit{tracker} (amarelo) em relação ao fixo (cinza). A capacidade de ajuste angular reduz perdas por desalinhamento entre a superfície dos módulos e a radiação incidente, enquanto nos sistemas fixos o ângulo constante limita o aproveitamento energético sobretudo nos períodos matutino e vespertino.
 % A análise da energia anual gerada evidencia que os sistemas com rastreamento de um eixo apresentam desempenho superior em comparação aos sistemas fixos em todas as potências avaliadas. Esse comportamento se deve à maior captação da radiação solar proporcionada pelo movimento do \textit{tracker}, que acompanha o deslocamento aparente do sol ao longo do dia.
 % A avaliação técnica evidencia que os sistemas com rastreamento de um eixo apresentam desempenho energético superior aos sistemas de estrutura fixa em todas as potências analisadas. Esse comportamento decorre da maior captação de radiação ao longo do dia, proporcionada pelo acompanhamento do movimento aparente do sol, o que amplia o período de operação em condições próximas ao ângulo ótimo de incidência.
 % Quando se observa o rendimento específico (kWh/kWp), a mesma tendência é confirmada: o sistema com \textit{tracker} demonstra maior aproveitamento energético por unidade de potência instalada. Esse comportamento está diretamente associado à redução das perdas angulares, uma vez que o seguidor solar mantém os módulos mais próximos da inclinação ideal durante o dia. Em contrapartida, no sistema fixo, a limitação do ângulo de inclinação reduz o aproveitamento da radiação em horários de baixa incidência solar.  A \autoref{fig:img012} nos mostra na relação entre as tres grandezas mencionadas. 
@@ -336,53 +329,46 @@ incidente e uma redução das perdas associadas ao desalinhamento angular, resul
 	\label{fig:img012}
 \end{figure}
 
-% \color{red}
-% CONTRADITÓRIO
+\color{red}
+CONTRADITÓRIO
 
-O gráfico apresentado na \autoref{fig:img013} mostra o ganho percentual de geração proporcionado pelo rastreamento solar em função da potência instalada. Observa-se que o incremento relativo de energia permanece dentro da faixa esperada ao longo das diferentes faixas de potência analisadas, com variações pontuais associadas às condições de simulação e às configurações dos sistemas modelados. Esse comportamento pode indicar que o benefício técnico do rastreamento está predominantemente relacionado ao aumento do tempo de captação eficiente da radiação solar, e não a efeitos de escala intrínsecos à potência instalada.
+O gráfico apresentado na \autoref{fig:img013} mostra o ganho percentual de geração proporcionado pelo rastreamento solar em função da potência instalada. Observa-se que o incremento relativo de energia permanece aproximadamente constante ao longo das diferentes faixas de potência analisadas, com variações pontuais associadas às condições de simulação e às configurações dos sistemas modelados. Esse comportamento pode indicar que o benefício técnico do rastreamento está predominantemente relacionado ao aumento do tempo de captação eficiente da radiação solar, e não a efeitos de escala intrínsecos à potência instalada.
 
 Dessa forma, o rastreamento solar não deve ser interpretado como uma tecnologia cujo ganho percentual cresce com o porte do sistema, mas como uma solução que eleva de maneira semelhante o desempenho energético relativo em diferentes escalas. Consequentemente, embora o ganho percentual permaneça quase invariável, o ganho absoluto de energia torna-se mais expressivo em sistemas de maior potência, ampliando seu impacto prático.
 
 Nesse contexto, a análise puramente técnica mostra-se insuficiente para determinar a viabilidade do uso de \textit{trackers}, tornando necessária a avaliação dos reflexos econômicos associados a esse ganho energético. Assim, na sequência, são analisados os aspectos financeiros dos sistemas estudados, visando identificar em que condições o aumento de geração proporcionado pelo rastreamento solar se traduz em vantagens econômicas efetivas.
-
-No que se refere à eficiência global do sistema, observa-se desempenho superior nos projetos com rastreamento solar, associado principalmente à maior captação de irradiação ao longo do dia. Esse ganho decorre do melhor alinhamento angular dos módulos em relação à trajetória aparente do sol, o que resulta em maior produção energética anual. Cabe destacar que, nas simulações realizadas, esse desempenho foi obtido considerando um arranjo adequado do layout do sistema, com espaçamento entre fileiras e utilização de estratégias de controle que mitigam perdas por sombreamento entre módulos, como o \textit{backtracking}. Contudo, é importante destacar que esse ganho de eficiência não ocorre de forma isolada, pois está diretamente associado a um aumento no custo de capital (\ac{CAPEX}). Em outras palavras, a maior produção de energia proporcionada pelo rastreamento só é viável mediante um investimento inicial mais elevado, decorrente da necessidade de estruturas móveis, sistemas de acionamento, componentes adicionais e maior demanda de manutenção preventiva. 
 \begin{figure}[htb!]
 	\centering
 	\caption{Ganho percentual de geração de energia anual de sistemas fotovoltaicos com rastreamento solar de um eixo em relação a sistemas fixos, em função da potência instalada, para as condições de Belo Horizonte--MG.}
 	\includegraphics[width=0.65\linewidth]{./textuais/figs/ganhodegeracaoxpotencia}
-	\fonteautor
+    \fonteautor
 	\label{fig:img013}
 \end{figure}
 
-Para ilustrar essa relação entre desempenho e investimento, a \autoref{fig:img014} apresenta a comparação entre o \ac{CAPEX} e a eficiência global dos sistemas fixos e com rastreamento ao longo das diferentes potências analisadas. No eixo horizontal, a potência instalada (kW) e, nos eixos verticais, o investimento inicial \ac{CAPEX} (à esquerda, em R\$) e a eficiência global do sistema (à direita, em \%).
-\begin{figure}[htb!]
+No que se refere à eficiência global do sistema, observa-se também vantagem para os projetos com rastreamento. Isso se deve ao fato de que, além da maior captura de energia, o \textit{tracker} contribui para minimizar sombreamentos e melhorar o fator de utilização dos módulos. Contudo, é importante destacar que esse ganho de eficiência não ocorre de forma isolada, pois está diretamente associado a um aumento no custo de capital (\ac{CAPEX}). Em outras palavras, a maior produção de energia proporcionada pelo rastreamento só é viável mediante um investimento inicial mais elevado, decorrente da necessidade de estruturas móveis, sistemas de acionamento, componentes adicionais e maior demanda de manutenção preventiva. Para ilustrar essa relação entre desempenho e investimento, a \autoref{fig:img014} apresenta a comparação entre o \ac{CAPEX} e a eficiência global dos sistemas fixos e com rastreamento ao longo das diferentes potências analisadas, evidenciando o \textit{trade-off} existente entre maior rendimento energético e maior custo de implantação.
+\begin{figure}[h]
 	\centering
 	\caption{Relação entre o investimento inicial (\ac{CAPEX}) e a eficiência global de sistemas fotovoltaicos de estrutura fixa e com rastreamento solar de um eixo, em função da potência instalada, para as condições de Belo Horizonte--MG.}
-	\includegraphics[width=0.99\linewidth]{./textuais/figs/capexeficiencia}
-	\fonteautor
+	\includegraphics[width=0.8\linewidth]{./textuais/figs/capexeficiencia}
+    \fonteautor
 	\label{fig:img014}
 \end{figure}
 
-As curvas azuis (\ac{CAPEX} fixo) e laranjas (\ac{CAPEX} com rastreamento) mostram crescimento aproximadamente monotônico com a potência, evidenciando que o investimento aumenta com a escala do sistema, sendo sempre mais elevado para a configuração com \textit{tracker}. Observa-se também que a distância entre as curvas de \ac{CAPEX} se amplia à medida que a potência cresce, indicando que o custo adicional do rastreamento não é constante, mas tende a aumentar em termos absolutos em sistemas maiores. As curvas de eficiência, representadas em cinza (desempenho fixo) e amarelo (desempenho com \textit{tracker}), situam-se no eixo direito e mostram que o rastreamento mantém eficiência superior em toda a faixa de potência analisada, com diferença típica da ordem de 1 a 2 pontos percentuais. Nota-se ainda uma tendência de saturação da eficiência a partir de cerca de 300–500 kW para ambas as configurações, sugerindo que o ganho técnico do rastreamento é relativamente independente da escala. Um ponto particular do gráfico é a leve queda da eficiência do sistema fixo em torno de 800 kW, seguida de recuperação em 1 MW, comportamento que foge à tendência monotônica observada nas demais potências e que pode indicar variação de modelagem ou inconsistência pontual nos dados. De forma geral, as curvas evidenciam o \textit{trade-off} característico do uso de \textit{trackers}: ganho moderado de eficiência associado a aumento significativo de \ac{CAPEX}, relação que se mantém ao longo de toda a faixa de potência considerada.
-
-
 \subsection{Aspectos Financeiros}
 No âmbito econômico, os resultados mostram que o custo de geração (R\$/kWh) é diretamente influenciado pelo investimento inicial. Apesar de gerar mais energia, o sistema com rastreamento possui um custo de implantação mais elevado, o que tende a aumentar o custo nivelado de energia em sistemas de menor porte.
-
-O comportamento ilustrado na \autoref{fig:img015} evidencia a relação entre o investimento inicial e o custo de geração de energia para sistemas fotovoltaicos fixos e com rastreamento solar. No eixo horizontal, a potência instalada (kW), no eixo vertical esquerdo o investimento inicial CAPEX (R\$) e no eixo vertical direito o custo de geração de energia (R\$/kWh). As curvas azuis (\ac{CAPEX} fixo) e laranjas (\ac{CAPEX} com rastreamento) já foram mostradas na \autoref{fig:img014} e estão aqui apenas para melhorar a visualização. 
 \begin{figure}[h]
 	\centering
 	\caption{Relação entre o \ac{CAPEX} e o custo de geração de energia (R\$/kWh) de sistemas fotovoltaicos fixos e com rastreamento de um eixo em função da potência instalada, para Belo Horizonte--MG.}
 	\includegraphics[width=0.8\linewidth]{./textuais/figs/capexxcusto}
-	\fonteautor
+    \fonteautor
 	\label{fig:img015}
 \end{figure}
 
-% Ao analisar o custo de geração de energia, verifica-se que, embora os sistemas com rastreamento apresentem uma redução progressiva desse indicador à medida que a potência instalada aumenta, o custo de geração permanece superior ao dos sistemas fixos na faixa de potência considerada neste estudo. Isso indica que, nas condições avaliadas, o ganho energético proporcionado pelo \textit{tracker} não foi suficiente para compensar integralmente o maior investimento inicial.
+O comportamento ilustrado no Gráfico na \autoref{fig:img015}  evidencia a relação entre o investimento inicial e o custo de geração de energia para sistemas fotovoltaicos fixos e com rastreamento solar. Observa-se que o \ac{CAPEX} dos sistemas com \textit{tracker} apresenta crescimento mais acentuado em comparação aos sistemas fixos, refletindo os custos adicionais associados à aquisição, instalação e integração dos mecanismos de rastreamento.
 
-% Ainda assim, a tendência de aproximação entre as curvas sugere que, em potências instaladas superiores às analisadas ou sob diferentes condições de custo e operação, pode ocorrer o cruzamento entre os custos de geração dos sistemas fixos e rastreados. Tal comportamento reforça o caráter dependente de escala da viabilidade dos sistemas com rastreamento solar, especialmente em projetos de maior porte.
-As curvas de custo de geração na \autoref{fig:img015}, representadas em cinza (fixo) e amarelo (\textit{tracker}), apresentam tendência decrescente com o aumento da potência instalada, refletindo ganhos de escala que reduzem o custo nivelado de energia em sistemas maiores. Em toda a faixa de potência considerada, o custo de geração do sistema fixo permanece inferior ao do sistema com rastreamento, embora a diferença entre eles diminua progressivamente com a potência, sugerindo aproximação entre as tecnologias em projetos de maior porte. Nota-se ainda que a curva amarela (\textit{tracker}) apresenta valores iniciais mais elevados e queda mais acentuada até cerca de 500–800 kW, enquanto a curva cinza (fixo) decresce de forma mais suave, mantendo-se sempre abaixo. De forma geral, as curvas evidenciam que, embora o rastreamento proporcione maior geração de energia, o maior \ac{CAPEX} associado mantém o custo de geração superior ao do sistema fixo na faixa analisada, ainda que a diferença se reduza com o aumento da escala, caracterizando um \textit{trade-off} econômico dependente da potência instalada.
-%% 
+Ao analisar o custo de geração de energia, verifica-se que, embora os sistemas com rastreamento apresentem uma redução progressiva desse indicador à medida que a potência instalada aumenta, o custo de geração permanece superior ao dos sistemas fixos na faixa de potência considerada neste estudo. Isso indica que, nas condições avaliadas, o ganho energético proporcionado pelo \textit{tracker} não foi suficiente para compensar integralmente o maior investimento inicial.
+
+Ainda assim, a tendência de aproximação entre as curvas sugere que, em potências instaladas superiores às analisadas ou sob diferentes condições de custo e operação, pode ocorrer o cruzamento entre os custos de geração dos sistemas fixos e rastreados. Tal comportamento reforça o caráter dependente de escala da viabilidade dos sistemas com rastreamento solar, especialmente em projetos de maior porte.
 
 Já o Gráfico apresentado na \autoref{fig:img016} ilustra de forma integrada a evolução do \textit{payback} e da Taxa Interna de Retorno (\ac{TIR}) em função da potência instalada, comparando sistemas fotovoltaicos de estrutura fixa e com rastreamento solar. Inicialmente, observa-se que, em sistemas de menor porte ($10$ a $100$ kW), os sistemas fixos apresentam melhor desempenho financeiro. Nessa faixa, o \textit{payback} dos sistemas fixos é sistematicamente inferior ao dos sistemas com \textit{tracker}, enquanto a \ac{TIR} também se mostra superior, indicando que o aumento do \ac{CAPEX} associado ao rastreamento ainda não é compensado pelo ganho adicional de geração.
 \begin{figure}[h]
@@ -393,57 +379,31 @@ Já o Gráfico apresentado na \autoref{fig:img016} ilustra de forma integrada a 
 	\label{fig:img016}
 \end{figure}
 
-À medida que a potência instalada aumenta, nota-se uma redução progressiva do \textit{payback} em ambas as configurações, porém com comportamento mais acentuado nos sistemas com rastreamento. Na faixa intermediária ($300$ a $500$ kW), embora o sistema fixo ainda apresenta menor tempo de retorno, a diferença entre as duas soluções diminui significativamente. Paralelamente, a \ac{TIR} dos sistemas com \textit{tracker} cresce de forma consistente, aproximando-se dos valores observados nos sistemas fixos, evidenciando um cenário de transição na viabilidade econômica.
+À medida que a potência instalada aumenta, nota-se uma redução progressiva do \textit{payback} em ambas as configurações, porém com comportamento mais acentuado nos sistemas com rastreamento. Na faixa intermediária ($300$ a $500$ kW), embora o sistema fixo ainda apresente menor tempo de retorno, a diferença entre as duas soluções diminui significativamente. Paralelamente, a \ac{TIR} dos sistemas com \textit{tracker} cresce de forma consistente, aproximando-se dos valores observados nos sistemas fixos, evidenciando um cenário de transição na viabilidade econômica.
 
-%Em sistemas de maior porte, a partir das potências simuladas de $800$ kW, observa-se uma inversão do desempenho relativo entre as configurações analisadas. Nessa faixa, os sistemas com rastreamento passam a apresentar \textit{payback} inferior ao dos sistemas fixos, além de \ac{TIR} superior, demonstrando que o investimento adicional requerido pelos \textit{trackers} é compensado pela maior eficiência energética e pelo aumento da geração anual. Esse comportamento caracteriza uma mudança clara na atratividade financeira, consolidando o rastreamento como a alternativa economicamente mais vantajosa em empreendimentos de maior escala.
-Em sistemas de maior porte, a partir das potências simuladas de $800$ kW, observa-se uma inversão do desempenho relativo entre as configurações analisadas. Nessa faixa, os sistemas com rastreamento passam a apresentar \textit{payback} inferior ao dos sistemas fixos, além de \ac{TIR} superior, sugerindo que o investimento adicional requerido pelos \textit{trackers} tende a ser compensado pela maior eficiência energética e pelo aumento da geração anual. Esse comportamento indica uma mudança na atratividade financeira com o aumento da escala, apontando o rastreamento como potencialmente mais vantajoso em empreendimentos de maior porte dentro das condições simuladas neste estudo.
+Em sistemas de maior porte, a partir de aproximadamente $800$ kW, ocorre o cruzamento das curvas de \textit{payback} e de \ac{TIR}. Nessa faixa, os sistemas com rastreamento passam a apresentar \textit{payback} inferior ao dos sistemas fixos, além de \ac{TIR} superior, demonstrando que o investimento adicional requerido pelos \textit{trackers} é compensado pela maior eficiência energética e pelo aumento da geração anual. Esse comportamento caracteriza uma mudança clara na atratividade financeira, consolidando o rastreamento como a alternativa economicamente mais vantajosa em empreendimentos de maior escala.
 
-%Dessa forma, os resultados evidenciam que a viabilidade do uso de \textit{trackers} está diretamente associada à potência instalada do sistema. Enquanto em projetos de pequeno porte a solução fixa se mostra mais racional sob o ponto de vista financeiro, em usinas de médio a grande porte o rastreamento solar passa a oferecer melhores indicadores econômicos, reforçando a importância da análise conjunta dos aspectos técnicos e financeiros, conforme discutido nas seções seguintes.
-Entretanto, é importante ressaltar que essa inversão não deve ser interpretada como um resultado definitivo ou universal. Os valores adotados nas simulações possuem natureza teórica e refletem premissas específicas de custo, desempenho e operação, podendo variar em aplicações reais conforme condições locais de implantação, mercado e engenharia do projeto. Assim, embora os resultados indiquem uma tendência favorável ao uso de \textit{trackers} em potências elevadas, a consolidação dessa vantagem requer análises adicionais com dados empíricos e estudos de caso reais, o que não constitui escopo deste trabalho, mas se apresenta como um achado relevante que merece investigação futura.
+Dessa forma, os resultados evidenciam que a viabilidade do uso de \textit{trackers} está diretamente associada à potência instalada do sistema. Enquanto em projetos de pequeno porte a solução fixa se mostra mais racional sob o ponto de vista financeiro, em usinas de médio a grande porte o rastreamento solar passa a oferecer melhores indicadores econômicos, reforçando a importância da análise conjunta dos aspectos técnicos e financeiros, conforme discutido nas seções seguintes.
 
-Dessa forma, os resultados evidenciam que a viabilidade do uso de \textit{trackers} está associada à potência instalada do sistema, ainda que dependente das premissas adotadas. Enquanto em projetos de pequeno porte a solução fixa se mostra mais racional sob o ponto de vista financeiro, em usinas de médio a grande porte o rastreamento solar tende a apresentar indicadores econômicos mais favoráveis, reforçando a importância da análise conjunta dos aspectos técnicos e financeiros, conforme discutido nas seções seguintes.
-
-%A \autoref{fig:img017} apresenta o gráfico de bolhas, que integra em uma única visualização três indicadores financeiros fundamentais para a avaliação dos sistemas fotovoltaicos: o \textit{payback}, representado no eixo horizontal, o \ac{TIR}, no eixo vertical, e o\ac{ROI}, indicado pelo tamanho das bolhas possibilitando a visualização conjunta da atratividade financeira e da rentabilidade percentual.
-A \autoref{fig:img017} apresenta, em um gráfico de bolhas, a relação integrada entre o tempo de retorno do investimento (\textit{payback}), a taxa interna de retorno (\ac{TIR}) e o retorno sobre o investimento (\ac{ROI}) para sistemas fotovoltaicos de diferentes potências e configurações (fixa e com rastreamento). No plano cartesiano, o eixo horizontal representa o \textit{payback} (anos), o eixo vertical representa a \ac{TIR} (\%), enquanto o tamanho das bolhas é proporcional ao \ac{ROI}, permitindo a comparação simultânea dos principais indicadores financeiros.
+A \autoref{fig:img017} apresenta o gráfico de bolhas, que integra em uma única visualização três indicadores financeiros fundamentais para a avaliação dos sistemas fotovoltaicos: o \textit{payback}, representado no eixo horizontal, o \ac{TIR}, no eixo vertical, e o\ac{ROI}, indicado pelo tamanho das bolhas. Essa abordagem permite comparar, de forma direta, o desempenho econômico de sistemas fixos e com rastreamento ao longo das diferentes faixas de potência analisadas.
 \begin{figure}[h]
 	\centering
-	\caption{Relação integrada entre \textit{payback}, \ac{TIR} e \ac{ROI} de sistemas fotovoltaicos fixos e com rastreamento solar de um eixo em função da potência instalada, para as condições de Belo Horizonte–MG.}
-	\includegraphics[width=0.99\linewidth]{./textuais/figs/bolhas}
+	\caption{\textit{Payback} x \ac{TIR} x \ac{ROI}.}
+	\includegraphics[width=0.8\linewidth]{./textuais/figs/bolhas}
     \fonteautor
 	\label{fig:img017}
 \end{figure}
 
-% De forma geral, o gráfico de bolhas confirma as tendências previamente discutidas no Gráfico \textit{Payback} × \ac{TIR}, evidenciando a relação entre escala do empreendimento e desempenho econômico das configurações analisadas. Observa-se a progressiva migração dos sistemas com rastreamento para regiões de menor \textit{payback} e maior \ac{TIR} à medida que a potência instalada aumenta, acompanhada por bolhas de maior dimensão, indicando elevação do \ac{ROI}.
+Observa-se que, nas potências menores, entre 10 kW e 300 kW, os sistemas de estrutura fixa apresentam maior atratividade financeira. Nessa faixa, o \textit{payback} dos sistemas fixos é sistematicamente menor, enquanto a \ac{TIR} e o \ac{ROI} também se mantêm superiores aos dos sistemas com \textit{tracker}. Esse comportamento indica que, em projetos de pequeno porte, o aumento de geração proporcionado pelo rastreamento ainda não é suficiente para compensar o maior investimento inicial associado à tecnologia, tornando o sistema fixo a alternativa economicamente mais racional.
 
-% Assim, o gráfico atua como uma ferramenta de síntese visual, reforçando que o ganho de rentabilidade proporcionado pelo rastreamento solar torna-se mais expressivo em potências mais elevadas, enquanto, em sistemas de menor porte, os sistemas de estrutura fixa tendem a se concentrar em regiões de maior atratividade financeira. Dessa forma, a \autoref{fig:img017} complementa a análise anterior ao integrar, em uma única representação gráfica, os principais indicadores econômicos considerados neste estudo.
+À medida que a potência instalada aumenta, especialmente na faixa intermediária (300 a 500 kW), percebe-se uma redução progressiva da diferença entre os dois arranjos. Embora o sistema fixo ainda apresente ligeira vantagem em termos de \textit{payback} e \ac{TIR}, os indicadores do \textit{tracker} se aproximam de forma significativa, evidenciando um cenário de transição. Nessa etapa, a escolha entre as configurações passa a depender mais do perfil do investidor e da estratégia adotada, já que o rastreamento começa a se mostrar tecnicamente competitivo, ainda que não plenamente dominante do ponto de vista financeiro.
 
-Observa-se que os sistemas de menor porte (10 a 100 kW) concentram-se na região de maior \textit{payback} e menor \ac{TIR}, indicando menor atratividade econômica relativa, independentemente da configuração. Nessa faixa, os sistemas fixos tendem a apresentar desempenho ligeiramente superior, com menor tempo de retorno e indicadores de rentabilidade mais elevados que os sistemas com rastreamento, refletindo o impacto proporcionalmente maior do \ac{CAPEX} adicional dos \textit{trackers} em projetos de pequena escala.
+Nas potências mais elevadas, especialmente a partir de 800 kW, ocorre o cruzamento claro das curvas financeiras, indicando uma mudança no cenário de viabilidade. O sistema com \textit{tracker} passa a apresentar \textit{payback} menor, além de \ac{TIR} e \ac{ROI}superiores aos do sistema fixo. Esse comportamento demonstra que, em usinas de maior porte, o custo adicional do rastreamento é diluído pelo ganho expressivo de geração de energia, resultando em maior rentabilidade e retorno mais rápido do capital investido.
 
-À medida que a potência instalada aumenta, nota-se um deslocamento progressivo dos pontos em direção à região de menor \textit{payback} e maior \ac{TIR}, evidenciando o efeito de escala na melhoria dos indicadores financeiros. Nas potências intermediárias (300 a 500 kW), os resultados das duas configurações tornam-se mais próximos, caracterizando uma zona de transição na viabilidade econômica do rastreamento solar.
-
-Nos sistemas de maior porte (800 kW e 1 MW), os pontos associados aos \textit{trackers} passam a se posicionar na região de menor \textit{payback} e maior \ac{TIR}, com bolhas de maior dimensão, indicando \ac{ROI} superior. Esse comportamento sugere que, nas condições simuladas, o ganho adicional de geração proporcionado pelo rastreamento tende a compensar o maior investimento inicial em projetos de maior escala. Contudo, deve-se ressaltar que essa tendência decorre de premissas teóricas adotadas nas simulações e pode variar conforme condições reais de custo, implantação e operação. Assim, embora o gráfico indique maior atratividade econômica do rastreamento em potências elevadas, tal resultado deve ser interpretado como indicativo e não conclusivo, apontando a necessidade de investigações complementares com dados empíricos.
-
-De forma geral, a distribuição dos pontos confirma que a atratividade financeira dos sistemas fotovoltaicos aumenta com a potência instalada e que o efeito de escala favorece progressivamente a adoção de \textit{trackers}, ainda que essa vantagem dependa das condições específicas consideradas no estudo.
+Dessa forma, o gráfico evidencia que a atratividade do rastreamento solar está fortemente associada à escala do empreendimento. Enquanto sistemas de pequeno porte favorecem soluções fixas, projetos de médio porte representam uma zona de equilíbrio entre as tecnologias, e usinas de grande porte consolidam o \textit{tracker} como a opção economicamente mais vantajosa, reforçando sua relevância estratégica para empreendimentos com maior potência instalada.
 
 \section{Conclusões Parciais}
-Os sistemas com rastreamento apresentam melhor desempenho técnico em todas as potências analisadas, com maior geração, rendimento específico e eficiência global. Entretanto, sob o ponto de vista econômico, a estrutura fixa mostra-se mais vantajosa até aproximadamente $500$ kW, com menor custo de geração, menor \textit{payback} e indicadores de rentabilidade iguais ou superiores, com exceção pontual do \ac{ROI} em $10$ kW. A partir de $800$ kW observa-se uma transição, na qual o sistema com \textit{tracker} passa a apresentar \ac{TIR} e \ac{ROI} superiores e \textit{payback} equivalente ou ligeiramente menor, indicando maior competitividade econômica em sistemas de maior porte. Em $1$ MW, o rastreamento torna-se a alternativa mais atrativa dentro das condições simuladas, sugerindo que o ganho energético compensa o maior investimento inicial, ainda que esse resultado dependa das premissas adotadas e deva ser interpretado com cautela.
-
-\begin{comment}
-De maneira geral, os resultados mostraram que os sistemas com rastreamento solar sempre apresentam melhor desempenho técnico, com maior geração de energia, rendimento específico e eficiência global em todas as potências analisadas. Porém, do ponto de vista financeiro, o comportamento é diferente: nas potências menores (até $300$ kW), os sistemas fixos se mostraram mais vantajosos, com menor custo de geração, \textit{payback} mais curto e melhores índices de \ac{TIR} e com excessão da usina de $10$kW \textit{tracker} que possui um \ac{ROI} ligeiramente melhor que a estrutura fixa, todas as demais potências possuem vantagem nesse indicador sobre a estrutura móvel. A partir de $500$ kW, o cenário muda, e os trackers começam a apresentar resultados equivalentes, consolidando-se como a opção mais atrativa nas potências maiores ($800$ kW e $1$ MW), onde o ganho energético compensa plenamente o investimento adicional.
-
-
-Nova 
-
-Para usinas de pequeno porte, especificamente nas potências de $10$ kW, $50$ kW e $100$ kW, os resultados indicam que a estrutura fixa é a alternativa economicamente mais adequada. Nessas faixas, o sistema fixo apresenta, de forma consistente, menor custo de geração de energia, menor tempo de retorno do investimento e indicadores de rentabilidade iguais ou superiores aos do sistema com \textit{tracker}. O maior investimento inicial e os custos associados ao rastreamento não são compensados pelos ganhos de geração nessas escalas, tornando o uso de \textit{trackers} financeiramente menos atrativo.
-
-Na faixa intermediária de potência, representada pela usina de $300$ kW, a estrutura fixa continua apresentando vantagem econômica clara. Os resultados demonstram diferenças expressivas nos indicadores financeiros, com destaque para o \textit{payback} significativamente menor e valores de \ac{TIR} e \ac{ROI} superiores no sistema fixo. Dessa forma, mesmo em um porte intermediário, o ganho adicional de geração proporcionado pelo \textit{tracker} ainda não é suficiente para superar os custos adicionais associados à sua implementação.
-
-Para a potência de $500$ kW, observa-se a manutenção da vantagem econômica da estrutura fixa, embora a diferença entre as configurações seja menor quando comparada às potências inferiores. O sistema fixo ainda apresenta menor custo de geração, \textit{payback} mais curto e maiores indicadores de rentabilidade, indicando que, até esse nível de potência, a adoção de \textit{trackers} não se justifica financeiramente sob os parâmetros analisados.
-
-A partir da usina de $800$ kW, os resultados apontam para um cenário de transição. Embora o sistema de estrutura fixa continue apresentando menor custo de geração, o sistema com \textit{tracker} passa a registrar valores superiores de \ac{TIR} e \ac{ROI}, além de um \textit{payback} muito próximo. Esse comportamento indica que, nessa faixa de potência, os ganhos adicionais de geração começam a compensar o maior investimento inicial, tornando o uso de \textit{trackers} financeiramente competitivo, ainda que não claramente dominante.
-
-Por fim, na usina de $1$ MW, os resultados demonstram que o sistema com \textit{trackers} se torna economicamente mais atrativo, apresentando menor \textit{payback} e indicadores de rentabilidade superiores, apesar do custo de geração ligeiramente mais elevado. Nessa escala, os ganhos de produção energética proporcionados pelo rastreamento solar superam os custos adicionais de implantação, justificando financeiramente a adoção de \textit{trackers}.
-
+De maneira geral, os resultados mostraram que os sistemas com rastreamento solar sempre apresentam melhor desempenho técnico, com maior geração de energia, rendimento específico e eficiência global em todas as potências analisadas. Porém, do ponto de vista financeiro, o comportamento é diferente: nas potências menores (até $300$ kW), os sistemas fixos se mostraram mais vantajosos, com menor custo de geração, \textit{payback} mais curto e melhores índices de \ac{TIR} e \ac{ROI}. A partir de $500$ kW, o cenário muda, e os trackers começam a apresentar resultados equivalentes, consolidando-se como a opção mais atrativa nas potências maiores ($800$ kW e $1$ MW), onde o ganho energético compensa plenamente o investimento adicional.
 
 \color{magenta}
 \section*{Inconsistências numéricas}
@@ -456,44 +416,43 @@ Por fim, na usina de $1$ MW, os resultados demonstram que o sistema com \textit{
 	vs ``o incremento relativo de energia permanece aproximadamente constante'' (análise da Figura do ganho percentual).\\
 	Inconsistência: o texto sustenta ganho percentual aproximadamente constante (em torno de 22\%), mas reporta 25\% em 800 kW. O autor deve revisar os dados e/ou justificar tecnicamente a exceção.
 	
-	\item \textbf{(FEITO) Resumo financeiro diverge das tabelas individuais no caso 10 kW (TIR do tracker).}\\
+	\item \textbf{Resumo financeiro diverge das tabelas individuais no caso 10 kW (TIR do tracker).}\\
 	Trechos: Tabela 10 kW (individual): ``Tracker ... TIR = 11,94'' 
 	vs Tabela resumo financeiro: ``Tracker ... TIR = 11,64'' (10 kW).\\
 	Inconsistência: mesma grandeza (TIR do caso 10 kW com tracker) aparece com valores diferentes. O autor deve revisar a consolidação.
 	
-	\item \textbf{(FEITO)Resumo financeiro diverge das tabelas individuais no caso 300 kW (TIR do fixo).}\\
+	\item \textbf{Resumo financeiro diverge das tabelas individuais no caso 300 kW (TIR do fixo).}\\
 	Trechos: Tabela 300 kW (individual): ``Fixo ... TIR = 18,31'' 
 	vs Tabela resumo financeiro: ``Fixo ... TIR = 16,34'' (300 kW).\\
 	Inconsistência: TIR do sistema fixo em 300 kW muda entre tabela individual e resumo. O autor deve revisar a transcrição/exportação.
 	
-	\item \textbf{(FEITO)Resumo financeiro diverge do texto e da tabela individual no caso 1 MW (tracker: TIR e ROI).}\\
+	\item \textbf{Resumo financeiro diverge do texto e da tabela individual no caso 1 MW (tracker: TIR e ROI).}\\
 	Trechos: Tabela 1 MW (individual) e texto: ``TIR = 22,67'' e ``ROI = 24,91'' 
 	vs Tabela resumo financeiro: ``TIR = 24,91'' e ``ROI = 24,08'' (1 MW, tracker).\\
 	Inconsistência: no resumo, TIR e ROI do tracker em 1 MW não batem com a tabela individual e com o texto (há forte indício de troca/erro de lançamento). O autor deve revisar.
 	
-	\item \textbf{(FEITO)Resumo técnico diverge da tabela individual no caso 100 kW (eficiência do fixo).}\\
+	\item \textbf{Resumo técnico diverge da tabela individual no caso 100 kW (eficiência do fixo).}\\
 	Trechos: Tabela 100 kW (individual): ``Fixo ... Eficiência = 70,30'' 
 	vs Tabela resumo técnico: ``Fixo ... Eficiência = 70,25'' (100 kW).\\
 	Inconsistência: a eficiência do sistema fixo em 100 kW aparece com dois valores. O autor deve revisar e padronizar arredondamento.
 	
-	\item \textbf{(FEITO)Resumo técnico diverge da tabela individual no caso 10 kW (eficiência do tracker).}\\
+	\item \textbf{Resumo técnico diverge da tabela individual no caso 10 kW (eficiência do tracker).}\\
 	Trechos: Tabela 10 kW (individual): ``Tracker ... Eficiência = 69,73'' 
 	vs Tabela resumo técnico: ``Tracker ... Eficiência = 69,70'' (10 kW).\\
 	Inconsistência: divergência pequena, mas deve haver consistência de arredondamento/lançamento.
-
 	
-	\item \textbf{(FEITO)Resumo técnico diverge das tabelas individuais nos casos 500 kW e 1 MW (eficiência do fixo).}\\
+	\item \textbf{Resumo técnico diverge das tabelas individuais nos casos 500 kW e 1 MW (eficiência do fixo).}\\
 	Trechos: 500 kW (individual): ``Fixo ... Eficiência = 75,60'' 
 	vs resumo técnico: ``Fixo ... Eficiência = 75,61''.\\
 	Trechos: 1 MW (individual): ``Fixo ... Eficiência = 75,60'' 
 	vs resumo técnico: ``Fixo ... Eficiência = 75,58''.\\
 	Inconsistência: diferenças pequenas, mas afetam rastreabilidade. O autor deve revisar os valores originais e o critério de arredondamento.
 	
-	\item \textbf{(FEITO)Legenda (caption) da tabela financeira de 50 kW está factualmente errada.}\\
+	\item \textbf{Legenda (caption) da tabela financeira de 50 kW está factualmente errada.}\\
 	Trecho: na seção 50 kW, a tabela financeira está descrita como ``para a usina de 10 kW''.\\
 	Inconsistência: a legenda não corresponde à seção/tabela (50 kW). O autor deve corrigir para evitar erro factual de documentação.
 	
-	\item \textbf{(FEITO)Inconsistência de notação numérica na tabela técnica de 500 kW (formatação).}\\
+	\item \textbf{Inconsistência de notação numérica na tabela técnica de 500 kW (formatação).}\\
 	Trecho: na tabela técnica de 500 kW, aparece ``Tracker ... 935.237'' sem o mesmo padrão de marcação usado nos demais valores (por exemplo, com delimitadores e símbolo de modo matemático).\\
 	Inconsistência: pode ser apenas formatação, mas pode mascarar erro de transcrição. O autor deve revisar o valor e padronizar a apresentação.
 \end{itemize}
@@ -502,23 +461,23 @@ Por fim, na usina de $1$ MW, os resultados demonstram que o sistema com \textit{
 \section*{Contradições técnicas}
 
 \begin{itemize}
-	\item \textbf{(FEITO)Conclusão parcial generaliza “melhores índices de TIR e ROI” para fixo até 300 kW, mas 10 kW contradiz.}\\
+	\item \textbf{Conclusão parcial generaliza “melhores índices de TIR e ROI” para fixo até 300 kW, mas 10 kW contradiz.}\\
 	Trecho (Conclusões Parciais): ``até 300 kW ... melhores índices de TIR e ROI''.\\
 	Trecho (10 kW): ``Fixo ... TIR 11,91\% e ROI 14,26\%'' e ``Tracker ... TIR 11,94\% e ROI 14,52\%''.\\
 	Contradição: em 10 kW, TIR e ROI do tracker são maiores. Sugestão: tornar a afirmação tecnicamente direta, especificando quais métricas favorecem cada configuração por faixa de potência, sem generalizar.
 	
-	\item \textbf{(FEITO)Afirmação de ganho percentual “quase invariável” conflita com o próprio caso de 800 kW.}\\
+	\item \textbf{Afirmação de ganho percentual “quase invariável” conflita com o próprio caso de 800 kW.}\\
 	Trechos: ``incremento relativo permanece aproximadamente constante'' 
 	vs ``cerca de 25\%'' (800 kW).\\
 	Incoerência: se 800 kW é exceção, isso precisa ser dito e tecnicamente sustentado; caso contrário, os dados devem ser revisados. Sugestão: explicitar objetivamente se há exceção e por quê.
 	
-	\item \textbf{(FEITO)Uso de “vantagem” e “mais atrativo” com critérios diferentes no mesmo bloco (métricas conflitantes).}\\
+	\item \textbf{Uso de “vantagem” e “mais atrativo” com critérios diferentes no mesmo bloco (métricas conflitantes).}\\
 	Trechos (800 kW): ``o sistema fixo ainda apresenta vantagem'' (custo de geração menor) 
 	e ``tracker ... maior rentabilidade percentual'' (TIR/ROI maiores) 
 	e ``cenário de equilíbrio econômico''.\\
 	Incoerência: “vantagem” muda de critério sem aviso (custo de geração versus TIR/ROI versus payback). Sugestão: ser tecnicamente direto e declarar que as métricas divergem e que a conclusão depende do critério adotado.
 	
-	\item \textbf{(FEITO)Causalidade potencialmente frágil: “tracker minimiza sombreamentos”.}\\
+	\item \textbf{Causalidade potencialmente frágil: “tracker minimiza sombreamentos”.}\\
 	Trecho: ``o tracker contribui para minimizar sombreamentos''.\\
 	Incoerência técnica potencial: rastreamento pode reduzir ou aumentar sombreamento dependendo de layout, espaçamento, backtracking e geometria. Sem declarar as premissas do modelo (se houve backtracking e como foi o arranjo), a afirmação fica ambígua. Sugestão: explicitar o que foi configurado na simulação antes de atribuir causa.
 \end{itemize}
@@ -527,16 +486,16 @@ Por fim, na usina de $1$ MW, os resultados demonstram que o sistema com \textit{
 \section*{Repetições}
 
 \begin{itemize}
-	\item \textbf{(FEITO)Aberturas de seção repetidas em todas as potências, com mudança apenas dos números.}\\
+	\item \textbf{Aberturas de seção repetidas em todas as potências, com mudança apenas dos números.}\\
 	Trechos recorrentes: ``Nesta seção será feita um resumo... A Tabela X mostra...'' aparece em todas as subseções técnicas e financeiras.\\
 	Ideia repetida: introdução padronizada que não agrega informação nova. Sugestão: condensar com uma frase padrão no início do capítulo ou reduzir essas introduções.
 	
-	\item \textbf{(FEITO)Mesma narrativa por faixas de potência repetida em dois gráficos diferentes.}\\
+	\item \textbf{Mesma narrativa por faixas de potência repetida em dois gráficos diferentes.}\\
 	Trechos: descrição do gráfico payback e TIR (pequeno: fixo melhor; intermediário: aproximação; grande: tracker melhor) 
 	e descrição do gráfico de bolhas repete a mesma segmentação e conclusão.\\
 	Ideia repetida: mesma análise qualitativa em duplicidade. Sugestão: condensar e usar um dos gráficos como síntese, referenciando o outro apenas como reforço.
 	
-	\item \textbf{(FEITO)Explicação física do ganho do tracker repetida em sequência curta.}\\
+	\item \textbf{Explicação física do ganho do tracker repetida em sequência curta.}\\
 	Trechos: ``maior captação ao longo do dia'' + ``reduz perdas por desalinhamento'' + ``amplia o período de operação próximo ao ângulo ótimo''.\\
 	Ideia repetida: mesma causa física (melhor alinhamento angular) descrita várias vezes. Sugestão: condensar em um único bloco explicativo.
 \end{itemize}
@@ -545,15 +504,15 @@ Por fim, na usina de $1$ MW, os resultados demonstram que o sistema com \textit{
 \section*{Problemas de clareza técnica}
 
 \begin{itemize}
-	\item \textbf{(FEITO metodologia) Métrica “Eficiência global do sistema” não é definida.}\\
+	\item \textbf{Métrica “Eficiência global do sistema” não é definida.}\\
 	Trechos: coluna ``Eficiência [\%]'' em todas as tabelas técnicas e discussão de “ganho de eficiência”.\\
 	Problema: não fica claro se é PR, eficiência global do software, ou outra métrica; isso afeta interpretação e comparabilidade entre potências.
 	
-	\item \textbf{“(Feito metodologia )Custo de geração (R\$/kWh)” não tem premissas explícitas.}\\
+	\item \textbf{“Custo de geração (R\$/kWh)” não tem premissas explícitas.}\\
 	Trechos: tabelas financeiras e análise de custo de geração.\\
 	Problema: não está claro horizonte, taxa de desconto, vida útil, degradação, OPEX incluído, reposições (por exemplo, inversores), e se há atualização monetária. Sem isso, “custo de geração” fica pouco rastreável.
 	
-	\item \textbf{( não identifiquei )Figura CAPEX x Eficiência contém duas legendas.}\\
+	\item \textbf{Figura CAPEX x Eficiência contém duas legendas.}\\
 	Trecho: aparecem duas linhas de legenda para a mesma figura (uma curta e outra longa).\\
 	Problema: pode causar erro de compilação/numeração e dificulta referência consistente.
 	
@@ -561,14 +520,13 @@ Por fim, na usina de $1$ MW, os resultados demonstram que o sistema com \textit{
 	Trecho: aparece uma anotação em vermelho “CONTRADITÓRIO”.\\
 	Problema: indica pendência não resolvida e quebra o fluxo científico do capítulo. Deve ser removida após revisão, ou substituída por discussão objetiva (com revisão dos dados).
 	
-	\item \textbf{(FEITO)Afirmação de “cruzamento” das curvas sem explicitar critério numérico.}\\
+	\item \textbf{Afirmação de “cruzamento” das curvas sem explicitar critério numérico.}\\
 	Trecho: ``a partir de aproximadamente 800 kW, ocorre o cruzamento das curvas de payback e de TIR''.\\
 	Problema: como os pontos são discretos (800 kW e 1 MW), não fica claro se houve interpolação ou se o “cruzamento” é apenas comparação ponto a ponto. Seria importante indicar explicitamente em quais potências cada métrica muda de sinal (payback e TIR) e se ocorre simultaneamente.
 	
-	\item \textbf{(FEITO)Notação monetária inconsistente (R\$, R\$).}\\
+	\item \textbf{Notação monetária inconsistente (R\$, R\$).}\\
 	Trechos: ``R\$ 0,2198/kWh'' em um ponto e ``R\$ 0,1251/kWh'' em outro.\\
 	Problema: pode gerar erro tipográfico e confusão na leitura, além de dificultar padronização do documento.
 \end{itemize}
 
-\end{comment}
 \color{black}
